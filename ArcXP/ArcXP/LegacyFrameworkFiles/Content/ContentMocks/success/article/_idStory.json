@@ -1,0 +1,1259 @@
+{
+    "_id": "TLZJTWT7JBCXXIVQ25OUBSJOJM",
+    "type": "story",
+    "version": "0.10.7",
+    "content_elements": [{
+        "_id": "5UUF25ISI5DTHM647BYOW5VIFE",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601885,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "The ultimate productivity hack is saying no."
+    }, {
+        "_id": "APC4YE6LGNC7TLZHOTXR45TYHQ",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601886,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Not doing something will always be faster than doing it. This statement reminds me of the old computer programming saying, “Remember that there is no code faster than no code.”"
+    }, {
+        "_id": "NJPYENDZ5FE53LG6EKUMYMARBU",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601887,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Video:"
+    }, {
+        "type": "video",
+        "_id": "d8e6d8a4-3850-48fc-9519-c5583f606b71",
+        "version": "0.8.0",
+        "subtype": "sample",
+        "language": "en",
+        "canonical_url": "/2022/03/23/ocean-with-birds-and-music/",
+        "canonical_website": "arcsales",
+        "short_url": "/2022/03/23/ocean-with-birds-and-music/",
+        "created_date": "2022-03-23T13:58:19Z",
+        "last_updated_date": "2022-03-23T14:15:41Z",
+        "publish_date": "2022-03-23T14:15:50Z",
+        "first_publish_date": "2022-03-23T14:15:50Z",
+        "display_date": "2022-03-23T14:15:50Z",
+        "headlines": {
+            "basic": "Ocean with birds and music"
+        },
+        "credits": {},
+        "taxonomy": {
+            "tags": [{
+                "text": "sample"
+            }],
+            "primary_site": {
+                "type": "site",
+                "_id": "/politics",
+                "version": "0.5.8",
+                "name": "Politics",
+                "path": "/politics",
+                "primary": true
+            },
+            "sites": [{
+                "type": "site",
+                "_id": "/politics",
+                "version": "0.5.8",
+                "name": "Politics",
+                "path": "/politics",
+                "primary": true
+            }],
+            "primary_section": {
+                "type": "section",
+                "_id": "/politics",
+                "_website": "arcsales",
+                "version": "0.6.0",
+                "name": "Politics",
+                "path": "/politics",
+                "primary": true
+            },
+            "sections": [{
+                "type": "section",
+                "_id": "/politics",
+                "_website": "arcsales",
+                "version": "0.6.0",
+                "name": "Politics",
+                "path": "/politics",
+                "primary": true
+            }],
+            "seo_keywords": ["sample"]
+        },
+        "promo_items": {
+            "basic": {
+                "type": "image",
+                "version": "0.5.8",
+                "credits": {},
+                "caption": "fish",
+                "url": "https://d30tdlpyqi4wi2.cloudfront.net/03-23-2022/t_01dd45ee89f54fc7a3ba94c49212618f_name_file_960x540_1600_v4_.jpg",
+                "width": 960,
+                "height": 400
+            }
+        },
+        "related_content": {
+            "redirect": [],
+            "basic": []
+        },
+        "owner": {
+            "name": "",
+            "sponsored": false
+        },
+        "planning": {
+            "scheduling": {}
+        },
+        "revision": {
+            "published": true
+        },
+        "syndication": {
+            "search": true
+        },
+        "source": {
+            "name": "",
+            "system": "video center",
+            "edit_url": "https://sandbox.arcsales.arcpublishing.com/goldfish/video/623b277bc9e77c0001d134e0"
+        },
+        "distributor": {
+            "category": "staff"
+        },
+        "tracking": {
+            "in_url_headline": "23"
+        },
+        "additional_properties": {
+            "subsection": "Politics",
+            "videoCategory": "sample",
+            "workflowStatus": "PUBLISHED",
+            "videoId": "623b277bc9e77c0001d134e0",
+            "vertical": false,
+            "embedContinuousPlay": true,
+            "imageResizerUrls": [],
+            "advertising": {
+                "allowPrerollOnDomain": false,
+                "autoPlayPreroll": false,
+                "commercialAdNode": "/politics",
+                "enableAdInsertion": false,
+                "enableAutoPreview": true,
+                "enableServerSideFallback": false,
+                "forceAd": false,
+                "playAds": true,
+                "playVideoAds": true,
+                "videoAdZone": ""
+            },
+            "disableUpNext": false,
+            "videoAdZone": "",
+            "platform": "desktop",
+            "playVideoAds": true,
+            "playlist": "",
+            "useVariants": false,
+            "playlistTags": [],
+            "firstPublishedBy": {
+                "name": "Archit Jain",
+                "email": "Archit.Jain@washpost.com",
+                "lastname": ""
+            },
+            "anglerfishArcId": "VGN6OGDZ7NDU5N6RDVSA74DNAU",
+            "VGN6OGDZ7NDU5N6RDVSA74DNAU": "03-23-2022/t_01dd45ee89f54fc7a3ba94c49212618f_name_file_960x540_1600_v4_.jpg",
+            "isWire": false,
+            "gifAsThumbnail": false,
+            "published": true,
+            "lastPublishedBy": {
+                "name": "Archit Jain",
+                "email": "Archit.Jain@washpost.com",
+                "lastname": ""
+            },
+            "permalinkUrl": "/2022/03/23/ocean-with-birds-and-music/",
+            "forceClosedCaptionsOn": false,
+            "doNotShowTranscripts": false,
+            "_id": "UCG5URNV5FHTHKAYP5WYEKNUEM",
+            "comments": []
+        },
+        "duration": 46635,
+        "video_type": "clip",
+        "streams": [{
+            "height": 266,
+            "width": 640,
+            "filesize": 4649052,
+            "stream_type": "ts",
+            "url": "https://df2q7wcbtxaha.cloudfront.net/wp-arcsales/20220323/623b277bc9e77c0001d134e0/t_162640e533584679a2c09399a0289fe7_name_sample_960x400_ocean_with_audio/mobile.m3u8",
+            "bitrate": 580,
+            "provider": "mediaconvert"
+        }, {
+            "height": 356,
+            "width": 854,
+            "filesize": 6604440,
+            "stream_type": "ts",
+            "url": "https://df2q7wcbtxaha.cloudfront.net/wp-arcsales/20220323/623b277bc9e77c0001d134e0/t_162640e533584679a2c09399a0289fe7_name_sample_960x400_ocean_with_audio/mobile.m3u8",
+            "bitrate": 910,
+            "provider": "mediaconvert"
+        }, {
+            "height": 400,
+            "width": 960,
+            "filesize": 10688176,
+            "stream_type": "ts",
+            "url": "https://df2q7wcbtxaha.cloudfront.net/wp-arcsales/20220323/623b277bc9e77c0001d134e0/t_162640e533584679a2c09399a0289fe7_name_sample_960x400_ocean_with_audio/sd.m3u8",
+            "bitrate": 1600,
+            "provider": "mediaconvert"
+        }, {
+            "height": 534,
+            "width": 1280,
+            "filesize": 19020712,
+            "stream_type": "ts",
+            "url": "https://df2q7wcbtxaha.cloudfront.net/wp-arcsales/20220323/623b277bc9e77c0001d134e0/t_162640e533584679a2c09399a0289fe7_name_sample_960x400_ocean_with_audio/hd.m3u8",
+            "bitrate": 3000,
+            "provider": "mediaconvert"
+        }, {
+            "height": 400,
+            "width": 960,
+            "filesize": 10057727,
+            "stream_type": "mp4",
+            "url": "https://df2q7wcbtxaha.cloudfront.net/wp-arcsales/20220323/623b277bc9e77c0001d134e0/t_162640e533584679a2c09399a0289fe7_name_sample_960x400_ocean_with_audio/file_960x540-1600-v4.mp4",
+            "bitrate": 1600,
+            "provider": "mediaconvert"
+        }],
+        "subtitles": {},
+        "promo_image": {
+            "type": "image",
+            "version": "0.5.8",
+            "credits": {},
+            "caption": "fish",
+            "url": "https://d30tdlpyqi4wi2.cloudfront.net/03-23-2022/t_01dd45ee89f54fc7a3ba94c49212618f_name_file_960x540_1600_v4_.jpg",
+            "width": 960,
+            "height": 400
+        },
+        "embed_html": "<div class=\"powa\" id=\"powa-d8e6d8a4-3850-48fc-9519-c5583f606b71\" data-org=\"arcsales\" data-env=\"sandbox\" data-uuid=\"d8e6d8a4-3850-48fc-9519-c5583f606b71\" data-aspect-ratio=\"0.416\" data-api=\"sandbox\"><script src=\"//arcsales.video-player.arcpublishing.com/sandbox/powaBoot.js?org=arcsales\"></script></div>",
+        "websites": {
+            "arcsales": {
+                "website_section": {
+                    "path": "/politics",
+                    "_website": "arcsales",
+                    "name": "Politics",
+                    "_id": "/politics",
+                    "type": "section",
+                    "version": "0.6.0",
+                    "primary": true
+                },
+                "website_url": "/2022/03/23/ocean-with-birds-and-music/"
+            }
+        }
+    }, {
+        "_id": "XFIMCJG56BGWJJN2EPPZNHFGWM",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601889,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "The same philosophy applies in other areas of life. For example, there is no meeting that goes faster than not having a meeting at all."
+    }, {
+        "_id": "DTC6F3W5UZAWLJXMVDNYYF56UA",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601890,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "This is not to say you should never attend another meeting, but the truth is that we say yes to many things we don’t actually want to do. There are many meetings held that don’t need to be held. There is a lot of code written that could be deleted."
+    }, {
+        "_id": "CPEOVEFE3RDXTBHFSUDJSEIQAQ",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601891,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "How often do people ask you to do something and you just reply, “Sure thing.” Three days later, you’re overwhelmed by how much is on your to-do list. We become frustrated by our obligations even though we were the ones who said yes to them in the first place."
+    }, {
+        "_id": "F7NUTGKTWNENJBC3U3V3XTTNR4",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601892,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "It’s worth asking if things are necessary. Many of them are not, and a simple “no” will be more productive than whatever work the most efficient person can muster."
+    }, {
+        "_id": "SGL2YP3TXJHSTLHKLBSWSC4G5Q",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601893,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Gallery:"
+    }, {
+        "_id": "37VRW77LHZG7BON7N3OSQ3ECLA",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648126611391,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "<br/>"
+    }, {
+        "_id": "RQS3OA5ZQNGI5NBPILW5BXHLUA",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601895,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "But if the benefits of saying no are so obvious, then why do we say yes so often?"
+    }, {
+        "_id": "DEMUOVG2SZGJBO3VG2Z3YVKAWM",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601896,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Why We Say Yes"
+    }, {
+        "_id": "ZDOWL5SIIJE5DCK25SSJQ6IXIU",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601897,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "We agree to many requests not because we want to do them, but because we don’t want to be seen as rude, arrogant, or unhelpful. Often, you have to consider saying no to someone you will interact with again in the future—your co-worker, your spouse, your family and friends."
+    }, {
+        "_id": "DM3ZFQCQVFFULLOXWHOCAV5P7I",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601898,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Saying no to these people can be particularly difficult because we like them and want to support them. (Not to mention, we often need their help too.) Collaborating with others is an important element of life. The thought of straining the relationship outweighs the commitment of our time and energy."
+    }, {
+        "_id": "GRY57IRRDRAITOVV5Y4X5PR6IQ",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601899,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "For this reason, it can be helpful to be gracious in your response. Do whatever favors you can, and be warm-hearted and direct when you have to say no."
+    }, {
+        "_id": "EDXA7DDCGNCM3PS2L5GL7EWQYE",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601900,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the tradeoff between yes and no. We find ourselves over-committed to things that don’t meaningfully improve or support those around us, and certainly don’t improve our own lives."
+    }, {
+        "_id": "L45HYKLWMNFWTER2MSH7P3IZXY",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601901,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Perhaps one issue is how we think about the meaning of yes and no."
+    }, {
+        "_id": "FWXVFUF4URG3ZNWCE56NLUWH3Y",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601902,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "The Difference Between Yes and No"
+    }, {
+        "_id": "VCAMNWJLSFGW3I2VGS5YV56ZJA",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601903,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "The words “yes” and “no” get used in comparison to each other so often that it feels like they carry equal weight in conversation. In reality, they are not just opposite in meaning, but of entirely different magnitudes in commitment."
+    }, {
+        "_id": "WEP7UOM66BBFJKIDJOLDXFUATY",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601904,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "When you say no, you are only saying no to <i>one</i> option. When you say yes, you are saying no to <i>every other</i> option."
+    }, {
+        "_id": "ISGR3TIR4ZE53BGOS4H2GWUMFI",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601905,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "I like how the economist Tim Harford put it, “Every time we say yes to a request, we are also saying no to anything else we might accomplish with the time.” Once you have committed to something, you have already decided how that future block of time will be spent."
+    }, {
+        "_id": "COMYGXX6CJG3FJGHTQW62FI7B4",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601906,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "In other words, saying no saves you time in the future. Saying yes costs you time in the future. No is a form of time credit. You retain the ability to spend your future time however you want. Yes is a form of time debt. You have to pay back your commitment at some point."
+    }, {
+        "_id": "7MCSXCE2LZCZFLKYY7N57TNA7Y",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601907,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "No is a decision. Yes is a responsibility."
+    }, {
+        "_id": "XQC6ZGCYSZHRRPTYWYBFZHO3EM",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601908,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "The Role of No"
+    }, {
+        "_id": "RQVZW2S2LRDFRDQIFE746LQVM4",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601909,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Saying no is sometimes seen as a luxury that only those in power can afford. And it is true: turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority. But it is also true that saying no is not merely a privilege reserved for the successful among us. It is also a strategy that can help you <i>become</i> successful."
+    }, {
+        "_id": "3QJP52BDUZC4LOSHVSGZY7UQ7Y",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601910,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Saying no is an important skill to develop at any stage of your career because it retains the most important asset in life: your time. As the investor Pedro Sorrentino put it, “If you don’t guard your time, people will steal it from you.”"
+    }, {
+        "_id": "FLRAAUU7QFEURAW74JQYFDP4MA",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601911,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "You need to say no to whatever isn’t leading you toward your goals. You need to say no to distractions. As one reader told me, “If you broaden the definition as to how you apply no, it actually is the <i>only</i> productivity hack (as you ultimately say no to any distraction in order to be productive).”"
+    }, {
+        "_id": "2TGBEQMZLNGTDJMUDIANQN2LPU",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601912,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Nobody embodied this idea better than Steve Jobs, who said, “People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully.”"
+    }, {
+        "_id": "VTDZAZUHY5G2TGSDKI3YU4INIE",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601913,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "There is an important balance to strike here. Saying no doesn’t mean you’ll never do anything interesting or innovative or spontaneous. It just means that you say yes in a focused way. Once you have knocked out the distractions, it can make sense to say yes to any opportunity that could potentially move you in the right direction. You may have to try many things to discover what works and what you enjoy. This period of exploration can be particularly important at the beginning of a project, job, or career."
+    }, {
+        "_id": "TLDXZKC66RH53AYFDCHMURJQCQ",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601914,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Upgrading Your No"
+    }, {
+        "_id": "H6OGH3XQDJAXXLBG6QVKLIFPUY",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601915,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Image:"
+    }, {
+        "_id": "QUUMB6C7TFG6RCMYXME3CO6RMY",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648126611413,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "<br/>"
+    }, {
+        "_id": "CFHQSFDLZNDNFN2VKBQC3T3QI4",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601917,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Over time, as you continue to improve and succeed, your strategy needs to change."
+    }, {
+        "_id": "OIXZ2VX4JBF7VODF3PLYMYZBRA",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601918,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "The opportunity cost of your time increases as you become more successful. At first, you just eliminate the obvious distractions and explore the rest. As your skills improve and you learn to separate what works from what doesn’t, you have to continually increase your threshold for saying yes."
+    }, {
+        "_id": "UZOLP7UPK5AEHA4CXZMGF42JQ4",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601919,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "You still need to say no to distractions, but you also need to learn to say no to opportunities that were previously good uses of time, so you can make space for great uses of time. It’s a good problem to have, but it can be a tough skill to master."
+    }, {
+        "_id": "IXHDPAWNJFCZRHEVD73O5JJDIM",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601920,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "In other words, you have to upgrade your “no’s” over time."
+    }, {
+        "_id": "YE2CFBGT3NAQPFWSPKXZUMGND4",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601921,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Upgrading your no doesn’t mean you’ll never say yes. It just means you default to saying no and only say yes when it <i>really</i> makes sense. To quote the investor Brent Beshore, “Saying no is so powerful because it preserves the opportunity to say yes.”"
+    }, {
+        "_id": "MU55GVSRXJBINIQWY4G2KPAXCA",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601922,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "The general trend seems to be something like this: If you can learn to say no to bad distractions, then eventually you’ll earn the right to say no to good opportunities."
+    }, {
+        "_id": "ACXFUY2HBBEQJF6XQCCES5Z5AE",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601923,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "How to Say No"
+    }, {
+        "_id": "XMEXYYQCAJEWHELPKLDF5VD5EM",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601924,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "Most of us are probably too quick to say yes and too slow to say no. It’s worth asking yourself where you fall on that spectrum."
+    }, {
+        "_id": "MMKW6AZWYFDTVDZLJR5L7ZJY5E",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601925,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "If you have trouble saying no, you may find the following strategy <a href=\"http://timharford.com/2015/01/the-power-of-saying-no/\">proposed by Tim Harford</a>, the British economist I mentioned earlier, to be helpful. He writes, “One trick is to ask, “If I had to do this today, would I agree to it?” It’s not a bad rule of thumb, since any future commitment, no matter how far away it might be, will eventually become an imminent problem.”"
+    }, {
+        "_id": "NNA54QBWS5FQVOJXGGEZRAUE24",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601926,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "If an opportunity is exciting enough to drop whatever you’re doing right now, then it’s a yes. If it’s not, then perhaps you should think twice."
+    }, {
+        "_id": "XYKCICZXWJCLVLZ4AECCFWJ3YQ",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601927,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "This is similar to the well-known “Hell Yeah or No” method from Derek Sivers. If someone asks you to do something and your first reaction is “Hell Yeah!”, then do it. If it doesn’t excite you, then say no."
+    }, {
+        "_id": "YJ3LLSS2ORGUHHNXW4PZTGLFXY",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601928,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "It’s impossible to remember to ask yourself these questions each time you face a decision, but it’s still a useful exercise to revisit from time to time. Saying no can be difficult, but it is often easier than the alternative. As writer Mike Dariano has pointed out, “It’s easier to avoid commitments than get out of commitments. Saying no keeps you toward the easier end of this spectrum.”"
+    }, {
+        "_id": "M7UHVUVXPFH55KQM3URQAOKOHQ",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601929,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "What is true about health is also true about productivity: an ounce of prevention is worth a pound of cure."
+    }, {
+        "_id": "GCET5HMEQ5D4FD5KF7C2CNSHYM",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601930,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "The Power of No"
+    }, {
+        "_id": "KN3I23U2EJGJHDEOUT4XDRRYRU",
+        "type": "text",
+        "additional_properties": {
+            "_id": 1648047601931,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "More effort is wasted doing things that don’t matter than is wasted doing things inefficiently. And if that is the case, elimination is a more useful skill than optimization."
+    }, {
+        "_id": "DQZP4FB4TFFGLMOFLGJ2DHZJ7Y",
+        "type": "randomtype",
+        "additional_properties": {
+            "_id": 1648047601932,
+            "comments": [],
+            "inline_comments": []
+        },
+        "content": "I am reminded of the famous Peter Drucker quote, “There is nothing so useless as doing efficiently that which should not be done at all.”"
+    }, {
+        "_id": "235d1c02-f872-4ba0-a745-525f92f96d03",
+        "type": "custom_embed",
+        "subtype": "asset_list",
+        "additional_properties": {
+            "title": "Mirá También",
+            "showTitle": true,
+            "assets": [
+                {
+                    "id": "d7b564d1-5873-4f64-b5fe-8e9ea46f55b2",
+                    "newsType": "secondary",
+                    "favorite": false,
+                    "assetType": "notice",
+                    "reproducible": false,
+                    "shareUrl": "https://beta-radiomitre-pre.cienradios.com.ar/sociedad/paro-de-subtes-y-apertura-de-molinetes-este-miercoles-19-de-julio-a-que-hora-empieza-y-a-que-lineas-afecta/",
+                    "title": "Paro de subtes y apertura de molinetes este miércoles 19 de julio: a qué hora empieza y a qué líneas afecta",
+                    "imageUrl": "https://radiomitre-la100-prod.cdn.arcpublishing.com/resizer/2eXCi4o_Q4kf5V-WyT7SVOYfFQM=/480x0/cloudfront-us-east-1.images.arcpublishing.com/sandbox.radiomitre/AM72CSQ34NHFHIUUFQJKUC2H6I.jpg",
+                    "website": "radiomitre",
+                    "idArc": "36WAJBZAL5G2HEF6DTFLU5FHHM",
+                    "subtitle": "Los metrodelegados anunciaron una nueva medida de fuerza para este miércoles, que tendrá una duración de 3 horas. "
+                }
+            ]
+        }
+    }, {
+        "type": "oembed_response",
+        "subtype": "youtube",
+        "_id": "E44QXUHGKFGY3L43ATA5AEYMUE",
+        "raw_oembed": {
+            "title": "Claudio Dellecarbonara, sobre el paro de subtes: \"Es mentira que hay límites tolerables de asbestos\"",
+            "author_name": "Radio Mitre",
+            "author_url": "https://www.youtube.com/@Radiomitre",
+            "type": "youtube",
+            "height": 315,
+            "width": 560,
+            "version": "1.0",
+            "provider_name": "YouTube",
+            "provider_url": "https://www.youtube.com/",
+            "thumbnail_height": 360,
+            "thumbnail_width": 480,
+            "thumbnail_url": "https://i.ytimg.com/vi/ZkOJ4dvUi8Q/hqdefault.jpg",
+            "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZkOJ4dvUi8Q?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"Claudio Dellecarbonara, sobre el paro de subtes: &quot;Es mentira que hay límites tolerables de asbestos&quot;\"></iframe>",
+            "_id": "https://www.youtube.com/watch?v=ZkOJ4dvUi8Q",
+            "additional_properties": {
+                "_id": "6BYRMSM3YRAHPM4YDDM7WKM6GM",
+                "comments": []
+            }
+        },
+        "referent": {
+            "id": "https://www.youtube.com/watch?v=ZkOJ4dvUi8Q",
+            "provider": "https://www.youtube.com/oembed?maxwidth=560&maxheight=340&url=",
+            "referent_properties": {
+                "additional_properties": {
+                    "_id": "6BYRMSM3YRAHPM4YDDM7WKM6GM",
+                    "comments": []
+                }
+            },
+            "service": "oembed",
+            "type": "youtube"
+        }
+    }],
+    "created_date": "2022-03-24T12:54:31.206Z",
+    "revision": {
+        "revision_id": "ZS6NA5WDORC6XBHBC7BZZRJ55I",
+        "parent_id": "MPPPF6QRTVGHRBVPESA2RDXKZA",
+        "editions": ["default"],
+        "branch": "default",
+        "user_id": "zimmerlyd@washpost.com",
+        "published": true
+    },
+    "last_updated_date": "2022-03-30T19:24:54.728Z",
+    "headlines": {
+        "basic": " How often do people ask you to do something and you just reply, “Sure thing.”",
+        "meta_title": "",
+        "mobile": "",
+        "native": "",
+        "print": "",
+        "tablet": "",
+        "web": ""
+    },
+    "owner": {
+        "sponsored": false,
+        "id": "sandbox.arcsales"
+    },
+    "content_restrictions": {
+        "content_code": "free"
+    },
+    "address": {},
+    "workflow": {
+        "status_code": 1
+    },
+    "subheadlines": {
+        "basic": ""
+    },
+    "description": {
+        "basic": ""
+    },
+    "language": "English",
+    "label": {},
+    "source": {
+        "name": "arcsales",
+        "source_type": "staff",
+        "system": "composer"
+    },
+    "taxonomy": {
+        "primary_section": {
+            "_id": "/politics",
+            "_website": "arcsales",
+            "type": "section",
+            "version": "0.6.0",
+            "name": "Politics",
+            "description": null,
+            "path": "/politics",
+            "parent_id": "/",
+            "parent": {
+                "default": "/"
+            },
+            "additional_properties": {
+                "original": {
+                    "_id": "/politics",
+                    "site": {
+                        "pagebuilder_path_for_native_apps": null,
+                        "site_about": null,
+                        "site_url": null,
+                        "site_tagline": null,
+                        "site_title": null,
+                        "site_description": null,
+                        "site_keywords": null
+                    },
+                    "social": {
+                        "twitter": null,
+                        "rss": null,
+                        "facebook": null,
+                        "instagram": null
+                    },
+                    "site_topper": {
+                        "site_logo_image": null
+                    },
+                    "navigation": {
+                        "nav_title": "Politics"
+                    },
+                    "name": "Politics",
+                    "_website": "arcsales",
+                    "parent": {
+                        "default": "/",
+                        "mobile": "/",
+                        "mobile-nav": "/"
+                    },
+                    "ancestors": {
+                        "default": ["/"],
+                        "mobile": [],
+                        "mobile-nav": ["/"]
+                    },
+                    "_admin": {
+                        "alias_ids": ["/politics"]
+                    },
+                    "inactive": false,
+                    "node_type": "section",
+                    "order": {
+                        "mobile-nav": 1002,
+                        "default": 1005
+                    }
+                }
+            }
+        },
+        "primary_site": {
+            "_id": "/politics",
+            "type": "site",
+            "version": "0.5.8",
+            "name": "Politics",
+            "description": null,
+            "path": "/politics",
+            "parent_id": "/",
+            "additional_properties": {
+                "original": {
+                    "_id": "/politics",
+                    "site": {
+                        "pagebuilder_path_for_native_apps": null,
+                        "site_about": null,
+                        "site_url": null,
+                        "site_tagline": null,
+                        "site_title": null,
+                        "site_description": null,
+                        "site_keywords": null
+                    },
+                    "social": {
+                        "twitter": null,
+                        "rss": null,
+                        "facebook": null,
+                        "instagram": null
+                    },
+                    "site_topper": {
+                        "site_logo_image": null
+                    },
+                    "navigation": {
+                        "nav_title": "Politics"
+                    },
+                    "name": "Politics",
+                    "parent": {
+                        "default": "/",
+                        "mobile": "/",
+                        "mobile-nav": "/"
+                    },
+                    "ancestors": {
+                        "default": ["/"],
+                        "mobile": [],
+                        "mobile-nav": ["/"]
+                    },
+                    "_admin": {
+                        "alias_ids": ["/politics"]
+                    },
+                    "inactive": false,
+                    "node_type": "section",
+                    "order": {
+                        "mobile-nav": 1002,
+                        "default": 1005
+                    }
+                }
+            }
+        },
+        "sections": [{
+            "_id": "/politics",
+            "_website": "arcsales",
+            "type": "section",
+            "version": "0.6.0",
+            "name": "Politics",
+            "description": null,
+            "path": "/politics",
+            "parent_id": "/",
+            "parent": {
+                "default": "/"
+            },
+            "additional_properties": {
+                "original": {
+                    "_id": "/politics",
+                    "site": {
+                        "pagebuilder_path_for_native_apps": null,
+                        "site_about": null,
+                        "site_url": null,
+                        "site_tagline": null,
+                        "site_title": null,
+                        "site_description": null,
+                        "site_keywords": null
+                    },
+                    "social": {
+                        "twitter": null,
+                        "rss": null,
+                        "facebook": null,
+                        "instagram": null
+                    },
+                    "site_topper": {
+                        "site_logo_image": null
+                    },
+                    "navigation": {
+                        "nav_title": "Politics"
+                    },
+                    "name": "Politics",
+                    "_website": "arcsales",
+                    "parent": {
+                        "default": "/",
+                        "mobile": "/",
+                        "mobile-nav": "/"
+                    },
+                    "ancestors": {
+                        "default": ["/"],
+                        "mobile": [],
+                        "mobile-nav": ["/"]
+                    },
+                    "_admin": {
+                        "alias_ids": ["/politics"]
+                    },
+                    "inactive": false,
+                    "node_type": "section",
+                    "order": {
+                        "mobile-nav": 1002,
+                        "default": 1005
+                    }
+                }
+            },
+            "_website_section_id": "arcsales./politics"
+        }],
+        "sites": [{
+            "_id": "/politics",
+            "type": "site",
+            "version": "0.5.8",
+            "name": "Politics",
+            "description": null,
+            "path": "/politics",
+            "parent_id": "/",
+            "additional_properties": {
+                "original": {
+                    "_id": "/politics",
+                    "site": {
+                        "pagebuilder_path_for_native_apps": null,
+                        "site_about": null,
+                        "site_url": null,
+                        "site_tagline": null,
+                        "site_title": null,
+                        "site_description": null,
+                        "site_keywords": null
+                    },
+                    "social": {
+                        "twitter": null,
+                        "rss": null,
+                        "facebook": null,
+                        "instagram": null
+                    },
+                    "site_topper": {
+                        "site_logo_image": null
+                    },
+                    "navigation": {
+                        "nav_title": "Politics"
+                    },
+                    "name": "Politics",
+                    "parent": {
+                        "default": "/",
+                        "mobile": "/",
+                        "mobile-nav": "/"
+                    },
+                    "ancestors": {
+                        "default": ["/"],
+                        "mobile": [],
+                        "mobile-nav": ["/"]
+                    },
+                    "_admin": {
+                        "alias_ids": ["/politics"]
+                    },
+                    "inactive": false,
+                    "node_type": "section",
+                    "order": {
+                        "mobile-nav": 1002,
+                        "default": 1005
+                    }
+                }
+            }
+        }],
+        "tags": [{
+            "description": "gallery",
+            "slug": "gallery",
+            "text": "gallery"
+        }]
+    },
+    "promo_items": {
+        "basic": {
+            "_id": "SK656M2NVJGJVN3U2R23QV4AJQ",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/3RjyBi5DN7Pwh7ENz5uQr8FLKuY=/arc-photo-arcsales/arc2-sandbox/public/SK656M2NVJGJVN3U2R23QV4AJQ.jpg",
+                "galleries": [],
+                "keywords": [],
+                "mime_type": "image/jpeg",
+                "originalName": "t_33e9642d219f4cdcbedf3b99314b9300_name_file_960x540_1600_v4_.jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/SK656M2NVJGJVN3U2R23QV4AJQ.jpg",
+                "proxyUrl": "/resizer/3RjyBi5DN7Pwh7ENz5uQr8FLKuY=/arc-photo-arcsales/arc2-sandbox/public/SK656M2NVJGJVN3U2R23QV4AJQ.jpg",
+                "published": true,
+                "resizeUrl": "/resizer/3RjyBi5DN7Pwh7ENz5uQr8FLKuY=/arc-photo-arcsales/arc2-sandbox/public/SK656M2NVJGJVN3U2R23QV4AJQ.jpg",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/g4r8eTMsR203Lic5ts6R2FhO5ek=/300x0/arc-photo-arcsales/arc2-sandbox/public/SK656M2NVJGJVN3U2R23QV4AJQ.jpg",
+                "version": 0
+            },
+            "address": {},
+            "caption": "Globe",
+            "created_date": "2022-03-23T11:30:59Z",
+            "height": 540,
+            "last_updated_date": "2022-03-23T11:30:59Z",
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.arcsales"
+            },
+            "source": {
+                "additional_properties": {
+                    "editor": "photo center"
+                },
+                "edit_url": "https://sandbox.arcsales.arcpublishing.com/photo/SK656M2NVJGJVN3U2R23QV4AJQ",
+                "system": "photo center"
+            },
+            "subtitle": "Globe",
+            "type": "image",
+            "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/3RjyBi5DN7Pwh7ENz5uQr8FLKuY=/arc-photo-arcsales/arc2-sandbox/public/SK656M2NVJGJVN3U2R23QV4AJQ.jpg",
+            "version": "0.10.3",
+            "width": 960,
+            "imageId": null,
+            "ingestImageToAnglerfish": true,
+            "photographer": null,
+            "auth": {
+                "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+            },
+            "usage_instructions": null
+        }
+    },
+    "related_content": {
+        "basic": [],
+        "clonedChildren": [{
+            "referent": {
+                "id": "G6QFURXSDVGHLNKBVS7AXQS74E"
+            },
+            "type": "reference"
+        }],
+        "clonedFromParent": [{
+            "referent": {
+                "id": "V7DGVYYWEJBTXCEJC3U6JUFGUY"
+            },
+            "type": "reference"
+        }],
+        "redirect": []
+    },
+    "distributor": {
+        "category": "staff",
+        "name": "arcsales",
+        "subcategory": ""
+    },
+    "canonical_website": "arcsales",
+    "geo": {},
+    "planning": {
+        "internal_note": "",
+        "scheduling": {
+            "planned_publish_date": "2022-03-24T00:30:55.000Z"
+        },
+        "story_length": {
+            "character_count_actual": 7678,
+            "character_encoding": "UTF-16",
+            "inch_count_actual": 10,
+            "line_count_actual": 68,
+            "word_count_actual": 1416
+        }
+    },
+    "display_date": "2022-03-24T12:55:21.978Z",
+    "credits": {
+        "by": [
+            {
+                "_id": "test.user1@washpost.com",
+                "type": "author",
+                "version": "0.5.8",
+                "name": "Test user1",
+                "image": {
+                    "url": "https://s3.amazonaws.com/arc-authors/arcsales/1e999e15-4072-473c-9774-7d6601ea1c64.jpeg",
+                    "version": "0.5.8"
+                },
+                "description": "A solution architect specializing in crafting Arc XP solutions",
+                "url": "",
+                "slug": "Test-User1",
+                "social_links": [
+                    {
+                        "site": "email",
+                        "url": "test.user1@washpost.com"
+                    }
+                ],
+                "socialLinks": [
+                    {
+                        "site": "email",
+                        "url": "test.user1@washpost.com",
+                        "deprecated": true,
+                        "deprecation_msg": "Please use social_links."
+                    }
+                ],
+                "additional_properties": {
+                    "original": {
+                        "_id": "test.user1@washpost.com",
+                        "firstName": "Test",
+                        "lastName": "User1",
+                        "byline": "Test User1",
+                        "image": "https://s3.amazonaws.com/arc-authors/arcsales/1e999e15-4072-473c-9774-7d6601ea1c64.jpeg",
+                        "email": "test.user1@washpost.com",
+                        "affiliations": "",
+                        "education": [],
+                        "awards": [],
+                        "books": [],
+                        "podcasts": [],
+                        "bio_page": "",
+                        "bio": "A solution architect specializing in crafting Arc XP solutions",
+                        "longBio": "",
+                        "slug": "Test-User1",
+                        "native_app_rendering": false,
+                        "fuzzy_match": false,
+                        "contributor": false,
+                        "status": true,
+                        "last_updated_date": "2021-10-26T21:19:45.187Z",
+                        "role": "Solution Architect",
+                        "expertise": "Development, Agile Scrum"
+                    }
+                }
+            },
+            {
+                "_id": "Test.User2",
+                "type": "author",
+                "version": "0.5.8",
+                "name": "Test User2",
+                "image": {
+                    "url": "https://s3.amazonaws.com/arc-authors/arcsales/6e016886-381d-4af6-998d-18bc0fb510cd.png",
+                    "version": "0.5.8"
+                },
+                "description": "",
+                "url": "",
+                "slug": "TestUser2",
+                "social_links": [
+                    {
+                        "site": "email",
+                        "url": "Test.User2@washpost.com"
+                    }
+                ],
+                "socialLinks": [
+                    {
+                        "site": "email",
+                        "url": "Test.User2@washpost.com",
+                        "deprecated": true,
+                        "deprecation_msg": "Please use social_links."
+                    }
+                ],
+                "additional_properties": {
+                    "original": {
+                        "_id": "Test.kulkarni",
+                        "firstName": "Test",
+                        "lastName": "User2",
+                        "byline": "Test User2",
+                        "image": "https://s3.amazonaws.com/arc-authors/arcsales/6e016886-381d-4af6-998d-18bc0fb510cd.png",
+                        "email": "Test.User2@washpost.com",
+                        "affiliations": "",
+                        "education": [],
+                        "awards": [],
+                        "books": [],
+                        "podcasts": [],
+                        "bio_page": "",
+                        "bio": "",
+                        "longBio": "",
+                        "slug": "User2",
+                        "native_app_rendering": false,
+                        "fuzzy_match": false,
+                        "contributor": false,
+                        "status": true,
+                        "last_updated_date": "2022-03-02T22:36:15.243Z",
+                        "role": "Arc XP Product Specialist"
+                    }
+                }
+            }
+        ]
+    },
+    "subtype": "default",
+    "first_publish_date": "2022-03-24T12:55:21.978Z",
+    "websites": {
+        "arcsales": {
+            "website_section": {
+                "_id": "/politics",
+                "_website": "arcsales",
+                "type": "section",
+                "version": "0.6.0",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "parent": {
+                    "default": "/"
+                },
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "_website": "arcsales",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": ["/"],
+                            "mobile": [],
+                            "mobile-nav": ["/"]
+                        },
+                        "_admin": {
+                            "alias_ids": ["/politics"]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                },
+                "_website_section_id": "arcsales./politics"
+            },
+            "website_url": "/2022/03/24/how-often-do-people-ask-you-to-do-something-and-you-just-reply-sure-thing/"
+        }
+    },
+    "additional_properties": {
+        "clipboard": {},
+        "has_published_copy": true,
+        "is_published": true,
+        "publish_date": "2022-03-24T12:55:21.978Z"
+    },
+    "publish_date": "2022-03-30T19:24:54.387Z",
+    "canonical_url": "/2022/03/24/how-often-do-people-ask-you-to-do-something-and-you-just-reply-sure-thing/",
+    "publishing": {
+        "scheduled_operations": {
+            "publish_edition": [],
+            "unpublish_edition": []
+        }
+    },
+    "website": "arcsales",
+    "website_url": "/2022/03/24/how-often-do-people-ask-you-to-do-something-and-you-just-reply-sure-thing/"
+}

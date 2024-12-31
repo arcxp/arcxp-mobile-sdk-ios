@@ -1,0 +1,69 @@
+{
+  "avails": [
+    {
+      "ads": [
+        {
+          "adId": "6744037",
+          "mediaFiles": {
+            "mezzanine": "https://gcdn.2mdn.net/videoplayback/id/itag/ck2/file/file.mp4",
+            "mediaFilesList": [
+              {
+                "mediaFileUri": "https://myad.com/ad/ad134/vpaid.js",
+                "delivery": "progressive",
+                "width": 176,
+                "height": 144,
+                "mediaType": "application/javascript",
+                "scalable": false,
+                "maintainAspectRatio": false,
+                "apiFramework": "VPAID"
+              },
+              {
+                "mediaFileUri": "https://myad.com/ad/ad134/file.mp4",
+                "delivery": "progressive",
+                "width": 640,
+                "height": 360,
+                "mediaType": "video/mp4",
+                "scalable": false,
+                "maintainAspectRatio": false
+              }
+            ],
+            "adParameters": [
+                {
+                    "ads": [
+                        {
+                            "url": "https://myads/html5/media/LinearVPAIDCreative.mp4",
+                            "mimetype": "video/mp4"
+                        }
+                    ]
+                }
+            ],
+            "duration": "PT15.066667079S",
+            "durationInSeconds": 15.066,
+            "startTime": "PT39.700000165S",
+            "startTimeInSeconds": 39.7,
+            "trackingEvents": [
+              {
+                "beaconUrls": [
+                  "https://beaconURL.com"
+                ],
+                "duration": "PT15.066667079S",
+                "durationInSeconds": 15.066,
+                "eventId": "6744037",
+                "eventType": "impression",
+                "startTime": "PT39.700000165S",
+                "startTimeInSeconds": 39.7
+              }
+            ]
+          }
+        }
+      ],
+      "availId": "6744037",
+      "duration": "PT45.166667157S",
+      "durationInSeconds": 45.166,
+      "meta": null,
+      "startTime": "PT39.700000165S",
+      "startTimeInSeconds": 39.7
+    }
+  ]
+}
+

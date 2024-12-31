@@ -1,0 +1,38 @@
+{
+    "uuid": "0322970c-87c3-46d5-a4f8-c148f4f3a91c",
+    "identities": [
+        {
+            "userName": "newId",
+            "passwordReset": false,
+            "type": "Password",
+            "lastLoginDate": null,
+            "locked": false
+        }
+    ],
+    "profile":{
+        "createdOn": null,
+        "modifiedOn": null,
+        "deletedOn": null,
+        "firstName": null,
+        "lastName": null,
+        "secondLastName": null,
+        "displayName": null,
+        "gender": null,
+        "email": "some@email.net",
+        "unverifiedEmail": "some@email.net",
+        "picture": null,
+        "birthYear": null,
+        "birthMonth": null,
+        "birthDay": null,
+        "emailVerified": false,
+        "contacts": null,
+        "addresses": null,
+        "attributes": null,
+        "identities": null,
+        "legacyId": null,
+        "status": "Active",
+        "deletionRule": null
+    },
+    "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJ1dWlkIjoiMDMyMjk3MGMtODdjMy00NmQ1LWE0ZjgtYzE0OGY0ZjNhOTFjIiwidW4iOiJuZXdJZCIsImRhdGUiOiIxNjIzMTAyNzI2NDI2IiwiaWF0IjoxNjIzMTAyNzI2LCJleHAiOjE2MjMxMDMzMjYsImp0aSI6ImFjY2RkZmFlLTllZTUtNDZjMi1hYWVkLWYxOTllMTRlM2U5NSJ9.ms7sTL8UdD4BipXo6_zU68QcYA4rVu9aia9Rwg1eM4XueA6A5Y38nU-Xba02d9olmhf2-BJQmCM8463nb2dTQg",
+    "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJ1dWlkIjoiMDMyMjk3MGMtODdjMy00NmQ1LWE0ZjgtYzE0OGY0ZjNhOTFjIiwidW4iOiJuZXdJZCIsImRhdGUiOiIxNjIzMTAyNzI2NDI2IiwiaWF0IjoxNjIzMTAyNzI2LCJleHAiOjE2MjMxODkxMjYsImp0aSI6ImI4YmE3MGZlLTk1MGItNDk1My1iNTM1LWM3NWFlNzE3ZjRiYSIsInBqdGkiOiJhY2NkZGZhZS05ZWU1LTQ2YzItYWFlZC1mMTk5ZTE0ZTNlOTUifQ.5b5p0VtRp7E3geQmAwDV-_QmTPssYhUwNm07oji1TOQ2Cpw367WMal-0tQtrELDrcXiMArSGpjgLXoKvQWieOA"
+}

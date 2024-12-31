@@ -1,0 +1,8 @@
+.DS_Store
+build.log
+XCFramework
+ArcXP/ArcXP.xcodeproj/xcuserdata
+ArcXP/ArcXP.xcodeproj/project.xcworkspace/xcuserdata
+ArcXPSDKSample/ArcXPSDKSample.xcodeproj/xcuserdata
+ArcXPSDKSample/ArcXPSDKSample.xcodeproj/project.xcworkspace/xcuserdata
+ArcXPSDKSample/.swiftlint.yml

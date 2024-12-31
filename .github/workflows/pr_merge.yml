@@ -1,0 +1,98 @@
+name: PR and Merge Workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Enables manual runs
+
+permissions:
+  contents: read  # Grants read-only access to the repository contents
+  packages: read  # Grants read-only access to GitHub packages
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v1.6.0
+        with:
+          xcode-version: 15 # Specify your Xcode version
+      #      - name: Install SwiftLint
+      #        run: brew install swiftlint
+      - name: List Available Simulators
+        run: xcrun simctl list
+      - name: Boot iPhone 15 with iOS 17.2
+        run: |
+          DEVICE=$(xcrun simctl list devices --json | jq -r '.devices["com.apple.CoreSimulator.SimRuntime.iOS-17-2"][] | select(.name == "iPhone 15" and .state == "Shutdown") | .udid')
+          if [ -z "$DEVICE" ]; then
+            echo "No matching device found for iPhone 15 with iOS 17.2"
+            exit 1
+          fi
+          echo "Booting device $DEVICE"
+          xcrun simctl boot "$DEVICE"
+        shell: bash
+      - name: Verify Booted Simulator
+        run: xcrun simctl list | grep "iPhone 15"
+      - name: Build for iOS Simulator
+        run: |
+          xcodebuild \
+            -project ArcXP/ArcXP.xcodeproj \
+            -scheme ArcXP \
+            -destination "platform=iOS Simulator,name=iPhone 15,OS=17.2" \
+            clean build | xcpretty
+        env:
+          DEVELOPER_DIR: /Applications/Xcode.app/Contents/Developer
+
+      - name: Run Unit Tests on iOS Simulator
+        run: |
+          xcodebuild \
+            -project ArcXP/ArcXP.xcodeproj \
+            -scheme ArcXP \
+            -destination "platform=iOS Simulator,name=iPhone 15,OS=17.2" \
+            -resultBundlePath ${{ github.workspace }}/Test-ArcXP.xcresult \
+            test || exit 1
+            sleep 5
+            echo "Listing Test-ArcXP.xcresult contents:"
+            ls -R /Users/runner/work/arcxp-mobile-sdk-iOS-test/arcxp-mobile-sdk-iOS-test/Test-ArcXP.xcresult
+        env:
+          DEVELOPER_DIR: /Applications/Xcode.app/Contents/Developer
+
+      - name: Debug .xcresult Directory
+        run: |
+          echo "Checking for Test-ArcXP.xcresult"
+          ls -la ${{ github.workspace }}/Test-ArcXP.xcresult
+          echo "Current directory:"
+          pwd
+
+      - name: Fix Permissions
+        run: chmod -R 755 ${{ github.workspace }}/Test-ArcXP.xcresult
+
+      - name: Run Conversion Script
+        run: ./ArcXP/ArcXP/CodeCov_Conversion.sh
+        env:
+          XCRESULT_PATH: ${{ github.workspace }}/Test-ArcXP.xcresult
+
+      - name: Upload to Codecov
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        run: |
+          bash <(curl -s https://codecov.io/bash) -f $GITHUB_WORKSPACE/artifacts/coverage-report-Test-ArcXP.json
+
+      - name: Run Unit Tests on tvOS Simulator
+        run: |
+          xcodebuild \
+            -project ArcXP/ArcXP.xcodeproj \
+            -scheme ArcXPtvOS \
+            -destination "platform=tvOS Simulator,name=Apple TV 4K (3rd generation),OS=17.2" \
+            test | xcpretty
+        env:
+          DEVELOPER_DIR: /Applications/Xcode.app/Contents/Developer
+

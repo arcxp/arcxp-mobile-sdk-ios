@@ -1,0 +1,242 @@
+{
+    "type":"video",
+    "_id":"ddb86210-6958-4fdf-921a-e93c334b7f54",
+    "version":"0.8.0",
+    "canonical_url":"/news/boston-25-news-now-dai-sandbox-test/ddb86210-6958-4fdf-921a-e93c334b7f54/",
+    "canonical_website":"cmg-tv-10020",
+    "short_url":"/news/boston-25-news-now-dai-sandbox-test/ddb86210-6958-4fdf-921a-e93c334b7f54/",
+    "created_date":"2020-05-04T21:31:29Z",
+    "last_updated_date":"2020-05-18T17:26:39Z",
+    "publish_date":"2020-05-13T13:56:59Z",
+    "first_publish_date":"2020-05-04T21:31:47Z",
+    "display_date":"2020-05-04T21:24:54Z",
+    "status":"live",
+    "headlines":{
+        "basic":"Boston 25 News Now - DAI Sandbox test"
+    },
+    "subheadlines":{
+        "basic":"Boston 25 News Now - DAI Sandbox test"
+    },
+    "description":{
+        "basic":"Boston 25 News Now - DAI Sandbox test"
+    },
+    "credits":{
+        
+    },
+    "taxonomy":{
+        "tags":[
+            {
+                "text":"Live Events"
+            }
+        ],
+        "primary_site":{
+            "type":"site",
+            "_id":"/news",
+            "version":"0.5.8",
+            "name":"News",
+            "path":"/news",
+            "primary":true
+        },
+        "sites":[
+            {
+                "type":"site",
+                "_id":"/news",
+                "version":"0.5.8",
+                "name":"News",
+                "path":"/news",
+                "primary":true
+            },
+            {
+                "type":"site",
+                "_id":"/video",
+                "version":"0.5.8",
+                "name":"Video",
+                "path":"/video",
+                "primary":false
+            },
+            {
+                "type":"site",
+                "_id":"/video/live-stream",
+                "version":"0.5.8",
+                "name":"Watch",
+                "path":"/video/live-stream",
+                "primary":false
+            }
+        ],
+        "primary_section":{
+            "type":"section",
+            "_id":"/news",
+            "_website":"cmg-tv-10020",
+            "version":"0.6.0",
+            "name":"News",
+            "path":"/news",
+            "primary":true
+        },
+        "sections":[
+            {
+                "type":"section",
+                "_id":"/news",
+                "_website":"cmg-tv-10020",
+                "version":"0.6.0",
+                "name":"News",
+                "path":"/news",
+                "primary":true
+            },
+            {
+                "type":"section",
+                "_id":"/video",
+                "_website":"cmg-tv-10020",
+                "version":"0.6.0",
+                "name":"Video",
+                "path":"/video",
+                "primary":false
+            },
+            {
+                "type":"section",
+                "_id":"/video/live-stream",
+                "_website":"cmg-tv-10020",
+                "version":"0.6.0",
+                "name":"Watch",
+                "path":"/video/live-stream",
+                "primary":false
+            }
+        ],
+        "seo_keywords":[
+            "breaking news video",
+            "video updates",
+            "live video",
+            "live updates",
+            "breaking news",
+            "press conference",
+            "live speeches",
+            "real time coverage"
+        ]
+    },
+    "promo_items":{
+        "basic":{
+            "type":"image",
+            "version":"0.5.8",
+            "credits":{
+                
+            },
+            "url":"https://d1hfln2sfez66z.cloudfront.net/05-04-2020/t_c547d06033404b828d32e3f2c0d7dec4_name_TIDFIYSFINFIZN6T5JB5Q7TN6E.png",
+            "width":1920,
+            "height":1080
+        }
+    },
+    "related_content":{
+        "redirect":[
+            
+        ],
+        "basic":[
+            
+        ]
+    },
+    "owner":{
+        "name":"Live Owner",
+        "sponsored":false
+    },
+    "planning":{
+        "scheduling":{
+            
+        }
+    },
+    "revision":{
+        "published":true
+    },
+    "syndication":{
+        "search":true
+    },
+    "source":{
+        "system":"video center",
+        "edit_url":"https://sandbox.cmg.arcpublishing.com/goldfish/video/5eb089b146e0fb0001f5f8d9"
+    },
+    "distributor":{
+        "category":"staff"
+    },
+    "tracking":{
+        "in_url_headline":"boston-25-news-now-dai-sandbox-test"
+    },
+    "additional_properties":{
+        "subsection":"News",
+        "videoCategory":"live",
+        "videoId":"5eb089b146e0fb0001f5f8d9",
+        "vertical":false,
+        "embedContinuousPlay":true,
+        "imageResizerUrls":[
+            
+        ],
+        "advertising":{
+            "adInsertionUrls":{
+                "mt_master":"https://dnk09sp817hoe.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_QA_cmg-tv-10020_cb8a5ab6-9fa7-40f7-804c-e739e0eb99da_LE/",
+                "mt_root":"https://dnk09sp817hoe.cloudfront.net/",
+                "mt_session":"https://dnk09sp817hoe.cloudfront.net/v1/session/77872db67918a151b697b5fbc23151e5765767dc/cmg_QA_cmg-tv-10020_cb8a5ab6-9fa7-40f7-804c-e739e0eb99da_LE/"
+            },
+            "allowPrerollOnDomain":false,
+            "autoPlayPreroll":true,
+            "commercialAdNode":"",
+            "enableAdInsertion":true,
+            "enableAutoPreview":false,
+            "forceAd":true,
+            "playAds":true,
+            "playVideoAds":true,
+            "videoAdZone":""
+        },
+        "disableUpNext":false,
+        "videoAdZone":"",
+        "youtubeEventId":"70807271-1181-4bc1-a18f-1fd63a60b172",
+        "platform":"desktop",
+        "playVideoAds":true,
+        "useVariants":false,
+        "youtubeEventState":"live",
+        "livePlayThroughToVod":false,
+        "has_published_copy":true,
+        "playlistTags":[
+            
+        ],
+        "anglerfishArcId":"TEYUBKJ4KJED3P6JJBYN5W2IY4",
+        "isWire":false,
+        "gifAsThumbnail":false,
+        "published":true,
+        "streamName":"wftxtv",
+        "permalinkUrl":"/news/boston-25-news-now-dai-sandbox-test/ddb86210-6958-4fdf-921a-e93c334b7f54/",
+        "TEYUBKJ4KJED3P6JJBYN5W2IY4":"05-04-2020/t_c547d06033404b828d32e3f2c0d7dec4_name_TIDFIYSFINFIZN6T5JB5Q7TN6E.png",
+        "publicationEndDate":"2020-05-30T03:59:00Z"
+    },
+    "video_type":"live",
+    "streams":[
+        {
+            "height":720.0,
+            "width":1280.0,
+            "stream_type":"ts",
+            "url":"https://d2bl1cxfb4vbbr.cloudfront.net/in/sandbox-cmg-wftxtv-hls-v3/live.m3u8",
+            "bitrate":2000.0,
+            "provider":"elastictranscoder"
+        }
+    ],
+    "promo_image":{
+        "type":"image",
+        "version":"0.5.8",
+        "credits":{
+            
+        },
+        "url":"https://d1hfln2sfez66z.cloudfront.net/05-04-2020/t_c547d06033404b828d32e3f2c0d7dec4_name_TIDFIYSFINFIZN6T5JB5Q7TN6E.png",
+        "width":1920,
+        "height":1080
+    },
+    "embed_html":"<div class=\"powa\" id=\"powa-ddb86210-6958-4fdf-921a-e93c334b7f54\" data-org=\"cmg\" data-env=\"sandbox\" data-uuid=\"ddb86210-6958-4fdf-921a-e93c334b7f54\" data-aspect-ratio=\"0.562\" data-api=\"sandbox\"><script src=\"https://cmg.video-player.arcpublishing.com/sandbox/powaBoot.js?org=cmg\"></script></div>",
+    "websites":{
+        "cmg-tv-10020":{
+            "website_section":{
+                "path":"/news",
+                "_website":"cmg-tv-10020",
+                "name":"News",
+                "_id":"/news",
+                "type":"section",
+                "version":"0.6.0",
+                "primary":true
+            },
+            "website_url":"/news/boston-25-news-now-dai-sandbox-test/ddb86210-6958-4fdf-921a-e93c334b7f54/"
+        }
+    }
+}

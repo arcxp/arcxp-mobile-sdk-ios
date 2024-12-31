@@ -1,0 +1,15 @@
+codecov:
+  require_ci_to_pass: yes
+
+coverage:
+  precision: 2
+  round: down
+  range: "70...100"
+
+ignore:
+  - "ArcXP/ArcXPTests"
+  - "ArcXP/ArcXP/LegacyFrameworkFiles/Content/Extensions/"
+  - "ArcXP/ArcXP/LegacyFrameworkFiles/Content/Caching/CacheLib/"
+  - "ArcXP/ArcXP/LegacyFrameworkFiles/Content/Logger/SwiftLogLib/"
+  - "ArcXP/ArcXP/LegacyFrameworkFiles/Content/Resizer/Thumbor/"
+  - "ArcXP/ArcXP/LegacyFrameworkFiles/Commerce/JWTDecode/"

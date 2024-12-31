@@ -1,0 +1,5 @@
+{
+    "httpStatus": 400,
+    "code": "300036",
+    "message": "Password does not meet strength requirements"
+}

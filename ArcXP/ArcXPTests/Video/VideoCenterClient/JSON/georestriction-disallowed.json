@@ -1,0 +1,15 @@
+{
+  "type": "geo-restriction",
+  "allow":false,
+  "_params": {
+    "country": "US",
+    "zip": "22040-22044+22046",
+    "dma": "511"
+  },
+  "computed_location": {
+    "country": "US",
+    "zip": "22040-22044+22046",
+    "dma": "511"
+  }
+}
+

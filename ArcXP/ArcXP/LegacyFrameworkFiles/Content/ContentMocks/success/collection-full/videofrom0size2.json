@@ -1,0 +1,631 @@
+[{
+        "_id": "ac2d29b8-a47a-46a5-b47e-3f70f4051264",
+        "type": "video",
+        "version": "0.8.0",
+        "subtype": "sample",
+        "language": "en",
+        "canonical_url": "/2022/03/24/oil-pump-industry/",
+        "canonical_website": "arcsales",
+        "short_url": "/2022/03/24/oil-pump-industry/",
+        "publish_date": "2022-03-24T12:56:43.000Z",
+        "display_date": "2022-03-24T12:56:43Z",
+        "headlines": {
+            "basic": "Oil pump industry"
+        },
+        "credits": {},
+        "taxonomy": {
+            "tags": [{
+                "text": "sample"
+            }],
+            "primary_site": {
+                "_id": "/politics",
+                "type": "site",
+                "version": "0.5.8",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": [
+                                "/"
+                            ],
+                            "mobile": [],
+                            "mobile-nav": [
+                                "/"
+                            ]
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/politics"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                }
+            },
+            "sites": [{
+                "_id": "/politics",
+                "type": "site",
+                "version": "0.5.8",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": [
+                                "/"
+                            ],
+                            "mobile": [],
+                            "mobile-nav": [
+                                "/"
+                            ]
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/politics"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                }
+            }],
+            "primary_section": {
+                "_id": "/politics",
+                "_website": "arcsales",
+                "type": "section",
+                "version": "0.6.0",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "parent": {
+                    "default": "/"
+                },
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "_website": "arcsales",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": [
+                                "/"
+                            ],
+                            "mobile": [],
+                            "mobile-nav": [
+                                "/"
+                            ]
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/politics"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                },
+                "_website_section_id": "arcsales./politics"
+            },
+            "sections": [{
+                "_id": "/politics",
+                "_website": "arcsales",
+                "type": "section",
+                "version": "0.6.0",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "parent": {
+                    "default": "/"
+                },
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "_website": "arcsales",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": [
+                                "/"
+                            ],
+                            "mobile": [],
+                            "mobile-nav": [
+                                "/"
+                            ]
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/politics"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                },
+                "_website_section_id": "arcsales./politics"
+            }],
+            "seo_keywords": [
+                "sample"
+            ]
+        },
+        "promo_items": {
+            "basic": {
+                "type": "image",
+                "version": "0.5.8",
+                "credits": {},
+                "caption": "pump",
+                "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/VNm1hJV8YWlSWiGiF_3OudMvq88=/d30tdlpyqi4wi2.cloudfront.net/03-24-2022/t_0646b93cd24a42eb96591e7895ba41fe_name_file_960x540_1600_v4_.jpg",
+                "width": 960,
+                "height": 540
+            }
+        },
+        "owner": {
+            "sponsored": false
+        },
+        "revision": {
+            "published": true
+        },
+        "distributor": {
+            "category": "staff"
+        },
+        "additional_properties": {},
+        "websites": {
+            "arcsales": {
+                "website_section": {
+                    "path": "/politics",
+                    "_website": "arcsales",
+                    "name": "Politics",
+                    "_id": "/politics",
+                    "type": "section",
+                    "version": "0.6.0",
+                    "primary": true
+                },
+                "website_url": "/2022/03/24/oil-pump-industry/"
+            }
+        }
+    },
+    {
+        "_id": "5a6fc396-efe6-4f30-9b8e-ed49c6e56f08",
+        "type": "video",
+        "version": "0.8.0",
+        "subtype": "sample",
+        "language": "en",
+        "canonical_url": "/2022/03/24/pinwheel/",
+        "canonical_website": "arcsales",
+        "short_url": "/2022/03/24/pinwheel/",
+        "publish_date": "2022-03-24T12:56:30.000Z",
+        "display_date": "2022-03-24T12:56:30Z",
+        "headlines": {
+            "basic": "#Pinwheel"
+        },
+        "credits": {},
+        "taxonomy": {
+            "tags": [{
+                "text": "sample"
+            }],
+            "primary_site": {
+                "_id": "/politics",
+                "type": "site",
+                "version": "0.5.8",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": [
+                                "/"
+                            ],
+                            "mobile": [],
+                            "mobile-nav": [
+                                "/"
+                            ]
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/politics"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                }
+            },
+            "sites": [{
+                "_id": "/politics",
+                "type": "site",
+                "version": "0.5.8",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": [
+                                "/"
+                            ],
+                            "mobile": [],
+                            "mobile-nav": [
+                                "/"
+                            ]
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/politics"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                }
+            }],
+            "primary_section": {
+                "_id": "/politics",
+                "_website": "arcsales",
+                "type": "section",
+                "version": "0.6.0",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "parent": {
+                    "default": "/"
+                },
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "_website": "arcsales",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": [
+                                "/"
+                            ],
+                            "mobile": [],
+                            "mobile-nav": [
+                                "/"
+                            ]
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/politics"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                },
+                "_website_section_id": "arcsales./politics"
+            },
+            "sections": [{
+                "_id": "/politics",
+                "_website": "arcsales",
+                "type": "section",
+                "version": "0.6.0",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "parent": {
+                    "default": "/"
+                },
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "_website": "arcsales",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": [
+                                "/"
+                            ],
+                            "mobile": [],
+                            "mobile-nav": [
+                                "/"
+                            ]
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/politics"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                },
+                "_website_section_id": "arcsales./politics"
+            }],
+            "seo_keywords": [
+                "sample"
+            ]
+        },
+        "promo_items": {
+            "basic": {
+                "type": "image",
+                "version": "0.5.8",
+                "credits": {},
+                "caption": "colored",
+                "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/_BfbPmjBanTnmq19rAGpaer1D4A=/d30tdlpyqi4wi2.cloudfront.net/03-24-2022/t_c39164a6c8cc41098822da1df56d4f14_name_file_960x540_1600_v4_.jpg",
+                "width": 960,
+                "height": 540
+            }
+        },
+        "owner": {
+            "sponsored": false
+        },
+        "revision": {
+            "published": true
+        },
+        "distributor": {
+            "category": "staff"
+        },
+        "additional_properties": {},
+        "websites": {
+            "arcsales": {
+                "website_section": {
+                    "path": "/politics",
+                    "_website": "arcsales",
+                    "name": "Politics",
+                    "_id": "/politics",
+                    "type": "section",
+                    "version": "0.6.0",
+                    "primary": true
+                },
+                "website_url": "/2022/03/24/pinwheel/"
+            }
+        }
+    }
+]

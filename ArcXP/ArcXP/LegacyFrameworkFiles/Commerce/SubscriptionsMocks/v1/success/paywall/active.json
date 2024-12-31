@@ -1,0 +1,66 @@
+[
+    {
+        "id": 888,
+        "conditions": {
+            "contentType": {
+                "in": true,
+                "values": ["video"]
+            }
+        },
+        "e": [true],
+        "cl": "https://apple.com",
+        "rt": 5,
+        "budget": {
+            "budgetType": "Calendar",
+            "calendarType": "Monthly",
+            "calendarWeekDay": null,
+            "rollingType": null,
+            "rollingDays": null,
+            "rollingHours": null
+        }
+    },
+    {
+        "id": 930,
+        "conditions": {
+            "deviceClass": {
+                "in": true,
+                "values": ["mobile", "tablet"]
+            },
+            "contentType": {
+                "in": true,
+                "values": ["story"]
+            }
+        },
+        "e": [true, "premium"],
+        "cc": "premium",
+        "rt": 22,
+        "budget": {
+            "budgetType": "Calendar",
+            "calendarType": "Weekly",
+            "calendarWeekDay": "Tuesday",
+            "rollingType": null,
+            "rollingDays": null,
+            "rollingHours": null
+        }
+    },
+    {
+        "id": 999,
+        "conditions": {
+            "contentType": {
+                "in": true,
+                "values": ["gallery"]
+            }
+        },
+        "e": [true],
+        "cl": "https://google.com",
+        "rt": 5,
+        "budget": {
+            "budgetType": "Rolling",
+            "calendarType": null,
+            "calendarWeekDay": null,
+            "rollingType": "Days",
+            "rollingDays": 7,
+            "rollingHours": null
+        }
+    },
+]

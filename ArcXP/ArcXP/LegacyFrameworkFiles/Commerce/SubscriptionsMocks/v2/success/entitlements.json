@@ -1,0 +1,9 @@
+{
+    "edgescape": {
+        "city": "BOGOTA",
+        "continent": "SA",
+        "georegion": "50",
+        "country_code": "CO"
+    },
+    "zones": [1, 2, 3, 4, 5, 6]
+}

@@ -1,0 +1,99 @@
+{
+  "avails": [
+    {
+      "ads": [
+        {
+          "adId": "3348173",
+          "adParameters": null,
+          "adVerifications": [
+              {
+                  "vendor": "invalid because the apiFramework is not 'omid'",
+                  "javascriptResource": [{
+                      "apiFramework": "something other than omid",
+                      "browserOptional": "true",
+                      "uri": "https://verificationcompany1.com/verification_script1.js"
+                  }],
+                  "verificationParameters": "not empty"
+              },
+              {
+                  "vendor": "invalid because the verificationParameters are empty",
+                  "javascriptResource": [{
+                      "apiFramework": "omid",
+                      "browserOptional": "true",
+                      "uri": "https://verificationcompany1.com/verification_script1.js"
+                  }],
+                  "verificationParameters": ""
+              },
+             {
+                  "vendor": "iabtechlab.com-omid",
+                  "javascriptResource": [{
+                      "apiFramework": "omid",
+                      "browserOptional": "true",
+                      "uri": "https://s3-us-west-2.amazonaws.com/content.iabtechlab.com/omid-validation-verification-logapi.js"
+                  }],
+                  "verificationParameters": "iabtechlab-Washpost"
+              },
+              {
+                  "vendor": "vendor2",
+              "executableResource": [{
+                  "apiFramework": "omid",
+                  "type": "exe",
+                  "uri": "https://verificationcompany.com/untrusted.exe"
+              }],
+              "trackingEvents": [
+                  {
+                  "event": "verificationNotExecuted",
+                  "uri": "https://verificationcompany/comdkvkasfakj"
+                  }
+              ]
+              }
+          ],
+          "companionAds": [
+            {
+                "sequence": "",
+                "attributes": {
+                  "width": "REQUIRED",
+                  "height": "REQUIRED",
+                  "id": "",
+                  "assetWidth": "",
+                  "assetHeight": "",
+                  "expandedWidth": "",
+                  "expandedHeight": "",
+                  "apiFramework": "",
+                  "adSlotId": "",
+                  "pxratio": "",
+                  "renderingMode": ""
+                },
+                "staticResource": "",
+                "iFrameResource": "",
+                "htmlResource": "<![CDATA[<!doctype html><html><head><meta name=\"viewport\" content=\"width=1, initial-scale=1.0, minimum-scale=1.     0, . . . ]]>",
+                "adParameters": "",
+                "altText": "",
+                "companionClickThrough": "",
+                "companionClickTracking": "",
+                "trackingEvents": [
+                  {
+                    "tracking": {}
+                  }
+                ]
+            }
+          ],
+          "extensions": [
+              {
+              "extension": {
+                  "type": "",
+                  "content": ""
+              }
+              }
+          ]
+        }
+      ],
+      "availId": "3348173",
+      "duration": "PT12.700001178S",
+      "durationInSeconds": 12.7,
+      "meta": null,
+      "startTime": "PT1M56.060003037S",
+      "startTimeInSeconds": 116.06
+    }
+  ]
+}

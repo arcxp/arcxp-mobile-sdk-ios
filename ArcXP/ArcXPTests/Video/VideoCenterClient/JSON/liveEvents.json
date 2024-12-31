@@ -1,0 +1,461 @@
+[
+    {
+        "id": "634dc812abe7da35e264c6e8",
+        "platform": "desktop",
+        "adConfig": {
+            "adSetConfig": {
+                "adSetZone": null,
+                "adSetUrls": null,
+                "adSetCodes": {
+                    "tablet": "",
+                    "desktop": "",
+                    "mweb": "",
+                    "apps": ""
+                }
+            },
+            "autoPlayPreroll": false,
+            "commercialAdNode": null,
+            "enableAdInsertion": false,
+            "enableAutoPreview": false,
+            "enableServerSideFallback": false,
+            "forceAd": false,
+            "playAds": false,
+            "playVideoAds": false
+        },
+        "contentConfig": {
+            "blurb": "Tv app",
+            "shortDescription": null,
+            "clarification": null,
+            "commentsConfig": {
+                "allowComments": true,
+                "allowPhotos": false,
+                "allowVideos": false,
+                "isDisplayable": true,
+                "isModerated": false,
+                "max": null,
+                "period": null,
+                "source": null
+            },
+            "correction": null,
+            "credits": {
+                "contributors": null,
+                "editor": null,
+                "hostTalent": null,
+                "source": null
+            },
+            "dateConfig": {
+                "dateCreated": 1666041874478,
+                "datePublished": 1666042010830,
+                "dateFirstPublished": 1666042010400,
+                "dateLastPublished": 1666042010830,
+                "dateUpdated": 1666042149188,
+                "displayDate": 1666042010400,
+                "publicationStartDate": 1666042089178,
+                "publicationEndDate": 1666042269185
+            },
+            "hasClarification": false,
+            "hasCorrection": false,
+            "images": null,
+            "isOoyalaVideo": false,
+            "loid": null,
+            "path": null,
+            "permaLinkURL": "/2022/10/17/api-test/",
+            "playerBrandingId": null,
+            "playerURL": null,
+            "rating": null,
+            "redirectURL": null,
+            "redirect": [],
+            "relatedLinks": [],
+            "shortURL": "/2022/10/17/api-test/",
+            "sourceMediaURL": null,
+            "title": "NBA Sports live",
+            "boldTitle": null,
+            "type": "live",
+            "urlHash": null,
+            "uuid": "a0dd477b-c34b-41a6-bc07-de56da390a57",
+            "vendor": null,
+            "videoContentId": null,
+            "videoDuration": 0,
+            "videoStatus": null,
+            "videoURL": null,
+            "youtubeContentId": null,
+            "defaultPlaylistLibrary": null,
+            "promoted": false,
+            "methodeFilePath": null,
+            "methodeImageFilePath": null,
+            "collectionPath": null,
+            "gridExperience": false,
+            "includeInSiteSearch": false,
+            "disableEmbedEndScreen": false,
+            "queryTerms": "",
+            "vertical": false,
+            "video360": false,
+            "disableExternalEmbed": false,
+            "prerollOnly": false,
+            "streams": null,
+            "transcoderVideoId": null,
+            "location": null,
+            "metadata": null,
+            "useVariants": false,
+            "trackAsPool": false
+        },
+        "metaConfig": {
+            "distributor": null,
+            "ideology": null,
+            "section": "Live",
+            "subsection": "Mobile TV - New",
+            "primarySiteNode": "/mobile-tv-new",
+            "secondarySiteNode": "",
+            "sentiment": null,
+            "tags": [
+                "Live Events"
+            ],
+            "keywords": [
+                "breaking news video",
+                "video updates",
+                "live video",
+                "live updates",
+                "breaking news",
+                "press conference",
+                "live speeches",
+                "real time coverage"
+            ],
+            "playlists": [],
+            "order": null,
+            "editor": null,
+            "sectionDisplayName": "News",
+            "sectionURL": "",
+            "topic": null
+        },
+        "promoImage": {
+            "image": {
+                "caption": null,
+                "photographer": null,
+                "credits": null,
+                "height": null,
+                "url": "https://d30tdlpyqi4wi2.cloudfront.net/10-17-2022/c84f0b27_538b_4e9a_9abf_f11343f49fe2_thumbnail.jpeg",
+                "width": null
+            }
+        },
+        "videoCategoryConfig": [
+            {
+                "id": "live",
+                "name": "Live Events",
+                "description": null,
+                "videoAdZone": "",
+                "defaultPlaylistLibrary": null,
+                "tags": [
+                    "Live Events"
+                ],
+                "keywords": [
+                    "breaking news video",
+                    "video updates",
+                    "live video",
+                    "live updates",
+                    "breaking news",
+                    "press conference",
+                    "live speeches",
+                    "real time coverage"
+                ],
+                "relatedLinks": null,
+                "credits": null,
+                "seriesConfig": null,
+                "sponsoredVideo": false,
+                "commercialAdNode": null,
+                "primarySiteNode": "/live",
+                "secondarySiteNode": null,
+                "section": "Live",
+                "subsection": null,
+                "active": false,
+                "types": [
+                    "live"
+                ],
+                "methodeVideoFilePath": null,
+                "methodeImageFilePath": null,
+                "collectionPath": null,
+                "sectionDisplayName": "News",
+                "sectionURL": null,
+                "hashtag": null
+            }
+        ],
+        "sponsoredConfig": {
+            "sponsoredVideo": false,
+            "logoUrl": "",
+            "linkUrl": ""
+        },
+        "videoFilePath": null,
+        "associatedContent": null,
+        "liveEventConfig": {
+            "youtubeEventId": "0252138f-ebfb-41b0-9fcd-097107cf6117",
+            "youtubeEventState": "live",
+            "uuid": "8c33fdd0-6c42-49a1-8b16-a7f7c0c386af",
+            "videoContentId": null,
+            "youtubeStreamId": null,
+            "closedCaptionsIngestionUrl": null,
+            "redirectLink": null,
+            "displayDate": 1666042010400,
+            "streams": [
+                {
+                    "height": 720,
+                    "width": 1280,
+                    "fileSize": null,
+                    "audioCodec": null,
+                    "videoCodec": null,
+                    "type": "ts",
+                    "url": "https://d2qkc961b6r0vt.cloudfront.net/out/v1/f3f28736ebb24061b4088b8da14fcaab/index.m3u8",
+                    "bitrate": 2000,
+                    "provider": "elastictranscoder"
+                }
+            ],
+            "streamName": "sandbox.arcsales-8c33fdd0-6c42-49a1-8b16-a7f7c0c386af",
+            "draft": false
+        },
+        "subtitlesConfig": null,
+        "dummy": false,
+        "truthTellerEnabled": false,
+        "synchronizedToMethode": null,
+        "syncContentEnabled": false,
+        "hideInPlaylist": false,
+        "youtubeConfig": {
+            "youtubeVideoId": null,
+            "youtubePlaylistId": null,
+            "youtubePlaylistItemId": null,
+            "youtubeVideoCategory": 25,
+            "youtubeVideoPolicyId": null
+        },
+        "embedConfig": null,
+        "producerConfig": null,
+        "variantExclusions": null,
+        "playlistName": null,
+        "customFields": {
+            "owner.sponsored": "false"
+        },
+        "imageResizerUrls": []
+    },
+    {
+        "id": "6356f751b3288c74add94c6c",
+        "platform": "desktop",
+        "adConfig": {
+            "adSetConfig": {
+                "adSetZone": null,
+                "adSetUrls": null,
+                "adSetCodes": {
+                    "tablet": "",
+                    "desktop": "",
+                    "mweb": "",
+                    "apps": ""
+                }
+            },
+            "autoPlayPreroll": false,
+            "commercialAdNode": null,
+            "enableAdInsertion": false,
+            "enableAutoPreview": false,
+            "enableServerSideFallback": false,
+            "forceAd": false,
+            "playAds": false,
+            "playVideoAds": false
+        },
+        "contentConfig": {
+            "blurb": "Test live",
+            "shortDescription": null,
+            "clarification": null,
+            "commentsConfig": {
+                "allowComments": true,
+                "allowPhotos": false,
+                "allowVideos": false,
+                "isDisplayable": true,
+                "isModerated": false,
+                "max": null,
+                "period": null,
+                "source": null
+            },
+            "correction": null,
+            "credits": {
+                "contributors": null,
+                "editor": null,
+                "hostTalent": null,
+                "source": null
+            },
+            "dateConfig": {
+                "dateCreated": 1666643793478,
+                "datePublished": 1666643898225,
+                "dateFirstPublished": 1666643898004,
+                "dateLastPublished": 1666643898225,
+                "dateUpdated": 1666643793476,
+                "displayDate": 1666643898004,
+                "publicationStartDate": 1666643793454,
+                "publicationEndDate": 1666644693454
+            },
+            "hasClarification": false,
+            "hasCorrection": false,
+            "images": null,
+            "isOoyalaVideo": false,
+            "loid": null,
+            "path": null,
+            "permaLinkURL": "/2022/10/24/live-event-2/",
+            "playerBrandingId": null,
+            "playerURL": null,
+            "rating": null,
+            "redirectURL": null,
+            "redirect": [],
+            "relatedLinks": [],
+            "shortURL": "/2022/10/24/live-event-2/",
+            "sourceMediaURL": null,
+            "title": "Live event 2",
+            "boldTitle": null,
+            "type": "live",
+            "urlHash": null,
+            "uuid": "f9944f48-1b23-4fe6-9c4e-ebe21a7ce967",
+            "vendor": null,
+            "videoContentId": null,
+            "videoDuration": 0,
+            "videoStatus": null,
+            "videoURL": null,
+            "youtubeContentId": null,
+            "defaultPlaylistLibrary": null,
+            "promoted": false,
+            "methodeFilePath": null,
+            "methodeImageFilePath": null,
+            "collectionPath": null,
+            "gridExperience": false,
+            "includeInSiteSearch": false,
+            "disableEmbedEndScreen": false,
+            "queryTerms": "",
+            "vertical": false,
+            "video360": false,
+            "disableExternalEmbed": false,
+            "prerollOnly": false,
+            "streams": null,
+            "transcoderVideoId": null,
+            "location": null,
+            "metadata": null,
+            "useVariants": false,
+            "trackAsPool": false
+        },
+        "metaConfig": {
+            "distributor": null,
+            "ideology": null,
+            "section": "Live",
+            "subsection": "Mobile - Sports",
+            "primarySiteNode": "/mobile-sports",
+            "secondarySiteNode": "",
+            "sentiment": null,
+            "tags": [
+                "Live Events"
+            ],
+            "keywords": [
+                "breaking news video",
+                "video updates",
+                "live video",
+                "live updates",
+                "breaking news",
+                "press conference",
+                "live speeches",
+                "real time coverage"
+            ],
+            "playlists": [],
+            "order": null,
+            "editor": null,
+            "sectionDisplayName": "News",
+            "sectionURL": "",
+            "topic": null
+        },
+        "promoImage": {
+            "image": null
+        },
+        "videoCategoryConfig": [
+            {
+                "id": "live",
+                "name": "Live Events",
+                "description": null,
+                "videoAdZone": "",
+                "defaultPlaylistLibrary": null,
+                "tags": [
+                    "Live Events"
+                ],
+                "keywords": [
+                    "breaking news video",
+                    "video updates",
+                    "live video",
+                    "live updates",
+                    "breaking news",
+                    "press conference",
+                    "live speeches",
+                    "real time coverage"
+                ],
+                "relatedLinks": null,
+                "credits": null,
+                "seriesConfig": null,
+                "sponsoredVideo": false,
+                "commercialAdNode": null,
+                "primarySiteNode": "/live",
+                "secondarySiteNode": null,
+                "section": "Live",
+                "subsection": null,
+                "active": false,
+                "types": [
+                    "live"
+                ],
+                "methodeVideoFilePath": null,
+                "methodeImageFilePath": null,
+                "collectionPath": null,
+                "sectionDisplayName": "News",
+                "sectionURL": null,
+                "hashtag": null
+            }
+        ],
+        "sponsoredConfig": {
+            "sponsoredVideo": false,
+            "logoUrl": "",
+            "linkUrl": ""
+        },
+        "videoFilePath": null,
+        "associatedContent": null,
+        "liveEventConfig": {
+            "youtubeEventId": "edc71c20-f36c-4b03-8a3d-4bace620c330",
+            "youtubeEventState": "live",
+            "uuid": "9c92bd39-94c4-4318-a12d-e55f20e2ae6b",
+            "videoContentId": null,
+            "youtubeStreamId": null,
+            "closedCaptionsIngestionUrl": null,
+            "redirectLink": null,
+            "displayDate": 1666643898004,
+            "streams": [
+                {
+                    "height": 720,
+                    "width": 1280,
+                    "fileSize": null,
+                    "audioCodec": null,
+                    "videoCodec": null,
+                    "type": "ts",
+                    "url": "https://d2qkc961b6r0vt.cloudfront.net/out/v1/f3f28736ebb24061b4088b8da14fcaab/index.m3u8",
+                    "bitrate": 2000,
+                    "provider": "elastictranscoder"
+                }
+            ],
+            "streamName": "sandbox.arcsales-9c92bd39-94c4-4318-a12d-e55f20e2ae6b",
+            "draft": false
+        },
+        "subtitlesConfig": null,
+        "dummy": false,
+        "truthTellerEnabled": false,
+        "synchronizedToMethode": null,
+        "syncContentEnabled": false,
+        "hideInPlaylist": false,
+        "youtubeConfig": {
+            "youtubeVideoId": null,
+            "youtubePlaylistId": null,
+            "youtubePlaylistItemId": null,
+            "youtubeVideoCategory": 25,
+            "youtubeVideoPolicyId": null
+        },
+        "embedConfig": null,
+        "producerConfig": null,
+        "variantExclusions": null,
+        "playlistName": null,
+        "customFields": {
+            "owner.sponsored": "false"
+        },
+        "imageResizerUrls": []
+    }
+]

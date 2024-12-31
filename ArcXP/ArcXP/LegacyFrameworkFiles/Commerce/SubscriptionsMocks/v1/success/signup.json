@@ -1,0 +1,40 @@
+{
+    "uuid": "1aab145a-1a6f-4f56-856a-18053668f909",
+    "identities": [
+        {
+            "userName": "mockuser123",
+            "passwordReset": false,
+            "type": "Password",
+            "lastLoginDate": null,
+            "locked": false
+        }
+    ],
+    "profile": {
+        "createdOn": null,
+        "modifiedOn": null,
+        "deletedOn": null,
+        "firstName": null,
+        "lastName": null,
+        "secondLastName": null,
+        "displayName": null,
+        "gender": null,
+        "email": "mockuser123@mock.arcxp.com",
+        "unverifiedEmail": "mockuser123@mock.arcxp.com",
+        "picture": null,
+        "birthYear": null,
+        "birthMonth": null,
+        "birthDay": null,
+        "emailVerified": false,
+        "contacts": null,
+        "addresses": null,
+        "attributes": null,
+        "identities": null,
+        "legacyId": null,
+        "status": "Active",
+        "deletionRule": null,
+        "accessToken": "MOCK_ACCESS_TOKEN",
+        "refreshToken": "MOCK_REFRESH_TOKEN",
+    },
+    "accessToken": "MOCK_ACCESS_TOKEN",
+    "refreshToken": "MOCK_REFRESH_TOKEN"
+}

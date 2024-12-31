@@ -1,0 +1,57 @@
+{
+    "createdOn": 1624378251000,
+    "modifiedOn": 1624378251000,
+    "deletedOn": null,
+    "firstName": "Mock",
+    "lastName": "User",
+    "secondLastName": "Second",
+    "displayName": "MockUser",
+    "gender": "MALE",
+    "email": "mockuser@mock.arcxp.com",
+    "unverifiedEmail": "mockuser@mock.arcxp.com",
+    "picture": "TestPictureURL",
+    "birthYear": "2000",
+    "birthMonth": "1",
+    "birthDay": "1",
+    "emailVerified": false,
+    "contacts": [
+        {
+          "phone": "TestPhoneNumber",
+          "type": "OTHER"
+        }
+    ],
+    "addresses": [
+        {
+          "line1": "TestAddressLine1",
+          "line2": "TestAddressLine2",
+          "locality": "TestAddressCity",
+          "region": "string",
+          "postal": "string",
+          "country": "string",
+          "type": "OTHER"
+        }
+    ],
+    "attributes": null,
+    "identities": [
+        {
+            "userName": "mockuser123",
+            "passwordReset": false,
+            "type": "Password",
+            "lastLoginDate": 1624547097000,
+            "locked": false
+        }
+    ],
+    "attributes": [
+        {
+          "name": "KEY1",
+          "value": "VALUE 1",
+          "type": "String"
+        }
+      ],
+    "legacyId": null,
+    "status": "Active",
+    "deletionRule": null,
+    "uuid":"0f97a78f-df6f-4303-a906-63714fd0947a",
+    "accessToken": "MOCK_ACCESS_TOKEN",
+    "refreshToken": "MOCK_REFRESH_TOKEN"
+}

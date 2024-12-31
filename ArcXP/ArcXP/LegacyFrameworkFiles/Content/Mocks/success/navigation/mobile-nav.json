@@ -1,0 +1,263 @@
+[
+    {
+        "_id": "/mobile-topstories",
+        "site_topper": {
+            "site_logo_image": null
+        },
+        "social": {
+            "rss": null,
+            "twitter": null,
+            "facebook": null,
+            "instagram": null
+        },
+        "site": {
+            "site_url": null,
+            "site_about": null,
+            "site_description": "Top story collection to power the ArcXP mobile SDK",
+            "pagebuilder_path_for_native_apps": null,
+            "site_tagline": null,
+            "site_title": "Mobile - Top Stories",
+            "site_keywords": null
+        },
+        "navigation": {
+            "nav_title": "Top Stories"
+        },
+        "name": "Mobile - Top Stories",
+        "_website": "arcsales",
+        "parent": {
+            "default": "/",
+            "mobile-nav": "/",
+            "mobile": "/mobile-entertainment"
+        },
+        "ancestors": {
+            "default": [],
+            "mobile-nav": [
+                "/"
+            ],
+            "mobile": [
+                "/entertainment",
+                "/mobile-entertainment"
+            ]
+        },
+        "_admin": {
+            "alias_ids": [
+                "/mobile-topstories"
+            ]
+        },
+        "inactive": false,
+        "node_type": "section",
+        "order": {
+            "mobile-nav": 1001,
+            "mobile": 3001
+        },
+        "children": []
+    },
+    {
+        "_id": "/mobile-politics",
+        "site_topper": {
+            "site_logo_image": null
+        },
+        "social": {
+            "rss": null,
+            "twitter": null,
+            "facebook": null,
+            "instagram": null
+        },
+        "site": {
+            "site_url": null,
+            "site_about": null,
+            "site_description": "Politics collection to power the ArcXP mobile SDK",
+            "pagebuilder_path_for_native_apps": null,
+            "site_tagline": null,
+            "site_title": "Mobile - Politics",
+            "site_keywords": "politics"
+        },
+        "navigation": {
+            "nav_title": null
+        },
+        "_admin": {
+            "alias_ids": [
+                "/mobile-politics"
+            ]
+        },
+        "_website": "arcsales",
+        "name": "Mobile - Politics",
+        "order": {
+            "mobile-nav": 1002
+        },
+        "parent": {
+            "default": "/",
+            "mobile-nav": "/"
+        },
+        "ancestors": {
+            "default": [],
+            "mobile-nav": [
+                "/"
+            ]
+        },
+        "inactive": false,
+        "node_type": "section",
+        "children": []
+    },
+    {
+        "_id": "/mobile-tech",
+        "site_topper": {
+            "site_logo_image": null
+        },
+        "social": {
+            "rss": null,
+            "twitter": null,
+            "facebook": null,
+            "instagram": null
+        },
+        "site": {
+            "site_url": null,
+            "site_about": null,
+            "site_description": "Tech collection to power the ArcXP mobile SDK",
+            "pagebuilder_path_for_native_apps": null,
+            "site_tagline": null,
+            "site_title": "Mobile - Tech",
+            "site_keywords": null
+        },
+        "navigation": {
+            "nav_title": "Tech"
+        },
+        "_admin": {
+            "alias_ids": [
+                "/mobile-tech"
+            ]
+        },
+        "_website": "arcsales",
+        "name": "Mobile - Tech",
+        "parent": {
+            "default": "/",
+            "mobile-nav": "/",
+            "mobile": "/mobile-sports"
+        },
+        "ancestors": {
+            "default": [],
+            "mobile-nav": [
+                "/"
+            ],
+            "mobile": [
+                "/entertainment",
+                "/mobile-entertainment",
+                "/mobile-topstories",
+                "/mobile-sports"
+            ]
+        },
+        "inactive": false,
+        "node_type": "section",
+        "order": {
+            "mobile-nav": 1003,
+            "mobile": 3001
+        },
+        "children": []
+    },
+    {
+        "_id": "/mobile-sports",
+        "site_topper": {
+            "site_logo_image": null
+        },
+        "social": {
+            "rss": null,
+            "twitter": null,
+            "facebook": null,
+            "instagram": null
+        },
+        "site": {
+            "site_url": null,
+            "site_about": null,
+            "site_description": "Sports collection to power the ArcXP mobile SDK",
+            "pagebuilder_path_for_native_apps": null,
+            "site_tagline": null,
+            "site_title": "Mobile - Sports",
+            "site_keywords": "sports"
+        },
+        "navigation": {
+            "nav_title": "Sports"
+        },
+        "_admin": {
+            "alias_ids": [
+                "/mobile-sports"
+            ]
+        },
+        "_website": "arcsales",
+        "name": "Mobile - Sports",
+        "parent": {
+            "default": "/",
+            "mobile-nav": "/",
+            "mobile": "/mobile-topstories"
+        },
+        "ancestors": {
+            "default": [],
+            "mobile-nav": [
+                "/"
+            ],
+            "mobile": [
+                "/entertainment",
+                "/mobile-entertainment",
+                "/mobile-topstories"
+            ]
+        },
+        "inactive": false,
+        "node_type": "section",
+        "order": {
+            "mobile-nav": 1004,
+            "mobile": 3001
+        },
+        "children": []
+    },
+    {
+        "_id": "/mobile-entertainment",
+        "site_topper": {
+            "site_logo_image": null
+        },
+        "social": {
+            "rss": null,
+            "twitter": null,
+            "facebook": null,
+            "instagram": null
+        },
+        "site": {
+            "site_url": null,
+            "site_about": null,
+            "site_description": "Entertainment collection to power the ArcXP mobile SDK",
+            "pagebuilder_path_for_native_apps": null,
+            "site_tagline": null,
+            "site_title": "Mobile - Entertainment",
+            "site_keywords": "entertainment"
+        },
+        "navigation": {
+            "nav_title": "Entertainment"
+        },
+        "_admin": {
+            "alias_ids": [
+                "/mobile-entertainment"
+            ]
+        },
+        "_website": "arcsales",
+        "name": "Mobile - Entertainment",
+        "parent": {
+            "default": "/",
+            "mobile-nav": "/",
+            "mobile": "/entertainment"
+        },
+        "ancestors": {
+            "default": [],
+            "mobile-nav": [
+                "/"
+            ],
+            "mobile": [
+                "/entertainment"
+            ]
+        },
+        "inactive": false,
+        "node_type": "section",
+        "order": {
+            "mobile-nav": 1005,
+            "mobile": 2001
+        },
+        "children": []
+    }
+]

@@ -1,0 +1,14 @@
+
+excluded:
+  - ArcXP/LegacyFrameworkFiles/Content/Caching/CacheLib
+  - ArcXP/LegacyFrameworkFiles/Commerce/KeychainManager.swift
+  - ArcXP/LegacyFrameworkFiles/Content/Logger/SwiftLogLib
+  - ArcXPTests
+
+disabled_rules: # rule identifiers turned on by default to exclude from running
+  - empty_enum_arguments
+  - function_parameter_count
+  - type_body_length
+  - unused_setter_value # this triggers falsely most of the time
+
+line_length: 200

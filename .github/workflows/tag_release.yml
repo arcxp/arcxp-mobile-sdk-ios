@@ -1,0 +1,135 @@
+name: Tag Release
+
+on:
+  # Trigger when a tag is pushed
+  push:
+    tags:
+      - "*"
+
+  # Trigger manually via the GitHub Actions UI
+  workflow_dispatch:
+
+permissions:
+  contents: read  # Grants read-only access to the repository contents
+  packages: read  # Grants read-only access to GitHub packages
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout Code
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up SSH for Private Repo
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Set environment variable
+        run: echo "SANITIZED_REF_NAME=$(printf '%q' '${{ github.ref_name }}')" >> $GITHUB_ENV
+
+      - name: Generate Framework
+        run: |
+          cd ArcXP
+          ./Releases/build_xcframework.sh
+          echo "Listing Frameworks directory contents"
+          ls ${{ github.workspace }}/Frameworks
+
+      - name: Zip Frameworks
+        run: |
+          echo "Zip Frameworks into individual zip files to download them through SPM"
+
+          # Temp fix till we fix the folder structure
+          cd ${{ github.workspace }}/Frameworks
+          cp -r ArcXP.xcframework ${{ github.workspace }}/ArcXP/Frameworks
+          
+          
+          cd ${{ github.workspace }}/ArcXP/Frameworks
+          ls
+          
+          mkdir -p ${{ github.workspace }}/build-artifacts
+          
+          echo "Zip Frameworks folder"
+          zip -r ${{ github.workspace }}/build-artifacts/Frameworks.zip .
+          mkdir ${{ github.workspace }}/build-artifacts/SDK
+          echo "Zipping ArcXP.xcframework"
+          zip -r ${{ github.workspace }}/build-artifacts/SDK/ArcXP.zip ArcXP.xcframework
+          
+          echo "Zipping GoogleInteractiveMediaAds.xcframework"
+          zip -r ${{ github.workspace }}/build-artifacts/SDK/GoogleInteractiveMediaAds.zip GoogleInteractiveMediaAds.xcframework
+          
+          echo "Zipping OMSDK_Washpost.xcframework"
+          zip -r ${{ github.workspace }}/build-artifacts/SDK/OMSDK_Washpost.zip OMSDK_Washpost.xcframework
+          
+          echo "Zipping ProgrammaticAccessLibrary.xcframework"
+          zip -r ${{ github.workspace }}/build-artifacts/SDK/ProgrammaticAccessLibrary.zip ProgrammaticAccessLibrary.xcframework
+          
+          echo "Compute checksum for all the 4 frameworks to upload"
+          cd ${{ github.workspace }}/build-artifacts
+          mkdir ArcXPSwiftPackage && cd ArcXPSwiftPackage
+          swift package init
+          swift package compute-checksum ../SDK/ArcXP.zip > ../SDK/swiftpackage_ArcXP_checksum.txt
+          swift package compute-checksum ../SDK/GoogleInteractiveMediaAds.zip > ../SDK/swiftpackage_GoogleInteractiveMediaAds_checksum.txt
+          swift package compute-checksum ../SDK/OMSDK_Washpost.zip > ../SDK/swiftpackage_OMSDK_Washpost_checksum.txt
+          swift package compute-checksum ../SDK/ProgrammaticAccessLibrary.zip > ../SDK/swiftpackage_ProgrammaticAccessLibrary_checksum.txt
+          rm -rf ArcXPSwiftPackage
+          cd ..
+          ls ${{ github.workspace }}/build-artifacts/SDK 
+
+      - name: Clone SPM Repo
+        run: |
+          mkdir -p spm-repo
+          git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/arcxp/arcxpSDK-iOS-package.git spm-repo
+          cd spm-repo
+          echo "SPM repo cloned successfully."
+
+      - name: Copy Frameworks.zip to SPM Repo
+        run: |
+          echo "Copying Frameworks.zip to SPM Repo"
+          cp ${{ github.workspace }}/build-artifacts/Frameworks.zip ./spm-repo
+          cp ${{ github.workspace }}/build-artifacts/SDK/*.zip ./spm-repo
+          ls ./spm-repo
+      - name: Update Package.swift
+        run: |
+          echo "Updating Package.swift with checksums and version"
+          cd spm-repo
+          
+          CHECKSUM_ARCXP=$(cat ../build-artifacts/SDK/swiftpackage_ArcXP_checksum.txt)
+          CHECKSUM_GOOGLE=$(cat ../build-artifacts/SDK/swiftpackage_GoogleInteractiveMediaAds_checksum.txt)
+          CHECKSUM_OMSDK=$(cat ../build-artifacts/SDK/swiftpackage_OMSDK_Washpost_checksum.txt)
+          CHECKSUM_PAL=$(cat ../build-artifacts/SDK/swiftpackage_ProgrammaticAccessLibrary_checksum.txt)
+
+          echo "CHECKSUM_ARCXP: $CHECKSUM_ARCXP"
+          echo "CHECKSUM_GOOGLE: $CHECKSUM_GOOGLE"
+          echo "CHECKSUM_OMSDK: $CHECKSUM_OMSDK"
+          echo "CHECKSUM_PAL: $CHECKSUM_PAL"
+          
+          perl -pi -w -e "s/arcXPsdk_CS = .*/arcXPsdk_CS = \"$CHECKSUM_ARCXP\"/" Package.swift
+          perl -pi -w -e "s/googleAds_CS = .*/googleAds_CS = \"$CHECKSUM_GOOGLE\"/" Package.swift
+          perl -pi -w -e "s/omSDK_CS = .*/omSDK_CS = \"$CHECKSUM_OMSDK\"/" Package.swift
+          perl -pi -w -e "s/palSDK_CS = .*/palSDK_CS = \"$CHECKSUM_PAL\"/" Package.swift
+          
+          
+          echo "Updated Package.swift:"
+          cat Package.swift
+      - name: Commit and Push Updates
+        run: |
+          cd spm-repo
+          git add .
+          git commit -m "Update SPM package to version $SANITIZED_REF_NAME"
+          git tag "$SANITIZED_REF_NAME"
+          git push origin main --tags          
+
+      - name: publish podspec
+        run: |
+          ls ${{ github.workspace }}/ArcXP/Frameworks
+          cd ${{ github.workspace }}/ArcXP/Releases
+          pod spec lint ArcXP.podspec --private --allow-warnings --sources=arcxp,trunk --verbose
+          pod repo add arc-mobile-podspecs git@github.com:arcxp/arc-mobile-podspecs.git
+          pod repo push arc-mobile-podspecs ArcXP.podspec --private --allow-warnings --skip-import-validation --sources=arcxp,trunk --verbose

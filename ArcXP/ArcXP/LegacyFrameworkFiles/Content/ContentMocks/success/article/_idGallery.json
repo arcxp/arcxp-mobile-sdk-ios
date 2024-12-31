@@ -1,0 +1,1178 @@
+{
+    "_id": "KUD5XN7BMFHY7FKPT23WJ5TXQI",
+    "additional_properties": {
+        "has_published_copy": true,
+        "owner": "matthew.nelson@washpost.com",
+        "published": true,
+        "restricted": false,
+        "version": 4,
+        "roles": []
+    },
+    "canonical_url": "/2021/08/16/cats-of-arc/",
+    "canonical_website": "the-gazette",
+    "created_date": "2019-02-21T16:52:57Z",
+    "credits": {
+        "by": []
+    },
+    "description": {
+        "basic": "This is a gallery of Arc Cats."
+    },
+    "display_date": "2019-02-21T16:52:57Z",
+    "first_publish_date": "2019-02-21T16:52:57Z",
+    "headlines": {
+        "basic": "Cats of Arc"
+    },
+    "last_updated_date": "2021-08-16T17:24:59Z",
+    "owner": {
+        "id": "sandbox.corecomponents",
+        "sponsored": false
+    },
+    "promo_items": {
+        "lead_art": {
+            "_id": "BNPYOMX7LBCT3FXRYQGRWBBNAM",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/1GrgTi1dYh1aMQ3COizjcc2EGOA=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+                "galleries": [
+                    {
+                        "headlines": {
+                            "basic": "Cats of Arc"
+                        },
+                        "_id": "KUD5XN7BMFHY7FKPT23WJ5TXQI"
+                    }
+                ],
+                "galleryOrder": 0,
+                "ingestionMethod": "manual",
+                "keywords": [],
+                "mime_type": "image/jpeg",
+                "originalName": "IMG_5752.JPG",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+                "owner": "matthew.nelson@washpost.com",
+                "proxyUrl": "/resizer/1GrgTi1dYh1aMQ3COizjcc2EGOA=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/1GrgTi1dYh1aMQ3COizjcc2EGOA=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/Z_PxsFTrQjjQYOmtz8nEg1Gt8r4=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+                "version": 1
+            },
+            "address": {},
+            "created_date": "2019-02-21T16:51:24Z",
+            "credits": {
+                "by": []
+            },
+            "geo": {},
+            "height": 2123,
+            "last_updated_date": "2019-02-21T16:51:26Z",
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "related_content": {
+                "derivative_of": [
+                    {
+                        "_id": "ESTZKTX735GNBPIMBM2ZFTVWXY",
+                        "additional_properties": {
+                            "fullSizeResizeUrl": "/resizer/YgEMsRiLDP1DebZ8wS7MAc0eQaU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "galleries": [],
+                            "ingestionMethod": "manual",
+                            "keywords": [],
+                            "mime_type": "image/jpeg",
+                            "originalName": "IMG_5752.JPG",
+                            "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "owner": "matthew.nelson@washpost.com",
+                            "proxyUrl": "/resizer/YgEMsRiLDP1DebZ8wS7MAc0eQaU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "published": true,
+                            "resizeUrl": "/resizer/YgEMsRiLDP1DebZ8wS7MAc0eQaU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "restricted": false,
+                            "thumbnailResizeUrl": "/resizer/vZvrclbmAVDybga7pGTdf5lJAzA=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "version": 0
+                        },
+                        "address": {},
+                        "created_date": "2019-02-21T16:50:43Z",
+                        "credits": {
+                            "affiliation": []
+                        },
+                        "height": 2448,
+                        "last_updated_date": "2019-02-21T16:50:43Z",
+                        "licensable": false,
+                        "owner": {
+                            "id": "sandbox.corecomponents",
+                            "sponsored": false
+                        },
+                        "source": {
+                            "additional_properties": {
+                                "editor": "photo center"
+                            },
+                            "edit_url": "",
+                            "system": "photo center"
+                        },
+                        "subtitle": "michelle cat",
+                        "taxonomy": {
+                            "additional_properties": {},
+                            "associated_tasks": []
+                        },
+                        "type": "image",
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                        "version": "0.10.3",
+                        "width": 3264
+                    }
+                ]
+            },
+            "source": {
+                "additional_properties": {},
+                "edit_url": "",
+                "system": "Anglerfish"
+            },
+            "subtitle": "michelle cat",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/1GrgTi1dYh1aMQ3COizjcc2EGOA=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+            "version": "0.10.3",
+            "width": 2438
+        }
+    },
+    "publish_date": "2021-08-16T17:24:59Z",
+    "source": {
+        "additional_properties": {
+            "editor": "photo center"
+        },
+        "edit_url": "",
+        "system": "photo center"
+    },
+    "taxonomy": {
+        "additional_properties": {},
+        "primary_site": {
+            "_id": "/local",
+            "type": "site",
+            "version": "0.5.8",
+            "name": "Local",
+            "path": "/local",
+            "parent_id": "/",
+            "additional_properties": {
+                "original": {
+                    "_id": "/local",
+                    "name": "Local",
+                    "parent": {
+                        "default": "/"
+                    },
+                    "ancestors": {
+                        "default": []
+                    },
+                    "_admin": {
+                        "alias_ids": [
+                            "/local"
+                        ]
+                    },
+                    "inactive": false
+                }
+            }
+        },
+        "sections": [
+            {
+                "_id": "/local",
+                "_website": "the-gazette",
+                "type": "section",
+                "version": "0.6.0",
+                "name": "Local",
+                "path": "/local",
+                "parent_id": "/",
+                "parent": {
+                    "default": "/"
+                },
+                "additional_properties": {
+                    "original": {
+                        "_id": "/local",
+                        "name": "Local",
+                        "_website": "the-gazette",
+                        "parent": {
+                            "default": "/"
+                        },
+                        "ancestors": {
+                            "default": []
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/local"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section"
+                    }
+                },
+                "_website_section_id": "the-gazette./local"
+            },
+            {
+                "_id": "/business",
+                "_website": "the-gazette",
+                "type": "section",
+                "version": "0.6.0",
+                "name": "Business",
+                "path": "/business",
+                "parent_id": "/",
+                "parent": {
+                    "default": "/"
+                },
+                "additional_properties": {
+                    "original": {
+                        "_id": "/business",
+                        "name": "Business",
+                        "_website": "the-gazette",
+                        "parent": {
+                            "default": "/"
+                        },
+                        "ancestors": {
+                            "default": []
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/business"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section"
+                    }
+                },
+                "_website_section_id": "the-gazette./business"
+            }
+        ],
+        "sites": [
+            {
+                "_id": "/local",
+                "type": "site",
+                "version": "0.5.8",
+                "name": "Local",
+                "path": "/local",
+                "parent_id": "/",
+                "additional_properties": {
+                    "original": {
+                        "_id": "/local",
+                        "name": "Local",
+                        "parent": {
+                            "default": "/"
+                        },
+                        "ancestors": {
+                            "default": []
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/local"
+                            ]
+                        },
+                        "inactive": false
+                    }
+                }
+            },
+            {
+                "_id": "/business",
+                "type": "site",
+                "version": "0.5.8",
+                "name": "Business",
+                "path": "/business",
+                "parent_id": "/",
+                "additional_properties": {
+                    "original": {
+                        "_id": "/business",
+                        "name": "Business",
+                        "parent": {
+                            "default": "/"
+                        },
+                        "ancestors": {
+                            "default": []
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/business"
+                            ]
+                        },
+                        "inactive": false
+                    }
+                }
+            }
+        ]
+    },
+    "type": "gallery",
+    "version": "0.10.3",
+    "websites": {
+        "the-gazette": {
+            "website_section": {
+                "_id": "/local",
+                "_website": "the-gazette",
+                "type": "section",
+                "version": "0.6.0",
+                "name": "Local",
+                "path": "/local",
+                "parent_id": "/",
+                "parent": {
+                    "default": "/"
+                },
+                "additional_properties": {
+                    "original": {
+                        "_id": "/local",
+                        "name": "Local",
+                        "_website": "the-gazette",
+                        "parent": {
+                            "default": "/"
+                        },
+                        "ancestors": {
+                            "default": []
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/local"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section"
+                    }
+                },
+                "_website_section_id": "the-gazette./local"
+            },
+            "website_url": "/2021/08/16/cats-of-arc/"
+        }
+    },
+    "content_elements": [
+        {
+            "_id": "BNPYOMX7LBCT3FXRYQGRWBBNAM",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/1GrgTi1dYh1aMQ3COizjcc2EGOA=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+                "galleries": [
+                    {
+                        "headlines": {
+                            "basic": "Cats of Arc"
+                        },
+                        "_id": "KUD5XN7BMFHY7FKPT23WJ5TXQI"
+                    }
+                ],
+                "galleryOrder": 0,
+                "ingestionMethod": "manual",
+                "keywords": [],
+                "mime_type": "image/jpeg",
+                "originalName": "IMG_5752.JPG",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+                "owner": "matthew.nelson@washpost.com",
+                "proxyUrl": "/resizer/1GrgTi1dYh1aMQ3COizjcc2EGOA=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/1GrgTi1dYh1aMQ3COizjcc2EGOA=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+                "restricted": false,
+                "version": 1
+            },
+            "address": {},
+            "created_date": "2019-02-21T16:51:24Z",
+            "credits": {
+                "by": []
+            },
+            "geo": {},
+            "height": 2123,
+            "last_updated_date": "2019-02-21T16:51:26Z",
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "related_content": {
+                "derivative_of": [
+                    {
+                        "_id": "ESTZKTX735GNBPIMBM2ZFTVWXY",
+                        "additional_properties": {
+                            "fullSizeResizeUrl": "/resizer/YgEMsRiLDP1DebZ8wS7MAc0eQaU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "galleries": [],
+                            "ingestionMethod": "manual",
+                            "keywords": [],
+                            "mime_type": "image/jpeg",
+                            "originalName": "IMG_5752.JPG",
+                            "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "owner": "matthew.nelson@washpost.com",
+                            "proxyUrl": "/resizer/YgEMsRiLDP1DebZ8wS7MAc0eQaU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "published": true,
+                            "resizeUrl": "/resizer/YgEMsRiLDP1DebZ8wS7MAc0eQaU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "restricted": false,
+                            "thumbnailResizeUrl": "/resizer/vZvrclbmAVDybga7pGTdf5lJAzA=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                            "version": 0
+                        },
+                        "address": {},
+                        "created_date": "2019-02-21T16:50:43Z",
+                        "credits": {
+                            "affiliation": []
+                        },
+                        "height": 2448,
+                        "last_updated_date": "2019-02-21T16:50:43Z",
+                        "licensable": false,
+                        "owner": {
+                            "id": "sandbox.corecomponents",
+                            "sponsored": false
+                        },
+                        "source": {
+                            "additional_properties": {
+                                "editor": "photo center"
+                            },
+                            "edit_url": "",
+                            "system": "photo center"
+                        },
+                        "subtitle": "michelle cat",
+                        "taxonomy": {
+                            "additional_properties": {},
+                            "associated_tasks": []
+                        },
+                        "type": "image",
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/ESTZKTX735GNBPIMBM2ZFTVWXY.JPG",
+                        "version": "0.10.3",
+                        "width": 3264
+                    }
+                ]
+            },
+            "source": {
+                "additional_properties": {},
+                "edit_url": "",
+                "system": "Anglerfish"
+            },
+            "subtitle": "michelle cat",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/1GrgTi1dYh1aMQ3COizjcc2EGOA=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/BNPYOMX7LBCT3FXRYQGRWBBNAM.JPG",
+            "version": "0.10.3",
+            "width": 2438
+        },
+        {
+            "_id": "TONB3GC7SBAQDGACCGA5UPF5UA",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/Tc6HUQgIzIa9_YHTb4mudOjw2H0=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/TONB3GC7SBAQDGACCGA5UPF5UA.JPG",
+                "galleries": [],
+                "galleryOrder": 1,
+                "ingestionMethod": "manual",
+                "keywords": [
+                    ""
+                ],
+                "mime_type": "image/jpeg",
+                "originalName": "IMG_2775.JPG",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/TONB3GC7SBAQDGACCGA5UPF5UA.JPG",
+                "owner": "matthew.nelson@washpost.com",
+                "proxyUrl": "/resizer/Tc6HUQgIzIa9_YHTb4mudOjw2H0=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/TONB3GC7SBAQDGACCGA5UPF5UA.JPG",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/Tc6HUQgIzIa9_YHTb4mudOjw2H0=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/TONB3GC7SBAQDGACCGA5UPF5UA.JPG",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/vsJZ9jjBKXS9sX-43csyKDJp81k=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/TONB3GC7SBAQDGACCGA5UPF5UA.JPG",
+                "version": 0
+            },
+            "address": {},
+            "credits": {
+                "affiliation": []
+            },
+            "height": 4032,
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "subtitle": "monte",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/Tc6HUQgIzIa9_YHTb4mudOjw2H0=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/TONB3GC7SBAQDGACCGA5UPF5UA.JPG",
+            "version": "0.10.3",
+            "width": 3024
+        },
+        {
+            "_id": "5OPJFEJNWBGUTMA3R3Y6JAVW5I",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/IWiMhBwHYFP3m4iVDRAW9gP6QYg=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/5OPJFEJNWBGUTMA3R3Y6JAVW5I.jpg",
+                "galleries": [],
+                "galleryOrder": 2,
+                "ingestionMethod": "manual",
+                "keywords": [
+                    ""
+                ],
+                "mime_type": "image/jpeg",
+                "originalName": "Image from iOS (1).jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/5OPJFEJNWBGUTMA3R3Y6JAVW5I.jpg",
+                "owner": "matthew.nelson@washpost.com",
+                "proxyUrl": "/resizer/IWiMhBwHYFP3m4iVDRAW9gP6QYg=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/5OPJFEJNWBGUTMA3R3Y6JAVW5I.jpg",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/IWiMhBwHYFP3m4iVDRAW9gP6QYg=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/5OPJFEJNWBGUTMA3R3Y6JAVW5I.jpg",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/YsGB2Y9sxAsMHulL8sAShSnoat4=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/5OPJFEJNWBGUTMA3R3Y6JAVW5I.jpg",
+                "version": 0
+            },
+            "address": {},
+            "credits": {
+                "affiliation": []
+            },
+            "height": 4032,
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "subtitle": "Cat",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/IWiMhBwHYFP3m4iVDRAW9gP6QYg=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/5OPJFEJNWBGUTMA3R3Y6JAVW5I.jpg",
+            "version": "0.10.3",
+            "width": 3024
+        },
+        {
+            "_id": "C5XUI2AH2VDLDBKJRFNB73XYWM",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/GcRh0kB9tA6szaWFMtzNSB9cbPY=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/C5XUI2AH2VDLDBKJRFNB73XYWM.jpg",
+                "galleries": [],
+                "galleryOrder": 3,
+                "ingestionMethod": "manual",
+                "keywords": [
+                    ""
+                ],
+                "mime_type": "image/jpeg",
+                "originalName": "V__30CF.jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/C5XUI2AH2VDLDBKJRFNB73XYWM.jpg",
+                "owner": "matthew.nelson@washpost.com",
+                "proxyUrl": "/resizer/GcRh0kB9tA6szaWFMtzNSB9cbPY=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/C5XUI2AH2VDLDBKJRFNB73XYWM.jpg",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/GcRh0kB9tA6szaWFMtzNSB9cbPY=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/C5XUI2AH2VDLDBKJRFNB73XYWM.jpg",
+                "restricted": false,
+                "takenOn": "2016-10-30T20:56:52Z",
+                "thumbnailResizeUrl": "/resizer/5PrVpqMPBCKnRZ0kjr2t8Dy2zRU=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/C5XUI2AH2VDLDBKJRFNB73XYWM.jpg",
+                "version": 0
+            },
+            "address": {},
+            "credits": {
+                "affiliation": [],
+                "by": [
+                    {
+                        "additional_properties": {},
+                        "byline": "Picasa",
+                        "name": "Picasa",
+                        "type": "author"
+                    }
+                ]
+            },
+            "height": 1600,
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "subtitle": "Turtle kitty",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/GcRh0kB9tA6szaWFMtzNSB9cbPY=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/C5XUI2AH2VDLDBKJRFNB73XYWM.jpg",
+            "version": "0.10.3",
+            "width": 1195
+        },
+        {
+            "_id": "I5VLXXVEAFATRPO4PQ33WT6LAM",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/g7-tSY8LEWts3Ixa_ulb8qBLxgk=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/I5VLXXVEAFATRPO4PQ33WT6LAM.jpg",
+                "galleries": [
+                    {
+                        "headlines": {
+                            "basic": "Cats of Arc"
+                        },
+                        "_id": "KUD5XN7BMFHY7FKPT23WJ5TXQI"
+                    }
+                ],
+                "galleryOrder": 4,
+                "ingestionMethod": "manual",
+                "iptc_title": "Developer",
+                "keywords": [
+                    ""
+                ],
+                "mime_type": "image/jpeg",
+                "originalName": "image_from_ios (1).jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/I5VLXXVEAFATRPO4PQ33WT6LAM.jpg",
+                "owner": "william.cook@washpost.com",
+                "proxyUrl": "/resizer/g7-tSY8LEWts3Ixa_ulb8qBLxgk=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/I5VLXXVEAFATRPO4PQ33WT6LAM.jpg",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/g7-tSY8LEWts3Ixa_ulb8qBLxgk=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/I5VLXXVEAFATRPO4PQ33WT6LAM.jpg",
+                "restricted": false,
+                "takenOn": "2019-02-21T16:10:00Z",
+                "thumbnailResizeUrl": "/resizer/1ZuGZuUcS8Tczr4Dxog3eIcNgUo=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/I5VLXXVEAFATRPO4PQ33WT6LAM.jpg",
+                "version": 1
+            },
+            "address": {},
+            "created_date": "2019-02-21T16:11:26Z",
+            "credits": {
+                "by": []
+            },
+            "geo": {},
+            "height": 842,
+            "last_updated_date": "2019-02-21T16:11:32Z",
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "related_content": {
+                "derivative_of": [
+                    {
+                        "_id": "GMAI6O5H65BELIVFTZOXXE2KMU",
+                        "additional_properties": {
+                            "fullSizeResizeUrl": "/resizer/pJjh70ttPASYiizIN9cBLWavL5c=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/GMAI6O5H65BELIVFTZOXXE2KMU.jpg",
+                            "galleries": [],
+                            "ingestionMethod": "manual",
+                            "iptc_title": "Developer",
+                            "keywords": [
+                                ""
+                            ],
+                            "mime_type": "image/jpeg",
+                            "originalName": "image_from_ios (1).jpg",
+                            "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/GMAI6O5H65BELIVFTZOXXE2KMU.jpg",
+                            "owner": "william.cook@washpost.com",
+                            "proxyUrl": "/resizer/pJjh70ttPASYiizIN9cBLWavL5c=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/GMAI6O5H65BELIVFTZOXXE2KMU.jpg",
+                            "published": true,
+                            "resizeUrl": "/resizer/pJjh70ttPASYiizIN9cBLWavL5c=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/GMAI6O5H65BELIVFTZOXXE2KMU.jpg",
+                            "restricted": false,
+                            "takenOn": "2019-02-21T16:10:00Z",
+                            "thumbnailResizeUrl": "/resizer/6mdKveZCok0_BRQ4eHGkLzryly8=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/GMAI6O5H65BELIVFTZOXXE2KMU.jpg",
+                            "version": 0
+                        },
+                        "address": {},
+                        "created_date": "2019-02-21T16:10:39Z",
+                        "credits": {
+                            "affiliation": [
+                                {
+                                    "additional_properties": {},
+                                    "name": "Will Cook",
+                                    "type": "author"
+                                }
+                            ]
+                        },
+                        "height": 2208,
+                        "last_updated_date": "2019-02-21T16:10:39Z",
+                        "licensable": false,
+                        "owner": {
+                            "id": "sandbox.corecomponents",
+                            "sponsored": false
+                        },
+                        "slug": "miki",
+                        "source": {
+                            "additional_properties": {
+                                "editor": "photo center"
+                            },
+                            "edit_url": "",
+                            "system": "photo center"
+                        },
+                        "subtitle": "Miki Naps in Box",
+                        "taxonomy": {
+                            "additional_properties": {},
+                            "associated_tasks": []
+                        },
+                        "type": "image",
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/GMAI6O5H65BELIVFTZOXXE2KMU.jpg",
+                        "version": "0.10.3",
+                        "width": 1122,
+                        "editor_note": "Miki naps in box."
+                    }
+                ]
+            },
+            "slug": "miki",
+            "source": {
+                "additional_properties": {},
+                "edit_url": "",
+                "system": "Anglerfish"
+            },
+            "subtitle": "Miki Naps in Box",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/g7-tSY8LEWts3Ixa_ulb8qBLxgk=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/I5VLXXVEAFATRPO4PQ33WT6LAM.jpg",
+            "version": "0.10.3",
+            "width": 1122,
+            "editor_note": "Miki naps in box."
+        },
+        {
+            "_id": "YX3I23GKNZD6RLN52XJ2PKF7LU",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/TCgU6F7dkvA_Ujg-HXhmMnNlieU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/YX3I23GKNZD6RLN52XJ2PKF7LU.jpg",
+                "galleries": [
+                    {
+                        "headlines": {
+                            "basic": "Cats of Arc"
+                        },
+                        "_id": "KUD5XN7BMFHY7FKPT23WJ5TXQI"
+                    }
+                ],
+                "galleryOrder": 5,
+                "ingestionMethod": "manual",
+                "iptc_title": "Developer",
+                "keywords": [
+                    "",
+                    "cat",
+                    "nap",
+                    "oreo"
+                ],
+                "mime_type": "image/jpeg",
+                "originalName": "image_from_ios.jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/YX3I23GKNZD6RLN52XJ2PKF7LU.jpg",
+                "owner": "william.cook@washpost.com",
+                "proxyUrl": "/resizer/TCgU6F7dkvA_Ujg-HXhmMnNlieU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/YX3I23GKNZD6RLN52XJ2PKF7LU.jpg",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/TCgU6F7dkvA_Ujg-HXhmMnNlieU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/YX3I23GKNZD6RLN52XJ2PKF7LU.jpg",
+                "restricted": false,
+                "takenOn": "2019-02-21T16:05:00Z",
+                "thumbnailResizeUrl": "/resizer/HT6WwVB2t1F_rbFg6PiQNtYAIS4=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/YX3I23GKNZD6RLN52XJ2PKF7LU.jpg",
+                "version": 1
+            },
+            "address": {},
+            "created_date": "2019-02-21T16:12:27Z",
+            "credits": {
+                "by": []
+            },
+            "geo": {},
+            "height": 2268,
+            "last_updated_date": "2019-02-21T16:12:29Z",
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "related_content": {
+                "derivative_of": [
+                    {
+                        "_id": "5B6GVPCW4FEMZKTJKUIQ37ZSNY",
+                        "additional_properties": {
+                            "fullSizeResizeUrl": "/resizer/46XneT8vHsD4-h75hdcPJMoHvGg=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/5B6GVPCW4FEMZKTJKUIQ37ZSNY.jpg",
+                            "galleries": [],
+                            "ingestionMethod": "manual",
+                            "iptc_title": "Developer",
+                            "keywords": [
+                                "",
+                                "cat",
+                                "nap",
+                                "oreo"
+                            ],
+                            "mime_type": "image/jpeg",
+                            "originalName": "image_from_ios.jpg",
+                            "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/5B6GVPCW4FEMZKTJKUIQ37ZSNY.jpg",
+                            "owner": "william.cook@washpost.com",
+                            "proxyUrl": "/resizer/46XneT8vHsD4-h75hdcPJMoHvGg=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/5B6GVPCW4FEMZKTJKUIQ37ZSNY.jpg",
+                            "published": true,
+                            "resizeUrl": "/resizer/46XneT8vHsD4-h75hdcPJMoHvGg=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/5B6GVPCW4FEMZKTJKUIQ37ZSNY.jpg",
+                            "restricted": false,
+                            "takenOn": "2019-02-21T16:05:00Z",
+                            "thumbnailResizeUrl": "/resizer/K2uJn3U0h-yvFYlnByNw0g-C4IE=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/5B6GVPCW4FEMZKTJKUIQ37ZSNY.jpg",
+                            "version": 0
+                        },
+                        "address": {},
+                        "created_date": "2019-02-21T16:06:06Z",
+                        "credits": {
+                            "affiliation": [
+                                {
+                                    "additional_properties": {},
+                                    "name": "Will Cook",
+                                    "type": "author"
+                                }
+                            ]
+                        },
+                        "height": 4032,
+                        "last_updated_date": "2019-02-21T16:06:06Z",
+                        "licensable": false,
+                        "owner": {
+                            "id": "sandbox.corecomponents",
+                            "sponsored": false
+                        },
+                        "slug": "oreo",
+                        "source": {
+                            "additional_properties": {
+                                "editor": "photo center"
+                            },
+                            "edit_url": "",
+                            "system": "photo center"
+                        },
+                        "subtitle": "Oreo Naptime",
+                        "taxonomy": {
+                            "additional_properties": {},
+                            "associated_tasks": []
+                        },
+                        "type": "image",
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/5B6GVPCW4FEMZKTJKUIQ37ZSNY.jpg",
+                        "version": "0.10.3",
+                        "width": 3024,
+                        "editor_note": "Oreo taking a nap."
+                    }
+                ]
+            },
+            "slug": "oreo",
+            "source": {
+                "additional_properties": {},
+                "edit_url": "",
+                "system": "Anglerfish"
+            },
+            "subtitle": "Oreo Naptime",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/TCgU6F7dkvA_Ujg-HXhmMnNlieU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/YX3I23GKNZD6RLN52XJ2PKF7LU.jpg",
+            "version": "0.10.3",
+            "width": 3024,
+            "editor_note": "Oreo taking a nap."
+        },
+        {
+            "_id": "JTRWKF4N5BH3ZLMIIQ7USR4YFU",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/S-gcvu7Op2hVdOHJeTrFrHihjOU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/JTRWKF4N5BH3ZLMIIQ7USR4YFU.jpg",
+                "galleries": [
+                    {
+                        "headlines": {
+                            "basic": "Cats of Arc"
+                        },
+                        "_id": "KUD5XN7BMFHY7FKPT23WJ5TXQI"
+                    }
+                ],
+                "galleryOrder": 6,
+                "ingestionMethod": "manual",
+                "keywords": [],
+                "mime_type": "image/jpeg",
+                "originalName": "IMG_5590.jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/JTRWKF4N5BH3ZLMIIQ7USR4YFU.jpg",
+                "owner": "melissa.depuydt@washpost.com",
+                "proxyUrl": "/resizer/S-gcvu7Op2hVdOHJeTrFrHihjOU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/JTRWKF4N5BH3ZLMIIQ7USR4YFU.jpg",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/S-gcvu7Op2hVdOHJeTrFrHihjOU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/JTRWKF4N5BH3ZLMIIQ7USR4YFU.jpg",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/be0FWBcr0Op25mqvJx6pyLMq0LM=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/JTRWKF4N5BH3ZLMIIQ7USR4YFU.jpg",
+                "version": 1
+            },
+            "address": {},
+            "created_date": "2019-02-21T16:08:51Z",
+            "credits": {
+                "by": []
+            },
+            "geo": {},
+            "height": 1651,
+            "last_updated_date": "2019-02-21T16:08:57Z",
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "related_content": {
+                "derivative_of": [
+                    {
+                        "_id": "NQLHZG3R6JCZHEEJUHPZHM7AGY",
+                        "additional_properties": {
+                            "fullSizeResizeUrl": "/resizer/QoA_gzzpAohOrUkW6MAJHbvRExQ=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/NQLHZG3R6JCZHEEJUHPZHM7AGY.jpg",
+                            "galleries": [],
+                            "ingestionMethod": "manual",
+                            "keywords": [],
+                            "mime_type": "image/jpeg",
+                            "originalName": "IMG_5590.jpg",
+                            "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/NQLHZG3R6JCZHEEJUHPZHM7AGY.jpg",
+                            "owner": "melissa.depuydt@washpost.com",
+                            "proxyUrl": "/resizer/QoA_gzzpAohOrUkW6MAJHbvRExQ=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/NQLHZG3R6JCZHEEJUHPZHM7AGY.jpg",
+                            "published": true,
+                            "resizeUrl": "/resizer/QoA_gzzpAohOrUkW6MAJHbvRExQ=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/NQLHZG3R6JCZHEEJUHPZHM7AGY.jpg",
+                            "restricted": false,
+                            "thumbnailResizeUrl": "/resizer/f8QUG3FKu4ZqHUebmk3N0xK2Zo4=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/NQLHZG3R6JCZHEEJUHPZHM7AGY.jpg",
+                            "version": 0
+                        },
+                        "address": {},
+                        "created_date": "2019-02-21T16:05:26Z",
+                        "credits": {
+                            "affiliation": []
+                        },
+                        "height": 3024,
+                        "last_updated_date": "2019-02-21T16:05:26Z",
+                        "licensable": false,
+                        "owner": {
+                            "id": "sandbox.corecomponents",
+                            "sponsored": false
+                        },
+                        "source": {
+                            "additional_properties": {
+                                "editor": "photo center"
+                            },
+                            "edit_url": "",
+                            "system": "photo center"
+                        },
+                        "subtitle": "Albus",
+                        "taxonomy": {
+                            "additional_properties": {},
+                            "associated_tasks": []
+                        },
+                        "type": "image",
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/NQLHZG3R6JCZHEEJUHPZHM7AGY.jpg",
+                        "version": "0.10.3",
+                        "width": 4032
+                    }
+                ]
+            },
+            "source": {
+                "additional_properties": {},
+                "edit_url": "",
+                "system": "Anglerfish"
+            },
+            "subtitle": "Albus",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/S-gcvu7Op2hVdOHJeTrFrHihjOU=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/JTRWKF4N5BH3ZLMIIQ7USR4YFU.jpg",
+            "version": "0.10.3",
+            "width": 2201
+        },
+        {
+            "_id": "RIINOEOPJNB53KFHGEVZOYGHBQ",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/7s5HZuPDaSPriMsZGiKNkBqv93U=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/RIINOEOPJNB53KFHGEVZOYGHBQ.jpg",
+                "galleries": [
+                    {
+                        "headlines": {
+                            "basic": "Cats of Arc"
+                        },
+                        "_id": "KUD5XN7BMFHY7FKPT23WJ5TXQI"
+                    }
+                ],
+                "galleryOrder": 7,
+                "ingestionMethod": "manual",
+                "keywords": [],
+                "mime_type": "image/jpeg",
+                "originalName": "IMG_6959.jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/RIINOEOPJNB53KFHGEVZOYGHBQ.jpg",
+                "owner": "melissa.depuydt@washpost.com",
+                "proxyUrl": "/resizer/7s5HZuPDaSPriMsZGiKNkBqv93U=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/RIINOEOPJNB53KFHGEVZOYGHBQ.jpg",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/7s5HZuPDaSPriMsZGiKNkBqv93U=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/RIINOEOPJNB53KFHGEVZOYGHBQ.jpg",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/ThWn4tXKvbW6Sr-ferBkBhAD-EE=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/RIINOEOPJNB53KFHGEVZOYGHBQ.jpg",
+                "version": 1
+            },
+            "address": {},
+            "created_date": "2019-02-21T16:06:43Z",
+            "credits": {
+                "by": []
+            },
+            "geo": {},
+            "height": 2268,
+            "last_updated_date": "2019-02-21T16:06:50Z",
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "related_content": {
+                "derivative_of": [
+                    {
+                        "_id": "PAUJSXZD55EPVGAS6C3LIBILAY",
+                        "additional_properties": {
+                            "fullSizeResizeUrl": "/resizer/bQ5dl4OiXEhkixpovpcofdWsGoM=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/PAUJSXZD55EPVGAS6C3LIBILAY.jpg",
+                            "galleries": [],
+                            "ingestionMethod": "manual",
+                            "keywords": [],
+                            "mime_type": "image/jpeg",
+                            "originalName": "IMG_6959.jpg",
+                            "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/PAUJSXZD55EPVGAS6C3LIBILAY.jpg",
+                            "owner": "melissa.depuydt@washpost.com",
+                            "proxyUrl": "/resizer/bQ5dl4OiXEhkixpovpcofdWsGoM=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/PAUJSXZD55EPVGAS6C3LIBILAY.jpg",
+                            "published": true,
+                            "resizeUrl": "/resizer/bQ5dl4OiXEhkixpovpcofdWsGoM=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/PAUJSXZD55EPVGAS6C3LIBILAY.jpg",
+                            "restricted": false,
+                            "thumbnailResizeUrl": "/resizer/CC6qQPbsV9MeYvk-7d9XsW3inbY=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/PAUJSXZD55EPVGAS6C3LIBILAY.jpg",
+                            "version": 0
+                        },
+                        "address": {},
+                        "created_date": "2019-02-21T16:06:00Z",
+                        "credits": {
+                            "affiliation": []
+                        },
+                        "height": 3024,
+                        "last_updated_date": "2019-02-21T16:06:00Z",
+                        "licensable": false,
+                        "owner": {
+                            "id": "sandbox.corecomponents",
+                            "sponsored": false
+                        },
+                        "source": {
+                            "additional_properties": {
+                                "editor": "photo center"
+                            },
+                            "edit_url": "",
+                            "system": "photo center"
+                        },
+                        "subtitle": "he fits, he sits",
+                        "taxonomy": {
+                            "additional_properties": {},
+                            "associated_tasks": []
+                        },
+                        "type": "image",
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/PAUJSXZD55EPVGAS6C3LIBILAY.jpg",
+                        "version": "0.10.3",
+                        "width": 4032
+                    }
+                ]
+            },
+            "source": {
+                "additional_properties": {},
+                "edit_url": "",
+                "system": "Anglerfish"
+            },
+            "subtitle": "he fits, he sits",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/7s5HZuPDaSPriMsZGiKNkBqv93U=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/RIINOEOPJNB53KFHGEVZOYGHBQ.jpg",
+            "version": "0.10.3",
+            "width": 3024
+        },
+        {
+            "_id": "PXSGHHECONEXHODQ6NVDZXVPZM",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/uyxUae4e-3YfUPDA0PBeN4ewhzk=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/PXSGHHECONEXHODQ6NVDZXVPZM.jpg",
+                "galleries": [],
+                "galleryOrder": 8,
+                "ingestionMethod": "manual",
+                "keywords": [],
+                "mime_type": "image/jpeg",
+                "originalName": "IMG_20171021_132711.jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/PXSGHHECONEXHODQ6NVDZXVPZM.jpg",
+                "owner": "susan.tyler@washpost.com",
+                "proxyUrl": "/resizer/uyxUae4e-3YfUPDA0PBeN4ewhzk=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/PXSGHHECONEXHODQ6NVDZXVPZM.jpg",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/uyxUae4e-3YfUPDA0PBeN4ewhzk=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/PXSGHHECONEXHODQ6NVDZXVPZM.jpg",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/KjsHvYmMU4YBqp8ZFEDIO93dt8U=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/PXSGHHECONEXHODQ6NVDZXVPZM.jpg",
+                "version": 0
+            },
+            "address": {},
+            "credits": {
+                "affiliation": []
+            },
+            "height": 3024,
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "subtitle": "Thriller",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/uyxUae4e-3YfUPDA0PBeN4ewhzk=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/PXSGHHECONEXHODQ6NVDZXVPZM.jpg",
+            "version": "0.10.3",
+            "width": 4032
+        },
+        {
+            "_id": "55VYTIER35C5DIPJ5GYUR6KROE",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/Fdw_t2G3kSEjvym1y4GPE3amFck=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/55VYTIER35C5DIPJ5GYUR6KROE.jpg",
+                "galleries": [],
+                "galleryOrder": 9,
+                "ingestionMethod": "manual",
+                "keywords": [],
+                "mime_type": "image/jpeg",
+                "originalName": "the gambler.jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/55VYTIER35C5DIPJ5GYUR6KROE.jpg",
+                "owner": "eric.carlisle@washpost.com",
+                "proxyUrl": "/resizer/Fdw_t2G3kSEjvym1y4GPE3amFck=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/55VYTIER35C5DIPJ5GYUR6KROE.jpg",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/Fdw_t2G3kSEjvym1y4GPE3amFck=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/55VYTIER35C5DIPJ5GYUR6KROE.jpg",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/RQQhSg2Utzw6aiCjYfPzw6uHS3w=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/55VYTIER35C5DIPJ5GYUR6KROE.jpg",
+                "version": 0
+            },
+            "address": {},
+            "credits": {
+                "affiliation": []
+            },
+            "height": 898,
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "subtitle": "The Gambler",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/Fdw_t2G3kSEjvym1y4GPE3amFck=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/55VYTIER35C5DIPJ5GYUR6KROE.jpg",
+            "version": "0.10.3",
+            "width": 1198
+        },
+        {
+            "_id": "43Z756DP3RCCPHPYEERIGOXFFQ",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/J0C0ik_P50egpt45xMKOi0SEG-g=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/43Z756DP3RCCPHPYEERIGOXFFQ.jpg",
+                "galleries": [],
+                "galleryOrder": 10,
+                "ingestionMethod": "manual",
+                "keywords": [],
+                "mime_type": "image/jpeg",
+                "originalName": "secretgarden.jpg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.corecomponents/43Z756DP3RCCPHPYEERIGOXFFQ.jpg",
+                "owner": "joseph.gilbert@washpost.com",
+                "proxyUrl": "/resizer/J0C0ik_P50egpt45xMKOi0SEG-g=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/43Z756DP3RCCPHPYEERIGOXFFQ.jpg",
+                "ptgVersion": 0,
+                "published": true,
+                "resizeUrl": "/resizer/J0C0ik_P50egpt45xMKOi0SEG-g=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/43Z756DP3RCCPHPYEERIGOXFFQ.jpg",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/Or14R0bFgX2fOwlm2Oot_umjsEs=/300x0/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/43Z756DP3RCCPHPYEERIGOXFFQ.jpg",
+                "version": 0
+            },
+            "address": {},
+            "credits": {
+                "affiliation": []
+            },
+            "height": 1202,
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.corecomponents",
+                "sponsored": false
+            },
+            "subtitle": "Wildcat spotted!",
+            "taxonomy": {
+                "additional_properties": {},
+                "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://corecomponents-the-gazette-prod.cdn.arcpublishing.com//resizer/J0C0ik_P50egpt45xMKOi0SEG-g=/arc-anglerfish-arc2-sandbox-sandbox-corecomponents/public/43Z756DP3RCCPHPYEERIGOXFFQ.jpg",
+            "version": "0.10.3",
+            "width": 675
+        }
+    ],
+    "slug": "cats-of-arc",
+    "revision": {
+        "branch": "default",
+        "published": true
+    },
+    "publishing": {
+        "scheduled_operations": {
+            "publish_edition": [],
+            "unpublish_edition": []
+        }
+    },
+    "website": "the-gazette",
+    "website_url": "/2021/08/16/cats-of-arc/"
+}

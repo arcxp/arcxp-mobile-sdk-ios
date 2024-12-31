@@ -1,0 +1,1107 @@
+{
+    "_id": "ZG2K2TOPRFCQNMEPRDKWCAQ6PU",
+    "type": "story",
+    "version": "0.10.7",
+    "content_elements": [{
+            "_id": "6NZMXNVIGJCMLGIONUOJSDDO6U",
+            "additional_properties": {
+                "has_published_copy": true,
+                "owner": "david.zimmerly@washpost.com",
+                "published": true,
+                "restricted": false,
+                "version": 2,
+                "roles": [],
+                "_id": "36TKVZ4ZJVA3LNWKWM2TZQZ3OM",
+                "comments": []
+            },
+            "canonical_url": "/2022/04/04/test-gallery-2/",
+            "canonical_website": "arcsales",
+            "created_date": "2022-04-04T19:50:57Z",
+            "description": {
+                "basic": ""
+            },
+            "display_date": "2022-04-04T19:51:04Z",
+            "first_publish_date": "2022-04-04T19:51:04Z",
+            "headlines": {
+                "basic": "test gallery 2"
+            },
+            "last_updated_date": "2022-04-04T19:51:05Z",
+            "owner": {
+                "id": "sandbox.arcsales",
+                "sponsored": false
+            },
+            "promo_items": {
+                "basic": {
+                    "_id": "NUMTKIDQ7JHWXCHAIKKGE2JYXQ",
+                    "additional_properties": {
+                        "countryId": 100,
+                        "fullSizeResizeUrl": "/resizer/XUrRvKcPPrVVOJACqgjyahtWuls=/arc-photo-arcsales/arc2-sandbox/public/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "galleries": [],
+                        "galleryOrder": 0,
+                        "ingestionMethod": "manual",
+                        "iptc_job_identifier": "GDN",
+                        "iptc_source": "X90166",
+                        "keywords": [
+                            ""
+                        ],
+                        "mime_type": "image/jpeg",
+                        "originalName": "2022-03-19t000000z_702330409_rc2n5t9p51p6_rtrmadp_3_india-japan.jpeg",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "owner": "meera.kulkarni@washpost.com",
+                        "proxyUrl": "/resizer/XUrRvKcPPrVVOJACqgjyahtWuls=/arc-photo-arcsales/arc2-sandbox/public/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/XUrRvKcPPrVVOJACqgjyahtWuls=/arc-photo-arcsales/arc2-sandbox/public/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "restricted": false,
+                        "takenOn": "2022-03-19T00:00:00Z",
+                        "thumbnailResizeUrl": "/resizer/4FTSEUvba9fpRbAsPqHtIdx9Gp4=/300x0/arc-photo-arcsales/arc2-sandbox/public/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "version": 0,
+                        "template_id": 1403
+                    },
+                    "address": {
+                        "locality": "New Delhi",
+                        "country_name": "IND"
+                    },
+                    "caption": "Indian Prime Minister Narendra Modi welcomes Japanese Prime Minister Fumio Kishida ahead of their meeting at Hyderabad House, in New Delhi, India, March 19, 2022. REUTERS/Adnan Abidi",
+                    "credits": {
+                        "affiliation": [{
+                            "name": "REUTERS",
+                            "type": "author"
+                        }],
+                        "by": [{
+                            "byline": "Adnan Abidi",
+                            "name": "Adnan Abidi",
+                            "type": "author"
+                        }]
+                    },
+                    "height": 4200,
+                    "image_type": "photograph",
+                    "licensable": false,
+                    "owner": {
+                        "id": "sandbox.arcsales",
+                        "sponsored": false
+                    },
+                    "slug": "INDIA-JAPAN/",
+                    "subtitle": "Japanese Prime Minister Fumio Kishida meets Indian Prime Minister Narendra Modi in New Delhi",
+                    "taxonomy": {
+                        "associated_tasks": []
+                    },
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                    "version": "0.10.3",
+                    "width": 6057,
+                    "syndication": {},
+                    "creditIPTC": "REUTERS",
+                    "country_name": "India"
+                }
+            },
+            "publish_date": "2022-04-04T19:51:04Z",
+            "source": {
+                "additional_properties": {
+                    "editor": "photo center"
+                },
+                "edit_url": "https://sandbox.arcsales.arcpublishing.com/photo/gallery/6NZMXNVIGJCMLGIONUOJSDDO6U",
+                "system": "photo center"
+            },
+            "taxonomy": {
+                "primary_site": {
+                    "referent": {
+                        "id": "/politics",
+                        "type": "site"
+                    },
+                    "type": "reference"
+                },
+                "sections": [{
+                    "referent": {
+                        "id": "/politics",
+                        "provider": "",
+                        "type": "section",
+                        "website": "arcsales"
+                    },
+                    "type": "reference"
+                }],
+                "sites": [{
+                    "referent": {
+                        "id": "/politics",
+                        "type": "site"
+                    },
+                    "type": "reference"
+                }]
+            },
+            "type": "gallery",
+            "version": "0.10.3",
+            "websites": {
+                "arcsales": {
+                    "website_section": {
+                        "referent": {
+                            "id": "/politics",
+                            "provider": "",
+                            "type": "section",
+                            "website": "arcsales"
+                        },
+                        "type": "reference"
+                    },
+                    "website_url": "/2022/04/04/test-gallery-2/"
+                }
+            },
+            "workflow": {
+                "note": "",
+                "status_code": 1
+            },
+            "content_elements": [{
+                    "_id": "NUMTKIDQ7JHWXCHAIKKGE2JYXQ",
+                    "additional_properties": {
+                        "countryId": 100,
+                        "fullSizeResizeUrl": "/resizer/XUrRvKcPPrVVOJACqgjyahtWuls=/arc-photo-arcsales/arc2-sandbox/public/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "galleries": [],
+                        "galleryOrder": 0,
+                        "ingestionMethod": "manual",
+                        "iptc_job_identifier": "GDN",
+                        "iptc_source": "X90166",
+                        "keywords": [
+                            ""
+                        ],
+                        "mime_type": "image/jpeg",
+                        "originalName": "2022-03-19t000000z_702330409_rc2n5t9p51p6_rtrmadp_3_india-japan.jpeg",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "owner": "meera.kulkarni@washpost.com",
+                        "proxyUrl": "/resizer/XUrRvKcPPrVVOJACqgjyahtWuls=/arc-photo-arcsales/arc2-sandbox/public/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/XUrRvKcPPrVVOJACqgjyahtWuls=/arc-photo-arcsales/arc2-sandbox/public/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "restricted": false,
+                        "takenOn": "2022-03-19T00:00:00Z",
+                        "thumbnailResizeUrl": "/resizer/4FTSEUvba9fpRbAsPqHtIdx9Gp4=/300x0/arc-photo-arcsales/arc2-sandbox/public/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                        "version": 0,
+                        "template_id": 1403
+                    },
+                    "address": {
+                        "locality": "New Delhi",
+                        "country_name": "IND"
+                    },
+                    "caption": "Indian Prime Minister Narendra Modi welcomes Japanese Prime Minister Fumio Kishida ahead of their meeting at Hyderabad House, in New Delhi, India, March 19, 2022. REUTERS/Adnan Abidi",
+                    "credits": {
+                        "affiliation": [{
+                            "name": "REUTERS",
+                            "type": "author"
+                        }],
+                        "by": [{
+                            "byline": "Adnan Abidi",
+                            "name": "Adnan Abidi",
+                            "type": "author"
+                        }]
+                    },
+                    "height": 4200,
+                    "image_type": "photograph",
+                    "licensable": false,
+                    "owner": {
+                        "id": "sandbox.arcsales",
+                        "sponsored": false
+                    },
+                    "slug": "INDIA-JAPAN/",
+                    "subtitle": "Japanese Prime Minister Fumio Kishida meets Indian Prime Minister Narendra Modi in New Delhi",
+                    "taxonomy": {
+                        "associated_tasks": []
+                    },
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/XUrRvKcPPrVVOJACqgjyahtWuls=/arc-photo-arcsales/arc2-sandbox/public/NUMTKIDQ7JHWXCHAIKKGE2JYXQ.jpeg",
+                    "version": "0.10.3",
+                    "width": 6057,
+                    "syndication": {},
+                    "creditIPTC": "REUTERS",
+                    "country_name": "India"
+                },
+                {
+                    "_id": "EK7EOU7QTNDBNBK33XN4RYKGKU",
+                    "additional_properties": {
+                        "fullSizeResizeUrl": "/resizer/_CYAHnp0N3-ZIt2bKEVH5vNAQns=/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                        "galleries": [],
+                        "galleryOrder": 1,
+                        "ingestionMethod": "manual",
+                        "mime_type": "image/jpeg",
+                        "originalName": "0bbf1259-151b-4708-9cdc-9feb1ed61796.jpeg",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                        "owner": "meera.kulkarni@washpost.com",
+                        "proxyUrl": "/resizer/_CYAHnp0N3-ZIt2bKEVH5vNAQns=/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/_CYAHnp0N3-ZIt2bKEVH5vNAQns=/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                        "restricted": false,
+                        "thumbnailResizeUrl": "/resizer/NcwRMD4On7MrqaaUZqxPF-FdqU8=/300x0/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                        "version": 0,
+                        "template_id": 1403
+                    },
+                    "address": {},
+                    "credits": {
+                        "affiliation": []
+                    },
+                    "height": 413,
+                    "image_type": "photograph",
+                    "licensable": false,
+                    "owner": {
+                        "id": "sandbox.arcsales",
+                        "sponsored": false
+                    },
+                    "subtitle": "A file photo showing Philippines' Foreign Affairs Secretary Teodoro Locsin Jr. during a press briefing with his Japanese counterpart in Manila, Philippines, Jan. 9, 2020.",
+                    "taxonomy": {
+                        "associated_tasks": []
+                    },
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/_CYAHnp0N3-ZIt2bKEVH5vNAQns=/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                    "version": "0.10.3",
+                    "width": 620,
+                    "syndication": {}
+                },
+                {
+                    "_id": "27HU7C3T75CHHENMXEDLJY3ZVI",
+                    "additional_properties": {
+                        "fullSizeResizeUrl": "/resizer/rrFHMKSMmzpdTR4mJMcwut6IrcA=/arc-photo-arcsales/arc2-sandbox/public/27HU7C3T75CHHENMXEDLJY3ZVI.webp",
+                        "galleries": [],
+                        "galleryOrder": 2,
+                        "ingestionMethod": "manual",
+                        "mime_type": "application/octet-stream",
+                        "originalName": "imrs.webp",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/27HU7C3T75CHHENMXEDLJY3ZVI.webp",
+                        "owner": "meera.kulkarni@washpost.com",
+                        "proxyUrl": "/resizer/rrFHMKSMmzpdTR4mJMcwut6IrcA=/arc-photo-arcsales/arc2-sandbox/public/27HU7C3T75CHHENMXEDLJY3ZVI.webp",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/rrFHMKSMmzpdTR4mJMcwut6IrcA=/arc-photo-arcsales/arc2-sandbox/public/27HU7C3T75CHHENMXEDLJY3ZVI.webp",
+                        "restricted": false,
+                        "thumbnailResizeUrl": "/resizer/6yZLdu2QOLe3NzYuPVb_vwsjyYk=/300x0/arc-photo-arcsales/arc2-sandbox/public/27HU7C3T75CHHENMXEDLJY3ZVI.webp",
+                        "version": 0,
+                        "template_id": 1403
+                    },
+                    "address": {},
+                    "credits": {
+                        "affiliation": []
+                    },
+                    "height": 610,
+                    "image_type": "photograph",
+                    "licensable": false,
+                    "owner": {
+                        "id": "sandbox.arcsales",
+                        "sponsored": false
+                    },
+                    "subtitle": "Astronaut Mark Vande Hei in 2017. Currently aboard the International Space Station, he's scheduled to return to Earth aboard a Russian spacecraft March 30.",
+                    "taxonomy": {
+                        "associated_tasks": []
+                    },
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/rrFHMKSMmzpdTR4mJMcwut6IrcA=/arc-photo-arcsales/arc2-sandbox/public/27HU7C3T75CHHENMXEDLJY3ZVI.webp",
+                    "version": "0.10.3",
+                    "width": 916,
+                    "syndication": {}
+                }
+            ],
+            "comments": {
+                "allow_comments": false,
+                "display_comments": false,
+                "moderation_required": false
+            },
+            "syndication": {
+                "external_distribution": false,
+                "search": false
+            },
+            "slug": ""
+        },
+        {
+            "_id": "4CJQFMMGKFAYFGUWOKR3K3GKUE",
+            "additional_properties": {
+                "has_published_copy": true,
+                "owner": "david.zimmerly@washpost.com",
+                "published": true,
+                "restricted": false,
+                "version": 2,
+                "roles": [],
+                "_id": "KGDSAF5HIRHNHN6EU63WNYMCZU",
+                "comments": []
+            },
+            "canonical_url": "/2022/04/04/test-gallery/",
+            "canonical_website": "arcsales",
+            "created_date": "2022-04-04T19:39:37Z",
+            "description": {
+                "basic": ""
+            },
+            "display_date": "2022-04-04T19:39:40Z",
+            "first_publish_date": "2022-04-04T19:39:40Z",
+            "headlines": {
+                "basic": "test gallery"
+            },
+            "last_updated_date": "2022-04-04T19:39:41Z",
+            "owner": {
+                "id": "sandbox.arcsales",
+                "sponsored": false
+            },
+            "promo_items": {
+                "basic": {
+                    "_id": "B3TPEJGXSZBW3I6VJBKKDAJXDQ",
+                    "additional_properties": {
+                        "fullSizeResizeUrl": "/resizer/8JOkvXZaleJcYUVpjh73olNi-SA=/arc-photo-arcsales/arc2-sandbox/public/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                        "galleryOrder": 0,
+                        "keywords": [],
+                        "mime_type": "image/jpeg",
+                        "originalName": "t_c739503c452a4379ac3449d309990242_name_file_960x540_1600_v4_.jpg",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                        "proxyUrl": "/resizer/8JOkvXZaleJcYUVpjh73olNi-SA=/arc-photo-arcsales/arc2-sandbox/public/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/8JOkvXZaleJcYUVpjh73olNi-SA=/arc-photo-arcsales/arc2-sandbox/public/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                        "restricted": false,
+                        "thumbnailResizeUrl": "/resizer/J0w1EFhlTfsp9dwCd6HNVGu6rhk=/300x0/arc-photo-arcsales/arc2-sandbox/public/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg"
+                    },
+                    "address": {},
+                    "caption": "working",
+                    "height": 540,
+                    "licensable": false,
+                    "subtitle": "ants",
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                    "version": "0.10.3",
+                    "width": 960,
+                    "imageId": null,
+                    "ingestImageToAnglerfish": true,
+                    "photographer": null,
+                    "usage_instructions": null
+                }
+            },
+            "publish_date": "2022-04-04T19:39:40Z",
+            "source": {
+                "additional_properties": {
+                    "editor": "photo center"
+                },
+                "edit_url": "https://sandbox.arcsales.arcpublishing.com/photo/gallery/4CJQFMMGKFAYFGUWOKR3K3GKUE",
+                "system": "photo center"
+            },
+            "taxonomy": {
+                "primary_site": {
+                    "referent": {
+                        "id": "/politics",
+                        "type": "site"
+                    },
+                    "type": "reference"
+                },
+                "sections": [{
+                    "referent": {
+                        "id": "/politics",
+                        "provider": "",
+                        "type": "section",
+                        "website": "arcsales"
+                    },
+                    "type": "reference"
+                }],
+                "sites": [{
+                    "referent": {
+                        "id": "/politics",
+                        "type": "site"
+                    },
+                    "type": "reference"
+                }],
+                "tags": [{
+                    "name": "gallery",
+                    "text": "gallery",
+                    "slug": "gallery",
+                    "path": "/",
+                    "updated_on": "2022-04-04T19:39:24.121Z"
+                }]
+            },
+            "type": "gallery",
+            "version": "0.10.3",
+            "websites": {
+                "arcsales": {
+                    "website_section": {
+                        "referent": {
+                            "id": "/politics",
+                            "provider": "",
+                            "type": "section",
+                            "website": "arcsales"
+                        },
+                        "type": "reference"
+                    },
+                    "website_url": "/2022/04/04/test-gallery/"
+                }
+            },
+            "workflow": {
+                "note": "",
+                "status_code": 1
+            },
+            "content_elements": [{
+                    "_id": "B3TPEJGXSZBW3I6VJBKKDAJXDQ",
+                    "additional_properties": {
+                        "fullSizeResizeUrl": "/resizer/8JOkvXZaleJcYUVpjh73olNi-SA=/arc-photo-arcsales/arc2-sandbox/public/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                        "galleryOrder": 0,
+                        "keywords": [],
+                        "mime_type": "image/jpeg",
+                        "originalName": "t_c739503c452a4379ac3449d309990242_name_file_960x540_1600_v4_.jpg",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                        "proxyUrl": "/resizer/8JOkvXZaleJcYUVpjh73olNi-SA=/arc-photo-arcsales/arc2-sandbox/public/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/8JOkvXZaleJcYUVpjh73olNi-SA=/arc-photo-arcsales/arc2-sandbox/public/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                        "restricted": false,
+                        "thumbnailResizeUrl": "/resizer/J0w1EFhlTfsp9dwCd6HNVGu6rhk=/300x0/arc-photo-arcsales/arc2-sandbox/public/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg"
+                    },
+                    "address": {},
+                    "caption": "working",
+                    "height": 540,
+                    "licensable": false,
+                    "subtitle": "ants",
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/8JOkvXZaleJcYUVpjh73olNi-SA=/arc-photo-arcsales/arc2-sandbox/public/B3TPEJGXSZBW3I6VJBKKDAJXDQ.jpg",
+                    "version": "0.10.3",
+                    "width": 960,
+                    "imageId": null,
+                    "ingestImageToAnglerfish": true,
+                    "photographer": null,
+                    "usage_instructions": null
+                },
+                {
+                    "_id": "WAMPHM6YQNFARNUNCMC36IIMWU",
+                    "additional_properties": {
+                        "fullSizeResizeUrl": "/resizer/APQQ_d94HcyfwrJXBjzyNADhqg8=/arc-photo-arcsales/arc2-sandbox/public/WAMPHM6YQNFARNUNCMC36IIMWU.jpg",
+                        "galleryOrder": 1,
+                        "keywords": [],
+                        "mime_type": "image/jpeg",
+                        "originalName": "t_5f31190eb986496992cf23e5d3d40e1b_name_file_960x540_1600_v4_.jpg",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/WAMPHM6YQNFARNUNCMC36IIMWU.jpg",
+                        "proxyUrl": "/resizer/APQQ_d94HcyfwrJXBjzyNADhqg8=/arc-photo-arcsales/arc2-sandbox/public/WAMPHM6YQNFARNUNCMC36IIMWU.jpg",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/APQQ_d94HcyfwrJXBjzyNADhqg8=/arc-photo-arcsales/arc2-sandbox/public/WAMPHM6YQNFARNUNCMC36IIMWU.jpg",
+                        "restricted": false,
+                        "thumbnailResizeUrl": "/resizer/kva63SsbJFwMWt1vbMz6vG6OSDQ=/300x0/arc-photo-arcsales/arc2-sandbox/public/WAMPHM6YQNFARNUNCMC36IIMWU.jpg"
+                    },
+                    "address": {},
+                    "caption": "horse",
+                    "height": 540,
+                    "licensable": false,
+                    "subtitle": "man",
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/APQQ_d94HcyfwrJXBjzyNADhqg8=/arc-photo-arcsales/arc2-sandbox/public/WAMPHM6YQNFARNUNCMC36IIMWU.jpg",
+                    "version": "0.10.3",
+                    "width": 960,
+                    "imageId": null,
+                    "ingestImageToAnglerfish": true,
+                    "photographer": null,
+                    "usage_instructions": null
+                },
+                {
+                    "_id": "V23UOV3T2NCTVBZ3UVEXPARHZQ",
+                    "additional_properties": {
+                        "fullSizeResizeUrl": "/resizer/BQS6au5Y6tFQG6eCLLtBU22K5Xw=/arc-photo-arcsales/arc2-sandbox/public/V23UOV3T2NCTVBZ3UVEXPARHZQ.jpg",
+                        "galleryOrder": 2,
+                        "keywords": [],
+                        "mime_type": "image/jpeg",
+                        "originalName": "t_164acf97f20649faba65329556cd80e0_name_file_960x540_1600_v4_.jpg",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/V23UOV3T2NCTVBZ3UVEXPARHZQ.jpg",
+                        "proxyUrl": "/resizer/BQS6au5Y6tFQG6eCLLtBU22K5Xw=/arc-photo-arcsales/arc2-sandbox/public/V23UOV3T2NCTVBZ3UVEXPARHZQ.jpg",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/BQS6au5Y6tFQG6eCLLtBU22K5Xw=/arc-photo-arcsales/arc2-sandbox/public/V23UOV3T2NCTVBZ3UVEXPARHZQ.jpg",
+                        "restricted": false,
+                        "thumbnailResizeUrl": "/resizer/a2xf4IMpxO67986EjBRnQodD-b4=/300x0/arc-photo-arcsales/arc2-sandbox/public/V23UOV3T2NCTVBZ3UVEXPARHZQ.jpg"
+                    },
+                    "address": {},
+                    "caption": "guitar",
+                    "height": 540,
+                    "licensable": false,
+                    "subtitle": "old",
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/BQS6au5Y6tFQG6eCLLtBU22K5Xw=/arc-photo-arcsales/arc2-sandbox/public/V23UOV3T2NCTVBZ3UVEXPARHZQ.jpg",
+                    "version": "0.10.3",
+                    "width": 960,
+                    "imageId": null,
+                    "ingestImageToAnglerfish": true,
+                    "photographer": null,
+                    "usage_instructions": null
+                },
+                {
+                    "_id": "UIDFATFZWFAO3IQP75CRR3K7PA",
+                    "additional_properties": {
+                        "fullSizeResizeUrl": "/resizer/ykUY2HgOuI4uqR7ytVjZVTb3mNY=/arc-photo-arcsales/arc2-sandbox/public/UIDFATFZWFAO3IQP75CRR3K7PA.jpg",
+                        "galleryOrder": 3,
+                        "keywords": [],
+                        "mime_type": "image/jpeg",
+                        "originalName": "t_c39164a6c8cc41098822da1df56d4f14_name_file_960x540_1600_v4_.jpg",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/UIDFATFZWFAO3IQP75CRR3K7PA.jpg",
+                        "proxyUrl": "/resizer/ykUY2HgOuI4uqR7ytVjZVTb3mNY=/arc-photo-arcsales/arc2-sandbox/public/UIDFATFZWFAO3IQP75CRR3K7PA.jpg",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/ykUY2HgOuI4uqR7ytVjZVTb3mNY=/arc-photo-arcsales/arc2-sandbox/public/UIDFATFZWFAO3IQP75CRR3K7PA.jpg",
+                        "restricted": false,
+                        "thumbnailResizeUrl": "/resizer/HFLMlnGTxOuMsndDwjtt28L3uAE=/300x0/arc-photo-arcsales/arc2-sandbox/public/UIDFATFZWFAO3IQP75CRR3K7PA.jpg"
+                    },
+                    "address": {},
+                    "caption": "colored",
+                    "height": 540,
+                    "licensable": false,
+                    "subtitle": "pinwheel",
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/ykUY2HgOuI4uqR7ytVjZVTb3mNY=/arc-photo-arcsales/arc2-sandbox/public/UIDFATFZWFAO3IQP75CRR3K7PA.jpg",
+                    "version": "0.10.3",
+                    "width": 960,
+                    "imageId": null,
+                    "ingestImageToAnglerfish": true,
+                    "photographer": null,
+                    "usage_instructions": null
+                },
+                {
+                    "_id": "OIWH32JMNJHUZIZEWX3U7NIMMA",
+                    "additional_properties": {
+                        "fullSizeResizeUrl": "/resizer/dLASY8P8qUmi3ou__0_nOVaRb14=/arc-photo-arcsales/arc2-sandbox/public/OIWH32JMNJHUZIZEWX3U7NIMMA.jpg",
+                        "galleryOrder": 4,
+                        "keywords": [],
+                        "mime_type": "image/jpeg",
+                        "originalName": "t_d84f1f9dd3624667a09f91d5ffaf3349_name_file_960x540_1600_v4_.jpg",
+                        "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/OIWH32JMNJHUZIZEWX3U7NIMMA.jpg",
+                        "proxyUrl": "/resizer/dLASY8P8qUmi3ou__0_nOVaRb14=/arc-photo-arcsales/arc2-sandbox/public/OIWH32JMNJHUZIZEWX3U7NIMMA.jpg",
+                        "ptgVersion": 0,
+                        "published": true,
+                        "resizeUrl": "/resizer/dLASY8P8qUmi3ou__0_nOVaRb14=/arc-photo-arcsales/arc2-sandbox/public/OIWH32JMNJHUZIZEWX3U7NIMMA.jpg",
+                        "restricted": false,
+                        "thumbnailResizeUrl": "/resizer/9pgkzRVBTKka2JReGO6JuuBsGg0=/300x0/arc-photo-arcsales/arc2-sandbox/public/OIWH32JMNJHUZIZEWX3U7NIMMA.jpg"
+                    },
+                    "address": {},
+                    "caption": "trees",
+                    "height": 540,
+                    "licensable": false,
+                    "subtitle": "dead",
+                    "type": "image",
+                    "auth": {
+                        "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+                    },
+                    "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/dLASY8P8qUmi3ou__0_nOVaRb14=/arc-photo-arcsales/arc2-sandbox/public/OIWH32JMNJHUZIZEWX3U7NIMMA.jpg",
+                    "version": "0.10.3",
+                    "width": 960,
+                    "imageId": null,
+                    "ingestImageToAnglerfish": true,
+                    "photographer": null,
+                    "usage_instructions": null
+                }
+            ],
+            "comments": {
+                "allow_comments": false,
+                "display_comments": false,
+                "moderation_required": false
+            },
+            "syndication": {
+                "external_distribution": false,
+                "search": false
+            },
+            "slug": ""
+        }
+    ],
+    "created_date": "2022-04-04T19:52:09.133Z",
+    "revision": {
+        "revision_id": "BRTXLHCXFBD3XHMCF4ZJTSZMNY",
+        "parent_id": "NY7XZ4ZTYFA55OPELJ6JUUAQU4",
+        "editions": [
+            "default"
+        ],
+        "branch": "default",
+        "user_id": "zimmerlyd@washpost.com",
+        "published": true
+    },
+    "last_updated_date": "2022-04-04T19:55:16.021Z",
+    "headlines": {
+        "basic": "Test Gallery 3",
+        "meta_title": "",
+        "mobile": "",
+        "native": "",
+        "print": "",
+        "tablet": "",
+        "web": ""
+    },
+    "owner": {
+        "sponsored": false,
+        "id": "sandbox.arcsales"
+    },
+    "content_restrictions": {
+        "content_code": "free"
+    },
+    "address": {},
+    "workflow": {
+        "status_code": 1
+    },
+    "subheadlines": {
+        "basic": "subheadline 3"
+    },
+    "description": {
+        "basic": "Test Gallery for mobile sdk testing 3"
+    },
+    "language": "English",
+    "label": {},
+    "source": {
+        "name": "arcsales",
+        "source_type": "staff",
+        "system": "composer"
+    },
+    "taxonomy": {
+        "primary_section": {
+            "_id": "/politics",
+            "_website": "arcsales",
+            "type": "section",
+            "version": "0.6.0",
+            "name": "Politics",
+            "description": null,
+            "path": "/politics",
+            "parent_id": "/",
+            "parent": {
+                "default": "/"
+            },
+            "additional_properties": {
+                "original": {
+                    "_id": "/politics",
+                    "site": {
+                        "pagebuilder_path_for_native_apps": null,
+                        "site_about": null,
+                        "site_url": null,
+                        "site_tagline": null,
+                        "site_title": null,
+                        "site_description": null,
+                        "site_keywords": null
+                    },
+                    "social": {
+                        "twitter": null,
+                        "rss": null,
+                        "facebook": null,
+                        "instagram": null
+                    },
+                    "site_topper": {
+                        "site_logo_image": null
+                    },
+                    "navigation": {
+                        "nav_title": "Politics"
+                    },
+                    "name": "Politics",
+                    "_website": "arcsales",
+                    "parent": {
+                        "default": "/",
+                        "mobile": "/",
+                        "mobile-nav": "/"
+                    },
+                    "ancestors": {
+                        "default": [
+                            "/"
+                        ],
+                        "mobile": [],
+                        "mobile-nav": [
+                            "/"
+                        ]
+                    },
+                    "_admin": {
+                        "alias_ids": [
+                            "/politics"
+                        ]
+                    },
+                    "inactive": false,
+                    "node_type": "section",
+                    "order": {
+                        "mobile-nav": 1002,
+                        "default": 1005
+                    }
+                }
+            }
+        },
+        "primary_site": {
+            "_id": "/politics",
+            "type": "site",
+            "version": "0.5.8",
+            "name": "Politics",
+            "description": null,
+            "path": "/politics",
+            "parent_id": "/",
+            "additional_properties": {
+                "original": {
+                    "_id": "/politics",
+                    "site": {
+                        "pagebuilder_path_for_native_apps": null,
+                        "site_about": null,
+                        "site_url": null,
+                        "site_tagline": null,
+                        "site_title": null,
+                        "site_description": null,
+                        "site_keywords": null
+                    },
+                    "social": {
+                        "twitter": null,
+                        "rss": null,
+                        "facebook": null,
+                        "instagram": null
+                    },
+                    "site_topper": {
+                        "site_logo_image": null
+                    },
+                    "navigation": {
+                        "nav_title": "Politics"
+                    },
+                    "name": "Politics",
+                    "parent": {
+                        "default": "/",
+                        "mobile": "/",
+                        "mobile-nav": "/"
+                    },
+                    "ancestors": {
+                        "default": [
+                            "/"
+                        ],
+                        "mobile": [],
+                        "mobile-nav": [
+                            "/"
+                        ]
+                    },
+                    "_admin": {
+                        "alias_ids": [
+                            "/politics"
+                        ]
+                    },
+                    "inactive": false,
+                    "node_type": "section",
+                    "order": {
+                        "mobile-nav": 1002,
+                        "default": 1005
+                    }
+                }
+            }
+        },
+        "sections": [{
+            "_id": "/politics",
+            "_website": "arcsales",
+            "type": "section",
+            "version": "0.6.0",
+            "name": "Politics",
+            "description": null,
+            "path": "/politics",
+            "parent_id": "/",
+            "parent": {
+                "default": "/"
+            },
+            "additional_properties": {
+                "original": {
+                    "_id": "/politics",
+                    "site": {
+                        "pagebuilder_path_for_native_apps": null,
+                        "site_about": null,
+                        "site_url": null,
+                        "site_tagline": null,
+                        "site_title": null,
+                        "site_description": null,
+                        "site_keywords": null
+                    },
+                    "social": {
+                        "twitter": null,
+                        "rss": null,
+                        "facebook": null,
+                        "instagram": null
+                    },
+                    "site_topper": {
+                        "site_logo_image": null
+                    },
+                    "navigation": {
+                        "nav_title": "Politics"
+                    },
+                    "name": "Politics",
+                    "_website": "arcsales",
+                    "parent": {
+                        "default": "/",
+                        "mobile": "/",
+                        "mobile-nav": "/"
+                    },
+                    "ancestors": {
+                        "default": [
+                            "/"
+                        ],
+                        "mobile": [],
+                        "mobile-nav": [
+                            "/"
+                        ]
+                    },
+                    "_admin": {
+                        "alias_ids": [
+                            "/politics"
+                        ]
+                    },
+                    "inactive": false,
+                    "node_type": "section",
+                    "order": {
+                        "mobile-nav": 1002,
+                        "default": 1005
+                    }
+                }
+            },
+            "_website_section_id": "arcsales./politics"
+        }],
+        "sites": [{
+            "_id": "/politics",
+            "type": "site",
+            "version": "0.5.8",
+            "name": "Politics",
+            "description": null,
+            "path": "/politics",
+            "parent_id": "/",
+            "additional_properties": {
+                "original": {
+                    "_id": "/politics",
+                    "site": {
+                        "pagebuilder_path_for_native_apps": null,
+                        "site_about": null,
+                        "site_url": null,
+                        "site_tagline": null,
+                        "site_title": null,
+                        "site_description": null,
+                        "site_keywords": null
+                    },
+                    "social": {
+                        "twitter": null,
+                        "rss": null,
+                        "facebook": null,
+                        "instagram": null
+                    },
+                    "site_topper": {
+                        "site_logo_image": null
+                    },
+                    "navigation": {
+                        "nav_title": "Politics"
+                    },
+                    "name": "Politics",
+                    "parent": {
+                        "default": "/",
+                        "mobile": "/",
+                        "mobile-nav": "/"
+                    },
+                    "ancestors": {
+                        "default": [
+                            "/"
+                        ],
+                        "mobile": [],
+                        "mobile-nav": [
+                            "/"
+                        ]
+                    },
+                    "_admin": {
+                        "alias_ids": [
+                            "/politics"
+                        ]
+                    },
+                    "inactive": false,
+                    "node_type": "section",
+                    "order": {
+                        "mobile-nav": 1002,
+                        "default": 1005
+                    }
+                }
+            }
+        }],
+        "tags": [{
+                "description": "a",
+                "slug": "a",
+                "text": "a"
+            },
+            {
+                "description": "gallery",
+                "slug": "gallery",
+                "text": "gallery"
+            }
+        ]
+    },
+    "promo_items": {
+        "lead_art": {
+            "_id": "EK7EOU7QTNDBNBK33XN4RYKGKU",
+            "additional_properties": {
+                "fullSizeResizeUrl": "/resizer/_CYAHnp0N3-ZIt2bKEVH5vNAQns=/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                "galleries": [{
+                    "headlines": {
+                        "basic": "test gallery 2"
+                    },
+                    "_id": "6NZMXNVIGJCMLGIONUOJSDDO6U"
+                }],
+                "ingestionMethod": "manual",
+                "mime_type": "image/jpeg",
+                "originalName": "0bbf1259-151b-4708-9cdc-9feb1ed61796.jpeg",
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/sandbox.arcsales/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                "owner": "meera.kulkarni@washpost.com",
+                "proxyUrl": "/resizer/_CYAHnp0N3-ZIt2bKEVH5vNAQns=/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                "published": true,
+                "resizeUrl": "/resizer/_CYAHnp0N3-ZIt2bKEVH5vNAQns=/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                "restricted": false,
+                "thumbnailResizeUrl": "/resizer/NcwRMD4On7MrqaaUZqxPF-FdqU8=/300x0/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+                "version": 0,
+                "template_id": 1403
+            },
+            "address": {},
+            "created_date": "2022-04-01T17:10:49Z",
+            "credits": {
+                "affiliation": []
+            },
+            "height": 413,
+            "image_type": "photograph",
+            "last_updated_date": "2022-04-01T17:10:49Z",
+            "licensable": false,
+            "owner": {
+                "id": "sandbox.arcsales",
+                "sponsored": false
+            },
+            "source": {
+                "additional_properties": {
+                    "editor": "photo center"
+                },
+                "edit_url": "https://sandbox.arcsales.arcpublishing.com/photo/EK7EOU7QTNDBNBK33XN4RYKGKU",
+                "system": "photo center"
+            },
+            "subtitle": "A file photo showing Philippines' Foreign Affairs Secretary Teodoro Locsin Jr. during a press briefing with his Japanese counterpart in Manila, Philippines, Jan. 9, 2020.",
+            "taxonomy": {
+                "associated_tasks": []
+            },
+            "type": "image",
+            "auth": {
+                "1": "0b43282114a8bf3844aabd8c6fabe84289357a81d0dbc0897f5723a9e756e3fd"
+            },
+            "url": "https://arcsales-arcsales-sandbox.web.arc-cdn.net/resizer/_CYAHnp0N3-ZIt2bKEVH5vNAQns=/arc-photo-arcsales/arc2-sandbox/public/EK7EOU7QTNDBNBK33XN4RYKGKU.jpeg",
+            "version": "0.10.3",
+            "width": 620,
+            "syndication": {},
+            "caption": ""
+        }
+    },
+    "related_content": {
+        "basic": [],
+        "redirect": []
+    },
+    "distributor": {
+        "category": "staff",
+        "name": "arcsales",
+        "subcategory": ""
+    },
+    "canonical_website": "arcsales",
+    "geo": {},
+    "planning": {
+        "internal_note": "",
+        "story_length": {
+            "character_count_actual": 0,
+            "character_encoding": "UTF-16",
+            "inch_count_actual": 0,
+            "line_count_actual": 0,
+            "word_count_actual": 0
+        }
+    },
+    "display_date": "2022-04-04T19:55:15.053Z",
+    "credits": {
+        "by": []
+    },
+    "subtype": "default",
+    "first_publish_date": "2022-04-04T19:55:15.053Z",
+    "websites": {
+        "arcsales": {
+            "website_section": {
+                "_id": "/politics",
+                "_website": "arcsales",
+                "type": "section",
+                "version": "0.6.0",
+                "name": "Politics",
+                "description": null,
+                "path": "/politics",
+                "parent_id": "/",
+                "parent": {
+                    "default": "/"
+                },
+                "additional_properties": {
+                    "original": {
+                        "_id": "/politics",
+                        "site": {
+                            "pagebuilder_path_for_native_apps": null,
+                            "site_about": null,
+                            "site_url": null,
+                            "site_tagline": null,
+                            "site_title": null,
+                            "site_description": null,
+                            "site_keywords": null
+                        },
+                        "social": {
+                            "twitter": null,
+                            "rss": null,
+                            "facebook": null,
+                            "instagram": null
+                        },
+                        "site_topper": {
+                            "site_logo_image": null
+                        },
+                        "navigation": {
+                            "nav_title": "Politics"
+                        },
+                        "name": "Politics",
+                        "_website": "arcsales",
+                        "parent": {
+                            "default": "/",
+                            "mobile": "/",
+                            "mobile-nav": "/"
+                        },
+                        "ancestors": {
+                            "default": [
+                                "/"
+                            ],
+                            "mobile": [],
+                            "mobile-nav": [
+                                "/"
+                            ]
+                        },
+                        "_admin": {
+                            "alias_ids": [
+                                "/politics"
+                            ]
+                        },
+                        "inactive": false,
+                        "node_type": "section",
+                        "order": {
+                            "mobile-nav": 1002,
+                            "default": 1005
+                        }
+                    }
+                },
+                "_website_section_id": "arcsales./politics"
+            },
+            "website_url": "/2022/04/04/test-gallery-3/"
+        }
+    },
+    "additional_properties": {
+        "clipboard": {},
+        "has_published_copy": true,
+        "is_published": false
+    },
+    "publish_date": "2022-04-04T19:55:15.053Z",
+    "canonical_url": "/2022/04/04/test-gallery-3/",
+    "publishing": {
+        "scheduled_operations": {
+            "publish_edition": [],
+            "unpublish_edition": []
+        }
+    },
+    "website": "arcsales",
+    "website_url": "/2022/04/04/test-gallery-3/"
+}

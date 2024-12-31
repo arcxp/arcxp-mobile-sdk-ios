@@ -1,0 +1,27 @@
+{
+    "facebookAppId": "409672250321785",
+    "googleClientId": "235685878757-qej0pio934d5h1qc3mr85ehbjt7tia3h.apps.googleusercontent.com,432277311457-70en5ms9i16is80uqhbv0uscpdh0k4rq.apps.googleusercontent.com","orgTenants": [
+        {
+            "name": "config",
+            "orgHeader": "arctesting1",
+            "siteHeader": "config",
+            "domain": "."
+        }
+    ],
+    "signupRecaptcha": false,
+    "signinRecaptcha": false,
+    "magicLinkRecaptcha": false,
+    "recaptchaSiteKey": "some-api-site-key",
+    "pwMinLength": 6,
+    "pwSpecialCharacters": 1,
+    "pwUppercase": 1,
+    "pwLowercase": 1,
+    "disqus": {
+        "enabled": false,
+        "publicKey": ""
+    },
+    "teamId": null,
+    "keyId": null,
+    "urlToReceiveAuthToken": null,
+    "pwPwNumbers": 1
+}

@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D00C3172C50293D00271282 /* ArcMediaPlayerViewEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C2F72C50293C00271282 /* ArcMediaPlayerViewEditor.swift */; };
+		9D00C3182C50293D00271282 /* ConfigureVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C2F82C50293C00271282 /* ConfigureVideoViewController.swift */; };
+		9D00C31A2C50293D00271282 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C2FA2C50293C00271282 /* KeyboardManager.swift */; };
+		9D00C31B2C50293D00271282 /* MultiVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C2FB2C50293C00271282 /* MultiVideoViewController.swift */; };
+		9D00C31C2C50293D00271282 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C2FC2C50293C00271282 /* PageViewController.swift */; };
+		9D00C3222C50293D00271282 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C3042C50293C00271282 /* AppSettings.swift */; };
+		9D00C3232C50293D00271282 /* ConfigureVideoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C3052C50293C00271282 /* ConfigureVideoBaseViewController.swift */; };
+		9D00C3242C50293D00271282 /* DelegateEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C3062C50293C00271282 /* DelegateEventsViewController.swift */; };
+		9D00C3252C50293D00271282 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C3072C50293C00271282 /* MediaViewController.swift */; };
+		9D00C3262C50293D00271282 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C3082C50293C00271282 /* VideoPlayerViewController.swift */; };
+		9D5F3EED2C0799D4007C91B1 /* ArcXP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5F3EE02C07999B007C91B1 /* ArcXP.framework */; };
+		9D5F3EEE2C0799D4007C91B1 /* ArcXP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5F3EE02C07999B007C91B1 /* ArcXP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D5FF0092B85625F008DCB49 /* SDKInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5FF0052B85625F008DCB49 /* SDKInitializer.swift */; };
+		9DE2AE472C503E4E00AFEDA3 /* ArcVideoPlayerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2AE462C503E4E00AFEDA3 /* ArcVideoPlayerBridge.swift */; };
+		9DE2AE5D2C52884400AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE5C2C52884400AFEDA3 /* GoogleInteractiveMediaAds.xcframework */; };
+		9DE2AE5E2C52884400AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE5C2C52884400AFEDA3 /* GoogleInteractiveMediaAds.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DE2AE5F2C52885800AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE5C2C52884400AFEDA3 /* GoogleInteractiveMediaAds.xcframework */; };
+		9DE2AE612C52886400AFEDA3 /* OMSDK_Washpost.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE602C52886400AFEDA3 /* OMSDK_Washpost.xcframework */; };
+		9DE2AE622C52886400AFEDA3 /* OMSDK_Washpost.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE602C52886400AFEDA3 /* OMSDK_Washpost.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DE2AE642C52887200AFEDA3 /* ProgrammaticAccessLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE632C52887200AFEDA3 /* ProgrammaticAccessLibrary.xcframework */; };
+		9DE2AE652C52887200AFEDA3 /* ProgrammaticAccessLibrary.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE2AE632C52887200AFEDA3 /* ProgrammaticAccessLibrary.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DE2AE762C5289F000AFEDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE2AE702C5289F000AFEDA3 /* Assets.xcassets */; };
+		9DE2AE772C5289F000AFEDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE2AE722C5289F000AFEDA3 /* Main.storyboard */; };
+		A54CBBF32BF52F01005543BF /* ArcXPSDKSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CBBF22BF52F01005543BF /* ArcXPSDKSampleApp.swift */; };
+		A54CBBF52BF52F2D005543BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CBBF42BF52F2D005543BF /* ContentView.swift */; };
+		A54CBBF72BF52F55005543BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CBBF62BF52F55005543BF /* Constants.swift */; };
+		A54CBBF92BF52FAF005543BF /* ArcContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CBBF82BF52FAF005543BF /* ArcContentView.swift */; };
+		A54CBBFB2BF52FCB005543BF /* ArcVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CBBFA2BF52FCB005543BF /* ArcVideoView.swift */; };
+		A54CBBFD2BF52FDE005543BF /* ArcCommerceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CBBFC2BF52FDE005543BF /* ArcCommerceView.swift */; };
+		A56360F02C58554100751A3F /* Commerce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56360EB2C58554100751A3F /* Commerce.storyboard */; };
+		A56360F92C5999B800751A3F /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56360F82C5999B800751A3F /* UIViewController+Alert.swift */; };
+		A56361002C599E0800751A3F /* Paywall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56360FB2C599E0800751A3F /* Paywall.storyboard */; };
+		A56361022C5AB49800751A3F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56361012C5AB49800751A3F /* SignUpViewController.swift */; };
+		A56361062C5ABCB300751A3F /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56361052C5ABCB300751A3F /* UserProfileViewController.swift */; };
+		A56361092C5AC25D00751A3F /* DetailedFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56361082C5AC25D00751A3F /* DetailedFieldViewController.swift */; };
+		A563610F2C5AC2BF00751A3F /* SignUpFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563610E2C5AC2BF00751A3F /* SignUpFieldsViewController.swift */; };
+		A56361112C5AC31C00751A3F /* Nonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56361102C5AC31C00751A3F /* Nonce.swift */; };
+		A56361132C5AC36700751A3F /* UserProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56361122C5AC36700751A3F /* UserProfileTableViewCell.swift */; };
+		A56361152C5AC3AA00751A3F /* UserProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56361142C5AC3AA00751A3F /* UserProfileTableViewCell.xib */; };
+		A56361172C5AC67700751A3F /* UserIdentitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56361162C5AC67700751A3F /* UserIdentitiesViewController.swift */; };
+		A569803A29F1D0A100603466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A569803929F1D0A100603466 /* Assets.xcassets */; };
+		A57B36BE2C65295D005C52C2 /* ReCaptcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57B36BA2C652932005C52C2 /* ReCaptcha.framework */; };
+		A57B36BF2C65295D005C52C2 /* ReCaptcha.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A57B36BA2C652932005C52C2 /* ReCaptcha.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A57B36C22C6529D8005C52C2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A57B36C12C6529D8005C52C2 /* GoogleSignIn */; };
+		A57B36C42C6529D8005C52C2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A57B36C32C6529D8005C52C2 /* GoogleSignInSwift */; };
+		A57B36D92C6A9F36005C52C2 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B36D82C6A9F36005C52C2 /* ContentViewController.swift */; };
+		A57B36DC2C6A9FB4005C52C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B36DB2C6A9FB4005C52C2 /* DetailViewController.swift */; };
+		A57B36DE2C6BEC4C005C52C2 /* ContentBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B36DD2C6BEC4C005C52C2 /* ContentBridge.swift */; };
+		A57B36E02C6BECF5005C52C2 /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57B36DF2C6BECF5005C52C2 /* Content.storyboard */; };
+		A58B5B232C58399A005B44CF /* LoginOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58B5B222C58399A005B44CF /* LoginOptionsViewController.swift */; };
+		A5AF62732C62A52100F5776D /* RuleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF626F2C62A52100F5776D /* RuleTableViewCell.swift */; };
+		A5AF62742C62A52100F5776D /* EvaluationResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF62702C62A52100F5776D /* EvaluationResultTableViewCell.swift */; };
+		A5AF62752C62A52100F5776D /* EvaluationResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AF62712C62A52100F5776D /* EvaluationResultTableViewCell.xib */; };
+		A5AF62762C62A52100F5776D /* RuleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AF62722C62A52100F5776D /* RuleTableViewCell.xib */; };
+		A5AF627D2C62AB2600F5776D /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF62772C62AB2600F5776D /* PaywallViewController.swift */; };
+		A5AF627E2C62AB2600F5776D /* PaywallCacheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF62782C62AB2600F5776D /* PaywallCacheViewController.swift */; };
+		A5AF627F2C62AB2600F5776D /* PaywallContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF62792C62AB2600F5776D /* PaywallContentViewController.swift */; };
+		A5AF62802C62AB2600F5776D /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF627A2C62AB2600F5776D /* RulesViewController.swift */; };
+		A5AF62812C62AB2600F5776D /* PaywallConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF627B2C62AB2600F5776D /* PaywallConditionsViewController.swift */; };
+		A5AF62822C62AB2600F5776D /* ConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF627C2C62AB2600F5776D /* ConditionsViewController.swift */; };
+		A5E0DD072C58448900F741FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0DD062C58448900F741FD /* LoginViewController.swift */; };
+		A5E0DD0D2C584D4D00F741FD /* CommerceBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0DD0C2C584D4D00F741FD /* CommerceBridge.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D5F3EDF2C07999B007C91B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D5F3ED82C07999B007C91B1 /* ArcXP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A43A676299315B7000B36E0;
+			remoteInfo = ArcXP;
+		};
+		9D5F3EE12C07999B007C91B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D5F3ED82C07999B007C91B1 /* ArcXP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A43A680299315B7000B36E0;
+			remoteInfo = ArcXPTests;
+		};
+		9D5F3EE32C07999B007C91B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D5F3ED82C07999B007C91B1 /* ArcXP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DF568E0299BB82A00DDBEFB;
+			remoteInfo = ArcXPtvOS;
+		};
+		9D5F3EE52C07999B007C91B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D5F3ED82C07999B007C91B1 /* ArcXP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DF568EB299BB91900DDBEFB;
+			remoteInfo = ArcXPtvOSTests;
+		};
+		A57B36B92C652932005C52C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57B36B02C652932005C52C2 /* ReCaptcha-Carthage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F206BAB01F8D3DE900A25807;
+			remoteInfo = ReCaptcha;
+		};
+		A57B36BB2C652932005C52C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57B36B02C652932005C52C2 /* ReCaptcha-Carthage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F206BB191F8D4DBC00A25807;
+			remoteInfo = ReCaptcha_RxSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D5F3EEF2C0799D4007C91B1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9DE2AE622C52886400AFEDA3 /* OMSDK_Washpost.xcframework in Embed Frameworks */,
+				9DE2AE652C52887200AFEDA3 /* ProgrammaticAccessLibrary.xcframework in Embed Frameworks */,
+				9D5F3EEE2C0799D4007C91B1 /* ArcXP.framework in Embed Frameworks */,
+				9DE2AE5E2C52884400AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Embed Frameworks */,
+				A57B36BF2C65295D005C52C2 /* ReCaptcha.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9D00C2F72C50293C00271282 /* ArcMediaPlayerViewEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcMediaPlayerViewEditor.swift; sourceTree = "<group>"; };
+		9D00C2F82C50293C00271282 /* ConfigureVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureVideoViewController.swift; sourceTree = "<group>"; };
+		9D00C2FA2C50293C00271282 /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
+		9D00C2FB2C50293C00271282 /* MultiVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiVideoViewController.swift; sourceTree = "<group>"; };
+		9D00C2FC2C50293C00271282 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		9D00C3042C50293C00271282 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		9D00C3052C50293C00271282 /* ConfigureVideoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureVideoBaseViewController.swift; sourceTree = "<group>"; };
+		9D00C3062C50293C00271282 /* DelegateEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateEventsViewController.swift; sourceTree = "<group>"; };
+		9D00C3072C50293C00271282 /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		9D00C3082C50293C00271282 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		9D5F3ED82C07999B007C91B1 /* ArcXP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ArcXP.xcodeproj; path = ../ArcXP/ArcXP.xcodeproj; sourceTree = "<group>"; };
+		9D5FF0052B85625F008DCB49 /* SDKInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKInitializer.swift; sourceTree = "<group>"; };
+		9DE2AE462C503E4E00AFEDA3 /* ArcVideoPlayerBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcVideoPlayerBridge.swift; sourceTree = "<group>"; };
+		9DE2AE5C2C52884400AFEDA3 /* GoogleInteractiveMediaAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleInteractiveMediaAds.xcframework; path = ../ArcXP/Frameworks/GoogleInteractiveMediaAds.xcframework; sourceTree = "<group>"; };
+		9DE2AE602C52886400AFEDA3 /* OMSDK_Washpost.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OMSDK_Washpost.xcframework; path = ../ArcXP/Frameworks/OMSDK_Washpost.xcframework; sourceTree = "<group>"; };
+		9DE2AE632C52887200AFEDA3 /* ProgrammaticAccessLibrary.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ProgrammaticAccessLibrary.xcframework; path = ../ArcXP/Frameworks/ProgrammaticAccessLibrary.xcframework; sourceTree = "<group>"; };
+		9DE2AE702C5289F000AFEDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DE2AE712C5289F000AFEDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A54CBBF22BF52F01005543BF /* ArcXPSDKSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcXPSDKSampleApp.swift; sourceTree = "<group>"; };
+		A54CBBF42BF52F2D005543BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A54CBBF62BF52F55005543BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A54CBBF82BF52FAF005543BF /* ArcContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcContentView.swift; sourceTree = "<group>"; };
+		A54CBBFA2BF52FCB005543BF /* ArcVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcVideoView.swift; sourceTree = "<group>"; };
+		A54CBBFC2BF52FDE005543BF /* ArcCommerceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcCommerceView.swift; sourceTree = "<group>"; };
+		A56360EB2C58554100751A3F /* Commerce.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Commerce.storyboard; sourceTree = "<group>"; };
+		A56360F82C5999B800751A3F /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		A56360FB2C599E0800751A3F /* Paywall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Paywall.storyboard; sourceTree = "<group>"; };
+		A56361012C5AB49800751A3F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A56361052C5ABCB300751A3F /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		A56361082C5AC25D00751A3F /* DetailedFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedFieldViewController.swift; sourceTree = "<group>"; };
+		A563610E2C5AC2BF00751A3F /* SignUpFieldsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFieldsViewController.swift; sourceTree = "<group>"; };
+		A56361102C5AC31C00751A3F /* Nonce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nonce.swift; sourceTree = "<group>"; };
+		A56361122C5AC36700751A3F /* UserProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewCell.swift; sourceTree = "<group>"; };
+		A56361142C5AC3AA00751A3F /* UserProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileTableViewCell.xib; sourceTree = "<group>"; };
+		A56361162C5AC67700751A3F /* UserIdentitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIdentitiesViewController.swift; sourceTree = "<group>"; };
+		A569802D29F1D0A000603466 /* ArcXPSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcXPSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A569803929F1D0A100603466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A569803E29F1D0A100603466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57B36B02C652932005C52C2 /* ReCaptcha-Carthage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ReCaptcha-Carthage.xcodeproj"; path = "ReCaptcha-master/ReCaptcha-Carthage.xcodeproj"; sourceTree = "<group>"; };
+		A57B36D82C6A9F36005C52C2 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		A57B36DB2C6A9FB4005C52C2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A57B36DD2C6BEC4C005C52C2 /* ContentBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBridge.swift; sourceTree = "<group>"; };
+		A57B36DF2C6BECF5005C52C2 /* Content.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
+		A58B5B222C58399A005B44CF /* LoginOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsViewController.swift; sourceTree = "<group>"; };
+		A5AF626F2C62A52100F5776D /* RuleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleTableViewCell.swift; sourceTree = "<group>"; };
+		A5AF62702C62A52100F5776D /* EvaluationResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvaluationResultTableViewCell.swift; sourceTree = "<group>"; };
+		A5AF62712C62A52100F5776D /* EvaluationResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EvaluationResultTableViewCell.xib; sourceTree = "<group>"; };
+		A5AF62722C62A52100F5776D /* RuleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuleTableViewCell.xib; sourceTree = "<group>"; };
+		A5AF62772C62AB2600F5776D /* PaywallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallViewController.swift; sourceTree = "<group>"; };
+		A5AF62782C62AB2600F5776D /* PaywallCacheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallCacheViewController.swift; sourceTree = "<group>"; };
+		A5AF62792C62AB2600F5776D /* PaywallContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallContentViewController.swift; sourceTree = "<group>"; };
+		A5AF627A2C62AB2600F5776D /* RulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		A5AF627B2C62AB2600F5776D /* PaywallConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallConditionsViewController.swift; sourceTree = "<group>"; };
+		A5AF627C2C62AB2600F5776D /* ConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionsViewController.swift; sourceTree = "<group>"; };
+		A5E0DD062C58448900F741FD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A5E0DD0C2C584D4D00F741FD /* CommerceBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommerceBridge.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A569802A29F1D0A000603466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57B36BE2C65295D005C52C2 /* ReCaptcha.framework in Frameworks */,
+				9DE2AE5F2C52885800AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Frameworks */,
+				9DE2AE642C52887200AFEDA3 /* ProgrammaticAccessLibrary.xcframework in Frameworks */,
+				A57B36C42C6529D8005C52C2 /* GoogleSignInSwift in Frameworks */,
+				9D5F3EED2C0799D4007C91B1 /* ArcXP.framework in Frameworks */,
+				9DE2AE5D2C52884400AFEDA3 /* GoogleInteractiveMediaAds.xcframework in Frameworks */,
+				9DE2AE612C52886400AFEDA3 /* OMSDK_Washpost.xcframework in Frameworks */,
+				A57B36C22C6529D8005C52C2 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D00C2FE2C50293C00271282 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9D00C2F72C50293C00271282 /* ArcMediaPlayerViewEditor.swift */,
+				9D00C2F82C50293C00271282 /* ConfigureVideoViewController.swift */,
+				9D00C2FA2C50293C00271282 /* KeyboardManager.swift */,
+				9D00C2FB2C50293C00271282 /* MultiVideoViewController.swift */,
+				9D00C2FC2C50293C00271282 /* PageViewController.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9D00C3092C50293C00271282 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9D00C2FE2C50293C00271282 /* iOS */,
+				9D00C3042C50293C00271282 /* AppSettings.swift */,
+				9D00C3052C50293C00271282 /* ConfigureVideoBaseViewController.swift */,
+				9D00C3062C50293C00271282 /* DelegateEventsViewController.swift */,
+				9D00C3072C50293C00271282 /* MediaViewController.swift */,
+				9D00C3082C50293C00271282 /* VideoPlayerViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9D5F3ED92C07999B007C91B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D5F3EE02C07999B007C91B1 /* ArcXP.framework */,
+				9D5F3EE22C07999B007C91B1 /* ArcXPTests.xctest */,
+				9D5F3EE42C07999B007C91B1 /* ArcXP.framework */,
+				9D5F3EE62C07999B007C91B1 /* ArcXPtvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DE2AE732C5289F000AFEDA3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9DE2AE702C5289F000AFEDA3 /* Assets.xcassets */,
+				9DE2AE722C5289F000AFEDA3 /* Main.storyboard */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9DE2AE742C5289F000AFEDA3 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		9DE2AE752C5289F000AFEDA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DE2AE732C5289F000AFEDA3 /* iOS */,
+				9DE2AE742C5289F000AFEDA3 /* tvOS */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A54CBBFE2BF5300C005543BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5AF626A2C62A50800F5776D /* PaywallViews */,
+				A56360FB2C599E0800751A3F /* Paywall.storyboard */,
+				A56360F32C59999D00751A3F /* Utils */,
+				A56360EB2C58554100751A3F /* Commerce.storyboard */,
+				A58B5B132C57C78C005B44CF /* CommerceViews */,
+				A54CBBF82BF52FAF005543BF /* ArcContentView.swift */,
+				A54CBBFA2BF52FCB005543BF /* ArcVideoView.swift */,
+				9DE2AE462C503E4E00AFEDA3 /* ArcVideoPlayerBridge.swift */,
+				A54CBBFC2BF52FDE005543BF /* ArcCommerceView.swift */,
+				A57B36DF2C6BECF5005C52C2 /* Content.storyboard */,
+				A57B36DA2C6A9F9E005C52C2 /* ContentViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A56360F32C59999D00751A3F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A56360F82C5999B800751A3F /* UIViewController+Alert.swift */,
+				A56361102C5AC31C00751A3F /* Nonce.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A569802429F1D0A000603466 = {
+			isa = PBXGroup;
+			children = (
+				A57B36B02C652932005C52C2 /* ReCaptcha-Carthage.xcodeproj */,
+				9D5F3ED82C07999B007C91B1 /* ArcXP.xcodeproj */,
+				A569802F29F1D0A000603466 /* ArcXPSDKSample */,
+				A569802E29F1D0A000603466 /* Products */,
+				A5AF62872C65271B00F5776D /* Recovered References */,
+				A57B36BD2C65295D005C52C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A569802E29F1D0A000603466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A569802D29F1D0A000603466 /* ArcXPSDKSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A569802F29F1D0A000603466 /* ArcXPSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				9D5FF0052B85625F008DCB49 /* SDKInitializer.swift */,
+				9DE2AE752C5289F000AFEDA3 /* Resources */,
+				9D00C3092C50293C00271282 /* Sources */,
+				A569803929F1D0A100603466 /* Assets.xcassets */,
+				A569803E29F1D0A100603466 /* Info.plist */,
+				A54CBBF22BF52F01005543BF /* ArcXPSDKSampleApp.swift */,
+				A54CBBF42BF52F2D005543BF /* ContentView.swift */,
+				A54CBBF62BF52F55005543BF /* Constants.swift */,
+				A54CBBFE2BF5300C005543BF /* Views */,
+			);
+			path = ArcXPSDKSample;
+			sourceTree = "<group>";
+		};
+		A57B36B12C652932005C52C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57B36BA2C652932005C52C2 /* ReCaptcha.framework */,
+				A57B36BC2C652932005C52C2 /* ReCaptcha_RxSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57B36BD2C65295D005C52C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A57B36DA2C6A9F9E005C52C2 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				A57B36D82C6A9F36005C52C2 /* ContentViewController.swift */,
+				A57B36DB2C6A9FB4005C52C2 /* DetailViewController.swift */,
+				A57B36DD2C6BEC4C005C52C2 /* ContentBridge.swift */,
+			);
+			path = ContentViews;
+			sourceTree = "<group>";
+		};
+		A58B5B132C57C78C005B44CF /* CommerceViews */ = {
+			isa = PBXGroup;
+			children = (
+				A56361142C5AC3AA00751A3F /* UserProfileTableViewCell.xib */,
+				A58B5B222C58399A005B44CF /* LoginOptionsViewController.swift */,
+				A5E0DD062C58448900F741FD /* LoginViewController.swift */,
+				A5E0DD0C2C584D4D00F741FD /* CommerceBridge.swift */,
+				A56361012C5AB49800751A3F /* SignUpViewController.swift */,
+				A56361052C5ABCB300751A3F /* UserProfileViewController.swift */,
+				A56361082C5AC25D00751A3F /* DetailedFieldViewController.swift */,
+				A563610E2C5AC2BF00751A3F /* SignUpFieldsViewController.swift */,
+				A56361122C5AC36700751A3F /* UserProfileTableViewCell.swift */,
+				A56361162C5AC67700751A3F /* UserIdentitiesViewController.swift */,
+			);
+			path = CommerceViews;
+			sourceTree = "<group>";
+		};
+		A5AF626A2C62A50800F5776D /* PaywallViews */ = {
+			isa = PBXGroup;
+			children = (
+				A5AF627C2C62AB2600F5776D /* ConditionsViewController.swift */,
+				A5AF62782C62AB2600F5776D /* PaywallCacheViewController.swift */,
+				A5AF627B2C62AB2600F5776D /* PaywallConditionsViewController.swift */,
+				A5AF62792C62AB2600F5776D /* PaywallContentViewController.swift */,
+				A5AF62772C62AB2600F5776D /* PaywallViewController.swift */,
+				A5AF627A2C62AB2600F5776D /* RulesViewController.swift */,
+				A5AF62702C62A52100F5776D /* EvaluationResultTableViewCell.swift */,
+				A5AF62712C62A52100F5776D /* EvaluationResultTableViewCell.xib */,
+				A5AF626F2C62A52100F5776D /* RuleTableViewCell.swift */,
+				A5AF62722C62A52100F5776D /* RuleTableViewCell.xib */,
+			);
+			path = PaywallViews;
+			sourceTree = "<group>";
+		};
+		A5AF62872C65271B00F5776D /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				9DE2AE5C2C52884400AFEDA3 /* GoogleInteractiveMediaAds.xcframework */,
+				9DE2AE632C52887200AFEDA3 /* ProgrammaticAccessLibrary.xcframework */,
+				9DE2AE602C52886400AFEDA3 /* OMSDK_Washpost.xcframework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A569802C29F1D0A000603466 /* ArcXPSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A569804129F1D0A100603466 /* Build configuration list for PBXNativeTarget "ArcXPSDKSample" */;
+			buildPhases = (
+				A569802929F1D0A000603466 /* Sources */,
+				A569802A29F1D0A000603466 /* Frameworks */,
+				A569802B29F1D0A000603466 /* Resources */,
+				9D5FF0202B8D043A008DCB49 /* swift lint */,
+				9D5F3EEF2C0799D4007C91B1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcXPSDKSample;
+			packageProductDependencies = (
+				A57B36C12C6529D8005C52C2 /* GoogleSignIn */,
+				A57B36C32C6529D8005C52C2 /* GoogleSignInSwift */,
+			);
+			productName = ArcXPSDKSample;
+			productReference = A569802D29F1D0A000603466 /* ArcXPSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A569802529F1D0A000603466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "The Washington Post Company";
+				TargetAttributes = {
+					A569802C29F1D0A000603466 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A569802829F1D0A000603466 /* Build configuration list for PBXProject "ArcXPSDKSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A569802429F1D0A000603466;
+			packageReferences = (
+				A57B36C02C6529D8005C52C2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = A569802E29F1D0A000603466 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9D5F3ED92C07999B007C91B1 /* Products */;
+					ProjectRef = 9D5F3ED82C07999B007C91B1 /* ArcXP.xcodeproj */;
+				},
+				{
+					ProductGroup = A57B36B12C652932005C52C2 /* Products */;
+					ProjectRef = A57B36B02C652932005C52C2 /* ReCaptcha-Carthage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A569802C29F1D0A000603466 /* ArcXPSDKSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9D5F3EE02C07999B007C91B1 /* ArcXP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ArcXP.framework;
+			remoteRef = 9D5F3EDF2C07999B007C91B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D5F3EE22C07999B007C91B1 /* ArcXPTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ArcXPTests.xctest;
+			remoteRef = 9D5F3EE12C07999B007C91B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D5F3EE42C07999B007C91B1 /* ArcXP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ArcXP.framework;
+			remoteRef = 9D5F3EE32C07999B007C91B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D5F3EE62C07999B007C91B1 /* ArcXPtvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ArcXPtvOSTests.xctest;
+			remoteRef = 9D5F3EE52C07999B007C91B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A57B36BA2C652932005C52C2 /* ReCaptcha.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReCaptcha.framework;
+			remoteRef = A57B36B92C652932005C52C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A57B36BC2C652932005C52C2 /* ReCaptcha_RxSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReCaptcha_RxSwift.framework;
+			remoteRef = A57B36BB2C652932005C52C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A569802B29F1D0A000603466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AF62752C62A52100F5776D /* EvaluationResultTableViewCell.xib in Resources */,
+				A56361152C5AC3AA00751A3F /* UserProfileTableViewCell.xib in Resources */,
+				9DE2AE772C5289F000AFEDA3 /* Main.storyboard in Resources */,
+				9DE2AE762C5289F000AFEDA3 /* Assets.xcassets in Resources */,
+				A569803A29F1D0A100603466 /* Assets.xcassets in Resources */,
+				A56360F02C58554100751A3F /* Commerce.storyboard in Resources */,
+				A57B36E02C6BECF5005C52C2 /* Content.storyboard in Resources */,
+				A56361002C599E0800751A3F /* Paywall.storyboard in Resources */,
+				A5AF62762C62A52100F5776D /* RuleTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D5FF0202B8D043A008DCB49 /* swift lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "swift lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A569802929F1D0A000603466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AF62822C62AB2600F5776D /* ConditionsViewController.swift in Sources */,
+				A5E0DD072C58448900F741FD /* LoginViewController.swift in Sources */,
+				A563610F2C5AC2BF00751A3F /* SignUpFieldsViewController.swift in Sources */,
+				9D5FF0092B85625F008DCB49 /* SDKInitializer.swift in Sources */,
+				A58B5B232C58399A005B44CF /* LoginOptionsViewController.swift in Sources */,
+				A54CBBFD2BF52FDE005543BF /* ArcCommerceView.swift in Sources */,
+				A56360F92C5999B800751A3F /* UIViewController+Alert.swift in Sources */,
+				A57B36DC2C6A9FB4005C52C2 /* DetailViewController.swift in Sources */,
+				A54CBBF92BF52FAF005543BF /* ArcContentView.swift in Sources */,
+				A56361022C5AB49800751A3F /* SignUpViewController.swift in Sources */,
+				A56361132C5AC36700751A3F /* UserProfileTableViewCell.swift in Sources */,
+				A5AF62812C62AB2600F5776D /* PaywallConditionsViewController.swift in Sources */,
+				A5E0DD0D2C584D4D00F741FD /* CommerceBridge.swift in Sources */,
+				A56361112C5AC31C00751A3F /* Nonce.swift in Sources */,
+				A5AF627D2C62AB2600F5776D /* PaywallViewController.swift in Sources */,
+				A5AF627F2C62AB2600F5776D /* PaywallContentViewController.swift in Sources */,
+				A5AF627E2C62AB2600F5776D /* PaywallCacheViewController.swift in Sources */,
+				A57B36D92C6A9F36005C52C2 /* ContentViewController.swift in Sources */,
+				A5AF62732C62A52100F5776D /* RuleTableViewCell.swift in Sources */,
+				A5AF62742C62A52100F5776D /* EvaluationResultTableViewCell.swift in Sources */,
+				A56361172C5AC67700751A3F /* UserIdentitiesViewController.swift in Sources */,
+				A56361062C5ABCB300751A3F /* UserProfileViewController.swift in Sources */,
+				9DE2AE472C503E4E00AFEDA3 /* ArcVideoPlayerBridge.swift in Sources */,
+				9D00C3262C50293D00271282 /* VideoPlayerViewController.swift in Sources */,
+				9D00C31A2C50293D00271282 /* KeyboardManager.swift in Sources */,
+				9D00C31C2C50293D00271282 /* PageViewController.swift in Sources */,
+				9D00C3232C50293D00271282 /* ConfigureVideoBaseViewController.swift in Sources */,
+				9D00C3182C50293D00271282 /* ConfigureVideoViewController.swift in Sources */,
+				9D00C3252C50293D00271282 /* MediaViewController.swift in Sources */,
+				9D00C31B2C50293D00271282 /* MultiVideoViewController.swift in Sources */,
+				A54CBBF92BF52FAF005543BF /* ArcContentView.swift in Sources */,
+				9D00C3222C50293D00271282 /* AppSettings.swift in Sources */,
+				A54CBBF32BF52F01005543BF /* ArcXPSDKSampleApp.swift in Sources */,
+				9D00C3242C50293D00271282 /* DelegateEventsViewController.swift in Sources */,
+				A54CBBF52BF52F2D005543BF /* ContentView.swift in Sources */,
+				A56361092C5AC25D00751A3F /* DetailedFieldViewController.swift in Sources */,
+				A54CBBF72BF52F55005543BF /* Constants.swift in Sources */,
+				A5AF62802C62AB2600F5776D /* RulesViewController.swift in Sources */,
+				9D00C3172C50293D00271282 /* ArcMediaPlayerViewEditor.swift in Sources */,
+				A57B36DE2C6BEC4C005C52C2 /* ContentBridge.swift in Sources */,
+				A54CBBFB2BF52FCB005543BF /* ArcVideoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DE2AE722C5289F000AFEDA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE2AE712C5289F000AFEDA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A569803F29F1D0A100603466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A569804029F1D0A100603466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A569804229F1D0A100603466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2829339WJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArcXPSDKSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.washingtonpost.arc.ArcXPSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A569804329F1D0A100603466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2829339WJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArcXPSDKSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.washingtonpost.arc.ArcXPSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A569802829F1D0A000603466 /* Build configuration list for PBXProject "ArcXPSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A569803F29F1D0A100603466 /* Debug */,
+				A569804029F1D0A100603466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A569804129F1D0A100603466 /* Build configuration list for PBXNativeTarget "ArcXPSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A569804229F1D0A100603466 /* Debug */,
+				A569804329F1D0A100603466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A57B36C02C6529D8005C52C2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = exactVersion;
+				version = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A57B36C12C6529D8005C52C2 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A57B36C02C6529D8005C52C2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		A57B36C32C6529D8005C52C2 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A57B36C02C6529D8005C52C2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A569802529F1D0A000603466 /* Project object */;
+}

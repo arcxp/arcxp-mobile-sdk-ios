@@ -1,0 +1,5 @@
+{
+    "httpStatus": 400,
+    "code": "300301",
+    "message": "userName must be between 5 and 100 characters long"
+}

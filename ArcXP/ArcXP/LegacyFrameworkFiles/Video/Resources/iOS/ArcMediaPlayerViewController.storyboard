@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19158" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tfY-Ir-xjq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19141"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Arc Media Player View Controller-->
+        <scene sceneID="5Pb-J6-Qzs">
+            <objects>
+                <viewController storyboardIdentifier="videoPlayer" id="tfY-Ir-xjq" customClass="ArcMediaPlayerViewController" customModule="ArcXPVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="40k-Gg-1g8" customClass="ArcMediaPlayerView" customModule="ArcXPVideo" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YQI-8t-RWm" userLabel="Tappable View to Show Control Bar">
+                                <rect key="frame" x="20" y="802" width="374" height="84"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="controlBarTapArea"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="2XL-li-aZX" appends="YES" id="8ae-cC-rI9"/>
+                                </connections>
+                            </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Captions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4W-A0-5nB" userLabel="Captions Label">
+                                <rect key="frame" x="182" y="870.5" width="50.5" height="15.5"/>
+                                <color key="backgroundColor" systemColor="darkTextColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfX-sF-fa6" userLabel="Control Bar">
+                                <rect key="frame" x="20" y="802" width="374" height="84"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4Iv-JQ-o09">
+                                        <rect key="frame" x="8" y="8" width="358" height="68"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-gy-TDm">
+                                                <rect key="frame" x="0.0" y="0.0" width="358" height="30"/>
+                                                <subviews>
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="-:--" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFR-nc-8LA" userLabel="Time Elapsed Label">
+                                                        <rect key="frame" x="0.0" y="0.0" width="25" height="30"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="timeLabel"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="y3Q-WW-ODt" userLabel="Progress Slider">
+                                                        <rect key="frame" x="31" y="0.0" width="296" height="31"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="slider"/>
+                                                        <color key="minimumTrackTintColor" systemColor="systemYellowColor"/>
+                                                        <connections>
+                                                            <action selector="seekWithScrubber:" destination="tfY-Ir-xjq" eventType="valueChanged" id="9Jn-qU-y5E"/>
+                                                        </connections>
+                                                    </slider>
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="-:--" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GP6-yS-gGk" userLabel="Time Remaining Label">
+                                                        <rect key="frame" x="333" y="0.0" width="25" height="30"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="timeLabel"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="GP6-yS-gGk" firstAttribute="width" secondItem="ZFR-nc-8LA" secondAttribute="width" id="7zN-g8-dcr"/>
+                                                </constraints>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0JT-DK-vDL" userLabel="Buttons">
+                                                <rect key="frame" x="0.0" y="38" width="358" height="30"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="250" ambiguous="YES" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="m0F-xx-zLP" userLabel="Playback Buttons">
+                                                        <rect key="frame" x="0.0" y="0.0" width="182" height="30"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalCompressionResistancePriority="250" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nnp-gT-g0Q" userLabel="Backward Button">
+                                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="backwardButton"/>
+                                                                <state key="normal" image="rewind-to-start"/>
+                                                                <connections>
+                                                                    <action selector="jumpToBeginningWithSender:" destination="tfY-Ir-xjq" eventType="touchUpInside" id="x86-2J-8Cc"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xv1-ia-NnG" userLabel="Skip Backward Button">
+                                                                <rect key="frame" x="38" y="0.0" width="30" height="30"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="skipBackwardButton"/>
+                                                                <state key="normal" image="skip-backward-15"/>
+                                                                <connections>
+                                                                    <action selector="skipBackwardWithSender:" destination="tfY-Ir-xjq" eventType="touchUpInside" id="rfj-kn-55U"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalCompressionResistancePriority="250" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oyc-b5-mzC" userLabel="Play Button">
+                                                                <rect key="frame" x="76" y="0.0" width="30" height="30"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="playButton"/>
+                                                                <state key="normal" image="play"/>
+                                                                <state key="selected" image="pause"/>
+                                                                <connections>
+                                                                    <action selector="playWithSender:" destination="tfY-Ir-xjq" eventType="touchUpInside" id="qJO-mu-VdQ"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRi-62-4Wt" userLabel="Skip Forward Button">
+                                                                <rect key="frame" x="114" y="0.0" width="30" height="30"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="skipForwardButton"/>
+                                                                <state key="normal" image="skip-forward-30"/>
+                                                                <connections>
+                                                                    <action selector="skipForwardWithSender:" destination="tfY-Ir-xjq" eventType="touchUpInside" id="WcA-3t-O1b"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalCompressionResistancePriority="250" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBn-dq-NcJ" userLabel="Forward Button">
+                                                                <rect key="frame" x="152" y="0.0" width="30" height="30"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="forwardButton"/>
+                                                                <state key="normal" image="forward-to-end"/>
+                                                                <connections>
+                                                                    <action selector="jumpToEndWithSender:" destination="tfY-Ir-xjq" eventType="touchUpInside" id="NTc-vQ-Wbc"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jhx-8k-jWT" userLabel="Other Buttons">
+                                                        <rect key="frame" x="312" y="0.0" width="46" height="30"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sue-gj-rXc" customClass="AVRoutePickerView">
+                                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="30" id="Ij9-Aw-9Al"/>
+                                                                    <constraint firstAttribute="height" constant="30" id="NIP-Ha-rad"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="200" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0v-q4-3Mm" userLabel="Closed Captions Button">
+                                                                <rect key="frame" x="38" y="0.0" width="0.0" height="30"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="closedCaptionsButton"/>
+                                                                <state key="normal" image="closed-captioning"/>
+                                                                <connections>
+                                                                    <action selector="toggleClosedCaptionsWithSender:" destination="tfY-Ir-xjq" eventType="touchUpInside" id="9tf-ct-5fF"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="199" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKe-yn-pm5" userLabel="Picture-in-Picture Button">
+                                                                <rect key="frame" x="46" y="0.0" width="0.0" height="30"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="pictureInPictureButton"/>
+                                                                <state key="normal" image="full-screen"/>
+                                                                <state key="selected" image="normal-screen"/>
+                                                                <connections>
+                                                                    <action selector="toggleFullscreenWithSender:" destination="40k-Gg-1g8" eventType="touchUpInside" id="Vf4-LS-cbt"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OAG-z0-O6D" userLabel="VolumeStack">
+                                                        <rect key="frame" x="192" y="0.0" width="120" height="30"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGF-BG-c2s">
+                                                                <rect key="frame" x="0.0" y="0.0" width="5" height="30"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="volumeButton" label="Volume"/>
+                                                                <gestureRecognizers/>
+                                                                <state key="normal" image="volume-medium"/>
+                                                                <state key="selected" image="volume-mute"/>
+                                                                <connections>
+                                                                    <action selector="muteWithSender:" destination="tfY-Ir-xjq" eventType="touchUpInside" id="mpd-U7-xeX"/>
+                                                                    <outletCollection property="gestureRecognizers" destination="m7H-3c-9Mw" appends="YES" id="mim-Vt-ppm"/>
+                                                                </connections>
+                                                            </button>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tjC-J8-Ein">
+                                                                <rect key="frame" x="5" y="5" width="115" height="20"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvW-YJ-VoV" userLabel="Volume Slider" customClass="MPVolumeView">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="115" height="20"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <accessibility key="accessibilityConfiguration" identifier="volumeSlider"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="115" id="Ryo-Ub-NL2"/>
+                                                                            <constraint firstAttribute="height" constant="20" id="uXL-pQ-948"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volume slider is device-only" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUQ-Nx-9II">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="20"/>
+                                                                        <accessibility key="accessibilityConfiguration" identifier="volumeSliderPlaceholder"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="m0F-xx-zLP" firstAttribute="leading" secondItem="0JT-DK-vDL" secondAttribute="leading" id="3BT-Nt-3Pb"/>
+                                                    <constraint firstItem="jhx-8k-jWT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OAG-z0-O6D" secondAttribute="trailing" id="5lf-Ss-67L"/>
+                                                    <constraint firstAttribute="bottom" secondItem="jhx-8k-jWT" secondAttribute="bottom" id="61O-K1-7bO"/>
+                                                    <constraint firstItem="jhx-8k-jWT" firstAttribute="top" secondItem="0JT-DK-vDL" secondAttribute="top" id="9gj-G1-6i2"/>
+                                                    <constraint firstItem="m0F-xx-zLP" firstAttribute="top" secondItem="0JT-DK-vDL" secondAttribute="top" id="HAu-QI-HyL"/>
+                                                    <constraint firstItem="OAG-z0-O6D" firstAttribute="centerY" secondItem="0JT-DK-vDL" secondAttribute="centerY" id="q48-Ev-DYI"/>
+                                                    <constraint firstItem="OAG-z0-O6D" firstAttribute="leading" secondItem="m0F-xx-zLP" secondAttribute="trailing" constant="10" id="vEm-Jh-QYC"/>
+                                                    <constraint firstAttribute="bottom" secondItem="m0F-xx-zLP" secondAttribute="bottom" id="wU1-vB-G29"/>
+                                                    <constraint firstAttribute="trailing" secondItem="jhx-8k-jWT" secondAttribute="trailing" id="yGH-fh-Az1"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="4" left="8" bottom="4" right="8"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" identifier="controlBar"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottomMargin" secondItem="4Iv-JQ-o09" secondAttribute="bottom" id="WkO-wy-V7e"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="4Iv-JQ-o09" secondAttribute="trailing" id="YlZ-Ud-N6r"/>
+                                    <constraint firstItem="4Iv-JQ-o09" firstAttribute="leading" secondItem="dfX-sF-fa6" secondAttribute="leadingMargin" id="fkW-by-wxu"/>
+                                    <constraint firstItem="4Iv-JQ-o09" firstAttribute="top" secondItem="dfX-sF-fa6" secondAttribute="topMargin" id="rzK-42-lE5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oo2-ce-3AQ">
+                                <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MmF-ej-xaK"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration" identifier="rootView"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="YQI-8t-RWm" firstAttribute="leading" secondItem="dfX-sF-fa6" secondAttribute="leading" id="1Jq-zn-Ztm"/>
+                            <constraint firstItem="P4W-A0-5nB" firstAttribute="centerX" secondItem="40k-Gg-1g8" secondAttribute="centerXWithinMargins" id="C69-mm-XKS"/>
+                            <constraint firstItem="YQI-8t-RWm" firstAttribute="top" secondItem="dfX-sF-fa6" secondAttribute="top" id="E7K-Lz-4JW"/>
+                            <constraint firstItem="YQI-8t-RWm" firstAttribute="trailing" secondItem="dfX-sF-fa6" secondAttribute="trailing" id="Je0-iX-8V0"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="P4W-A0-5nB" secondAttribute="bottom" id="QIs-FR-Lpq"/>
+                            <constraint firstItem="Oo2-ce-3AQ" firstAttribute="centerY" secondItem="40k-Gg-1g8" secondAttribute="centerY" id="aeB-ga-acD"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="dfX-sF-fa6" secondAttribute="bottom" id="c3h-Zz-akF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dfX-sF-fa6" secondAttribute="trailing" id="f3a-PF-t7n"/>
+                            <constraint firstItem="YQI-8t-RWm" firstAttribute="bottom" secondItem="dfX-sF-fa6" secondAttribute="bottom" id="fuH-7R-Qmm"/>
+                            <constraint firstItem="Oo2-ce-3AQ" firstAttribute="centerX" secondItem="40k-Gg-1g8" secondAttribute="centerX" id="nh9-3b-1V5"/>
+                            <constraint firstItem="dfX-sF-fa6" firstAttribute="leading" secondItem="40k-Gg-1g8" secondAttribute="leadingMargin" id="qjv-nb-Sgv"/>
+                        </constraints>
+                        <edgeInsets key="layoutMargins" top="10" left="10" bottom="10" right="10"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipsToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="airPlayView" destination="Sue-gj-rXc" id="SzP-xO-Dnv"/>
+                            <outlet property="captionsLabel" destination="P4W-A0-5nB" id="BAp-4A-UHB"/>
+                            <outlet property="closedCaptionsButton" destination="x0v-q4-3Mm" id="Isv-hm-SEN"/>
+                            <outlet property="controlBar" destination="dfX-sF-fa6" id="MnU-Hy-FG0"/>
+                            <outlet property="controlBarPlayButton" destination="Oyc-b5-mzC" id="JVE-1f-ysi"/>
+                            <outlet property="fullScreenButton" destination="fKe-yn-pm5" id="m2Y-Zf-yjp"/>
+                            <outlet property="goBackwardButton" destination="Nnp-gT-g0Q" id="VPl-We-Wjg"/>
+                            <outlet property="goForwardButton" destination="VBn-dq-NcJ" id="EvF-rj-wJl"/>
+                            <outlet property="longPressToShowVolumeSlider" destination="m7H-3c-9Mw" id="99A-yw-aRT"/>
+                            <outlet property="playErrorMessageLabel" destination="Oo2-ce-3AQ" id="5R8-Va-bbU"/>
+                            <outlet property="progressSlider" destination="y3Q-WW-ODt" id="GZc-Yq-fOa"/>
+                            <outlet property="skipBackwardButton" destination="Xv1-ia-NnG" id="yCI-Lc-XV4"/>
+                            <outlet property="skipForwardButton" destination="bRi-62-4Wt" id="gGS-OD-QAF"/>
+                            <outlet property="timeElapsedLabel" destination="ZFR-nc-8LA" id="gCr-IP-8uR"/>
+                            <outlet property="timeRemainingLabel" destination="GP6-yS-gGk" id="Aup-SI-c4C"/>
+                            <outlet property="volumeButton" destination="VGF-BG-c2s" id="WhD-TH-a7G"/>
+                            <outlet property="volumeSlider" destination="hvW-YJ-VoV" id="SLq-me-dtc"/>
+                            <outlet property="volumeSliderContainer" destination="tjC-J8-Ein" id="c5w-2E-YdC"/>
+                            <outlet property="volumeSliderMessage" destination="MUQ-Nx-9II" id="878-eh-6oJ"/>
+                            <outletCollection property="gestureRecognizers" destination="3wq-Ln-gtz" appends="YES" id="G9K-YI-BRP"/>
+                        </connections>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tfN-yB-SSl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3wq-Ln-gtz" userLabel="Tap to Play/Pause">
+                    <connections>
+                        <action selector="playWithSender:" destination="tfY-Ir-xjq" id="DOS-ru-slb"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="2XL-li-aZX" userLabel="Tap to Show Control Bar">
+                    <connections>
+                        <action selector="showControlBarWithSender:" destination="40k-Gg-1g8" id="2wp-p4-16P"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="4C5-ts-0lm" userLabel="Scrub to Scroll Through Playback"/>
+                <tapGestureRecognizer id="HbX-T7-bjN" userLabel="Tap to Jump to Playback Point"/>
+                <pongPressGestureRecognizer delaysTouchesBegan="YES" allowableMovement="10" minimumPressDuration="0.5" id="m7H-3c-9Mw" userLabel="Long Press to Show Volume Slider">
+                    <connections>
+                        <action selector="showVolumeSlider:" destination="40k-Gg-1g8" id="eoM-Ch-ZiG"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-2638.858695652174" y="-720.28985507246387"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="closed-captioning" width="30" height="30"/>
+        <image name="forward-to-end" width="30" height="30"/>
+        <image name="full-screen" width="30" height="30"/>
+        <image name="normal-screen" width="30" height="30"/>
+        <image name="pause" width="30" height="30"/>
+        <image name="play" width="30" height="30"/>
+        <image name="rewind-to-start" width="30" height="30"/>
+        <image name="skip-backward-15" width="30" height="30"/>
+        <image name="skip-forward-30" width="30" height="30"/>
+        <image name="volume-medium" width="30" height="30"/>
+        <image name="volume-mute" width="30" height="30"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

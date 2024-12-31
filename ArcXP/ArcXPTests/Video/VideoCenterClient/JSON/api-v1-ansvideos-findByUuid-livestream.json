@@ -1,0 +1,227 @@
+{
+    "type":"video",
+    "_id":"c877a36a-23ea-4a55-b5a1-543640189734",
+    "version":"0.8.0",
+    "canonical_url":"/video/wsbtv-now/c877a36a-23ea-4a55-b5a1-543640189734/",
+    "canonical_website":"cmg-tv-10010",
+    "short_url":"video/wsbtv-now/2020/01/08/c877a36a-23ea-4a55-b5a1-543640189734_live.html",
+    "created_date":"2020-01-08T22:00:26Z",
+    "last_updated_date":"2020-03-09T16:43:50Z",
+    "publish_date":"2020-03-05T21:34:55Z",
+    "first_publish_date":"2020-01-08T22:00:39Z",
+    "display_date":"2020-03-05T21:34:55Z",
+    "status":"live",
+    "headlines":{
+        "basic":"WSBTV Now",
+        "meta_title":"WSBTV Now"
+    },
+    "subheadlines":{
+        "basic":"WSBTV Now Test Stream - Elemental Encoded stream encoded via Arc Video Platform"
+    },
+    "description":{
+        "basic":"WSBTV Now Test Stream - Elemental Encoded stream encoded via Arc Video Platform"
+    },
+    "credits":{
+        
+    },
+    "taxonomy":{
+        "tags":[
+            {
+                "text":"Live Events"
+            }
+        ],
+        "primary_site":{
+            "type":"site",
+            "_id":"/video",
+            "version":"0.5.8",
+            "name":"Video",
+            "path":"/video",
+            "primary":true
+        },
+        "sites":[
+            {
+                "type":"site",
+                "_id":"/video",
+                "version":"0.5.8",
+                "name":"Video",
+                "path":"/video",
+                "primary":true
+            },
+            {
+                "type":"site",
+                "_id":"/video/live-stream",
+                "version":"0.5.8",
+                "name":"Watch Live",
+                "path":"/video/live-stream",
+                "primary":false
+            }
+        ],
+        "primary_section":{
+            "type":"section",
+            "_id":"/video",
+            "_website":"cmg-tv-10010",
+            "version":"0.6.0",
+            "name":"Video",
+            "path":"/video",
+            "primary":true
+        },
+        "sections":[
+            {
+                "type":"section",
+                "_id":"/video",
+                "_website":"cmg-tv-10010",
+                "version":"0.6.0",
+                "name":"Video",
+                "path":"/video",
+                "primary":true
+            },
+            {
+                "type":"section",
+                "_id":"/video/live-stream",
+                "_website":"cmg-tv-10010",
+                "version":"0.6.0",
+                "name":"Watch Live",
+                "path":"/video/live-stream",
+                "primary":false
+            }
+        ],
+        "seo_keywords":[
+            "breaking news video",
+            "video updates",
+            "live video",
+            "live updates",
+            "breaking news",
+            "press conference",
+            "live speeches",
+            "real time coverage"
+        ]
+    },
+    "promo_items":{
+        "basic":{
+            "type":"image",
+            "version":"0.5.8",
+            "credits":{
+                
+            },
+            "url":"https://d1hfln2sfez66z.cloudfront.net/01-08-2020/t_c33ffdd9807949179b55798ba9fd6bd5_name_wsbtvlive.jpg",
+            "width":1920,
+            "height":1080
+        }
+    },
+    "related_content":{
+        "redirect":[
+            
+        ],
+        "basic":[
+            
+        ]
+    },
+    "owner":{
+        "name":"Live Owner",
+        "sponsored":false
+    },
+    "planning":{
+        "scheduling":{
+            
+        }
+    },
+    "revision":{
+        "published":true
+    },
+    "syndication":{
+        "search":true
+    },
+    "source":{
+        "system":"video center",
+        "edit_url":"https://sandbox.cmg.arcpublishing.com/goldfish/video/5e1650fa46e0fb00010c262a"
+    },
+    "distributor":{
+        "category":"staff"
+    },
+    "tracking":{
+        "in_url_headline":"wsbtv-now"
+    },
+    "additional_properties":{
+        "subsection":"Video",
+        "videoCategory":"live",
+        "55A6YYVQLVFIBAQRGI3HJ64K5Y":"01-08-2020/t_c33ffdd9807949179b55798ba9fd6bd5_name_wsbtvlive.jpg",
+        "videoId":"5e1650fa46e0fb00010c262a",
+        "vertical":false,
+        "embedContinuousPlay":true,
+        "imageResizerUrls":[
+            
+        ],
+        "advertising":{
+            "adInsertionUrls":{
+                "mt_master":"https://d2l3bcedbrip41.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_QA_cmg-tv-10010_68635d7c-2eba-49c1-9c02-8682fe764f7a_LE/",
+                "mt_root":"https://d2l3bcedbrip41.cloudfront.net/",
+                "mt_session":"https://d2l3bcedbrip41.cloudfront.net/v1/session/77872db67918a151b697b5fbc23151e5765767dc/cmg_QA_cmg-tv-10010_68635d7c-2eba-49c1-9c02-8682fe764f7a_LE/"
+            },
+            "allowPrerollOnDomain":false,
+            "autoPlayPreroll":true,
+            "commercialAdNode":"",
+            "enableAdInsertion":true,
+            "enableAutoPreview":false,
+            "forceAd":true,
+            "playAds":true,
+            "playVideoAds":true,
+            "videoAdZone":""
+        },
+        "disableUpNext":false,
+        "videoAdZone":"",
+        "youtubeEventId":"958164aa-16ec-4902-9960-11183cbece95",
+        "liveRecordingStatus":"PUBLISHED",
+        "platform":"desktop",
+        "playVideoAds":true,
+        "useVariants":false,
+        "youtubeEventState":"live",
+        "livePlayThroughToVod":false,
+        "has_published_copy":true,
+        "playlistTags":[
+            
+        ],
+        "anglerfishArcId":"55A6YYVQLVFIBAQRGI3HJ64K5Y",
+        "isWire":false,
+        "gifAsThumbnail":false,
+        "published":true,
+        "streamName":"wsbtvnow",
+        "permalinkUrl":"video/wsbtv-now/2020/01/08/c877a36a-23ea-4a55-b5a1-543640189734_live.html",
+        "publicationEndDate":"2020-05-31T03:59:00Z"
+    },
+    "video_type":"live",
+    "streams":[
+        {
+            "height":720.0,
+            "width":1280.0,
+            "stream_type":"ts",
+            "url":"https://d17ej02c1y2uxi.cloudfront.net/out/v1/ee77ac0bd333445e8dd30e8b7f91bc22/index.m3u8",
+            "bitrate":2000.0,
+            "provider":"elastictranscoder"
+        }
+    ],
+    "promo_image":{
+        "type":"image",
+        "version":"0.5.8",
+        "credits":{
+            
+        },
+        "url":"https://d1hfln2sfez66z.cloudfront.net/01-08-2020/t_c33ffdd9807949179b55798ba9fd6bd5_name_wsbtvlive.jpg",
+        "width":1920,
+        "height":1080
+    },
+    "embed_html":"<div class=\"powa\" id=\"powa-c877a36a-23ea-4a55-b5a1-543640189734\" data-org=\"cmg\" data-env=\"sandbox\" data-uuid=\"c877a36a-23ea-4a55-b5a1-543640189734\" data-aspect-ratio=\"0.562\" data-api=\"sandbox\"><script src=\"https://cmg.video-player.arcpublishing.com/sandbox/powaBoot.js?org=cmg\"></script></div>",
+    "websites":{
+        "cmg-tv-10010":{
+            "website_section":{
+                "path":"/video",
+                "_website":"cmg-tv-10010",
+                "name":"Video",
+                "_id":"/video",
+                "type":"section",
+                "version":"0.6.0",
+                "primary":true
+            },
+            "website_url":"/video/wsbtv-now/c877a36a-23ea-4a55-b5a1-543640189734/"
+        }
+    }
+}

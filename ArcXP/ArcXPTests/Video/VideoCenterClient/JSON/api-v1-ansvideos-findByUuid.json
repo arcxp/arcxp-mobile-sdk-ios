@@ -1,0 +1,314 @@
+{
+    "type": "video",
+    "_id": "db9862d6-be50-11e7-9294-705f80164f6e",
+    "version": "0.5.8",
+    "canonical_url": "\/local\/adorable-video-of-lemurs-eating-treats-on-halloween\/2017\/10\/31\/db9862d6-be50-11e7-9294-705f80164f6e_video.html",
+    "short_url": "http:\/\/wapo.st\/2iOExNG",
+    "created_date": "2017-10-31T15:33:29Z",
+    "last_updated_date": "2017-11-29T18:57:57Z",
+    "publish_date": "2017-10-31T15:36:59Z",
+    "first_publish_date": "2017-10-31T15:36:53Z",
+    "display_date": "2017-10-31T15:27:40Z",
+    "headlines": {
+        "basic": "Adorable video of lemurs eating treats on Halloween",
+        "meta_title": "Lemur zoo Halloween"
+    },
+    "subheadlines": {
+        "basic": "The Smithsonian's National Zoo shared video of their lemurs digging into raisins and fruit inside pumpkins."
+    },
+    "description": {
+        "basic": "The Smithsonian's National Zoo shared video of their lemurs digging into raisins and fruit inside pumpkins."
+    },
+    "credits": {
+        "by": [
+            {
+                "type": "author",
+                "name": "",
+                "org": "National Zoo"
+            }
+        ]
+    },
+    "taxonomy": {
+        "tags": [
+            {
+                "text": "news"
+            },
+            {
+                "text": "other"
+            }
+        ],
+        "primary_site": {
+            "type": "site",
+            "_id": "\/local",
+            "version": "0.5.8",
+            "name": "Local",
+            "path": "\/local",
+            "primary": true
+        },
+        "sites": [
+            {
+                "type": "site",
+                "_id": "\/local",
+                "version": "0.5.8",
+                "name": "Local",
+                "path": "\/local",
+                "primary": true
+            }
+        ],
+        "seo_keywords": [
+            "mueller indictment",
+            "donald trump",
+            "trump",
+            "2016",
+            "republican",
+            "politics",
+            "presidential election",
+            "gop",
+            "apprentice",
+            "election",
+            "taxes",
+            "IRS follow the money projection",
+            "Robin Bell projection",
+            "special counsel Robert Mueller",
+            "trump campaign aides indictment",
+            "president trump russia collussion",
+            "trump tax returns",
+            "mueller investigation",
+            "halloween animals",
+            "zoo",
+            "national zoo",
+            "smithsonian",
+            "panda",
+            "smithsonian national zoo",
+            "local",
+            "animals",
+            "mei xiang",
+            "panda cub",
+            "baby panda",
+            "halloween national zoo",
+            "halloween treats"
+        ]
+    },
+    "promo_items": {
+        "basic": {
+            "type": "image",
+            "version": "0.5.8",
+            "credits": {
+                
+            },
+            "url": "https:\/\/d2us7r8wmw7tny.cloudfront.net\/10-31-2017\/t_1509463945300_name_20171031_lemurseatingtreats_handout_scaled.jpg",
+            "width": 1920,
+            "height": 1080
+        }
+    },
+    "owner": {
+        "name": ""
+    },
+    "planning": {
+        "scheduling": {
+            
+        }
+    },
+    "revision": {
+        "published": true
+    },
+    "syndication": {
+        "search": true
+    },
+    "source": {
+        "name": "National Zoo",
+        "system": "Goldfish",
+        "edit_url": "https:\/\/demo.arcpublishing.com\/goldfish\/video\/59f897c9e4b0183579573977"
+    },
+    "tracking": {
+        "in_url_headline": "31"
+    },
+    "additional_properties": {
+        "trackAsPool": false,
+        "subsection": "Local",
+        "videoCategory": "other",
+        "gifAsThumbnail": false,
+        "videoId": "59f897c9e4b0183579573977",
+        "vertical": false,
+        "embedContinuousPlay": true,
+        "published": true,
+        "imageResizerUrls": [
+            
+        ],
+        "advertising": {
+            "adSetUrls": null,
+            "forceAd": false,
+            "playAds": true,
+            "playVideoAds": true,
+            "enableAutoPreview": true,
+            "commercialAdNode": "\/national",
+            "autoPlayPreroll": false,
+            "allowPrerollOnDomain": false
+        },
+        "videoAdZone": "wpni.video.national",
+        "lastPublishedBy": {
+            "email": "Gavin.McDonald@washpost.com",
+            "name": "Gavin",
+            "lastname": "McDonald"
+        },
+        "platform": "desktop",
+        "playVideoAds": true,
+        "playlist": "Holidays",
+        "forceClosedCaptionsOn": false,
+        "doNotShowTranscripts": true,
+        "useVariants": true,
+        "playlistTags": [
+            "holidayvids"
+        ],
+        "firstPublishedBy": {
+            "email": "Claritza.Jimenez@washpost.com",
+            "name": "Claritza",
+            "lastname": "Jimenez"
+        }
+    },
+    "duration": 35989,
+    "video_type": "clip",
+    "youtube_content_id": "uWBsQpI-DQc",
+    "streams": [
+        {
+            "height": 480,
+            "width": 854,
+            "filesize": 6238391,
+            "stream_type": "mp4",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_1439412357318-vhunw0_t_1509464032869_854_480_1200.mp4",
+            "bitrate": 1200,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 1080,
+            "width": 1920,
+            "filesize": 25956597,
+            "stream_type": "mp4",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_1439411933958-zgatlb_t_1509464032869_1920_1080_5400.mp4",
+            "bitrate": 5400,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 360,
+            "width": 640,
+            "filesize": 2217648,
+            "stream_type": "ts",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_t_1509464033219_mobile.m3u8",
+            "bitrate": 300,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 180,
+            "width": 320,
+            "filesize": 1555512,
+            "stream_type": "ts",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_t_1509464033219_mobile.m3u8",
+            "bitrate": 160,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 1080,
+            "width": 1920,
+            "filesize": 22839180,
+            "stream_type": "ts",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_t_1509464033219_hd.m3u8",
+            "bitrate": 4500,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 720,
+            "width": 1280,
+            "filesize": 10093423,
+            "stream_type": "mp4",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_1439399835595-cf9g26_t_1509464032869_1280_720_2000.mp4",
+            "bitrate": 2000,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 360,
+            "width": 640,
+            "filesize": 1983876,
+            "stream_type": "mp4",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_1462301751346-fs7oqd_t_1509464032869_640_360_300.mp4",
+            "bitrate": 300,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 360,
+            "width": 640,
+            "filesize": 3711496,
+            "stream_type": "ts",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_t_1509464033219_mobile.m3u8",
+            "bitrate": 600,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 180,
+            "width": 320,
+            "filesize": 1348706,
+            "stream_type": "mp4",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_1439413190599-3q5d44_t_1509464032869_320_180_160.mp4",
+            "bitrate": 160,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 360,
+            "width": 640,
+            "filesize": 3393810,
+            "stream_type": "mp4",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_1439412153584-wn5qra_t_1509464032869_640_360_600.mp4",
+            "bitrate": 600,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 720,
+            "width": 1280,
+            "filesize": 10600380,
+            "stream_type": "ts",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_t_1509464033219_master.m3u8",
+            "bitrate": 2000,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 1080,
+            "width": 1920,
+            "filesize": 235151904,
+            "stream_type": "hls",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_t_1509464033219_hlsv4_master.m3u8",
+            "bitrate": 4500,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 360,
+            "width": 640,
+            "filesize": 4461159,
+            "stream_type": "gif",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_1455589917779-yrd15k_t_1509464069093_640_360_400.gif",
+            "bitrate": 400,
+            "provider": "elastictranscoder"
+        },
+        {
+            "height": 360,
+            "width": 640,
+            "filesize": 1009704,
+            "stream_type": "gif-mp4",
+            "url": "https:\/\/videos.posttv.com\/washpost-production\/TWP\/20171031\/59f897c9e4b0183579573977\/59f897dae4b0dcb9620948ee_1509128713498-xfd55s_t_1509464084210_640_360_600.mp4",
+            "bitrate": 600,
+            "provider": "elastictranscoder"
+        }
+    ],
+    "subtitles": {
+        
+    },
+    "promo_image": {
+        "type": "image",
+        "version": "0.5.8",
+        "credits": {
+            
+        },
+        "url": "https:\/\/d2us7r8wmw7tny.cloudfront.net\/10-31-2017\/t_1509463945300_name_20171031_lemurseatingtreats_handout_scaled.jpg",
+        "width": 1920,
+        "height": 1080
+    },
+    "embed_html": "<div class=\"powa\" id=\"powa-db9862d6-be50-11e7-9294-705f80164f6e\" data-org=\"demo\" data-uuid=\"db9862d6-be50-11e7-9294-705f80164f6e\" data-aspect-ratio=\"0.562\"><script src=\"https:\/\/d328y0m0mtvzqc.cloudfront.net\/prod\/powaBoot.js\"><\/script><\/div>"
+}

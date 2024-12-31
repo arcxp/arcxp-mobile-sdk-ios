@@ -1,0 +1,17 @@
+{
+    "edgescape": {
+        "city": "CHICAGO",
+        "continent": "NA",
+        "georegion": "255",
+        "dma": "602",
+        "country_code": "US"
+    },
+    "skus": [
+        {
+            "sku": "123456"
+        },
+        {
+            "sku": "33333"
+        }
+    ]
+}

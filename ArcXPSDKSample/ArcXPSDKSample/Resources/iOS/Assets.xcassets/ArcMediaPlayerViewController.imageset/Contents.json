@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "arcmediaplayerviewcontroller-light.png",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "arcmediaplayerviewcontroller-dark.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
