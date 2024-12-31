@@ -85,7 +85,7 @@ jobs:
       - name: Clone SPM Repo
         run: |
           mkdir -p spm-repo
-          git clone git@github.com:arcxp/arcxpSDK-iOS-package.git spm-repo
+          git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/arcxp/arcxpSDK-iOS-package.git spm-repo
           cd spm-repo
           echo "SPM repo cloned successfully."
 
