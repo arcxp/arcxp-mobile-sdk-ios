@@ -1,0 +1,38 @@
+name: Manual Publish Podspec
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read  # Grants read-only access to the repository contents
+  packages: read  # Grants read-only access to GitHub packages
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout Code
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up SSH for Private Repo
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Set environment variable
+        run: echo "SANITIZED_REF_NAME=$(printf '%q' '${{ github.ref_name }}')" >> $GITHUB_ENV
+
+
+      - name: publish podspec
+        run: |
+          ls ${{ github.workspace }}/ArcXP/Frameworks
+          cd ${{ github.workspace }}/ArcXP/Releases
+          pod spec lint ArcXP.podspec --private --allow-warnings --sources=arcxp,trunk --verbose
+          pod repo add arc-mobile-podspecs git@github.com:arcxp/arc-mobile-podspecs.git
+          pod repo push arc-mobile-podspecs ArcXP.podspec --private --allow-warnings --skip-import-validation --sources=arcxp,trunk --verbose
