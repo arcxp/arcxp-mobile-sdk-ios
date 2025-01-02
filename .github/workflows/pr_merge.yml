@@ -63,7 +63,7 @@ jobs:
             test || exit 1
             sleep 5
             echo "Listing Test-ArcXP.xcresult contents:"
-            ls -R /Users/runner/work/arcxp-mobile-sdk-iOS-test/arcxp-mobile-sdk-iOS-test/Test-ArcXP.xcresult
+            ls -R /Users/runner/work/arcxp-mobile-sdk-iOS/arcxp-mobile-sdk-iOS/Test-ArcXP.xcresult
         env:
           DEVELOPER_DIR: /Applications/Xcode.app/Contents/Developer
 
