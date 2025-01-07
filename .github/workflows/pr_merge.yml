@@ -87,14 +87,34 @@ jobs:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         run: |
           bash <(curl -s https://codecov.io/bash) -f $GITHUB_WORKSPACE/artifacts/coverage-report-Test-ArcXP.json
+      - name: Set Up Local Dependencies
+        run: |
+          # Ensure the local dependencies are correctly referenced
+          export FRAMEWORK_SEARCH_PATHS="${{ github.workspace }}/ArcXP/ArcXP/Video/Dependencies/Open Measurement/omsdk-ios/Deprecated"
+          export LIBRARY_SEARCH_PATHS="${{ github.workspace }}/ArcXP/ArcXP/Video/Dependencies/GoogleIMA/GoogleAds-IMA-tvOS-SDK"
+
+      - name: Build tvOS Scheme
+        run: |
+          xcodebuild \
+            -project ArcXP/ArcXP.xcodeproj \
+            -scheme ArcXPtvOS \
+            -destination "platform=tvOS Simulator,name=Apple TV 4K (3rd generation),OS=17.5" \
+            build-for-testing \
+            FRAMEWORK_SEARCH_PATHS="$FRAMEWORK_SEARCH_PATHS" \
+            LIBRARY_SEARCH_PATHS="$LIBRARY_SEARCH_PATHS" | xcpretty
+        env:
+          DEVELOPER_DIR: /Applications/Xcode.app/Contents/Developer
+
 
       - name: Run Unit Tests on tvOS Simulator
         run: |
           xcodebuild \
             -project ArcXP/ArcXP.xcodeproj \
             -scheme ArcXPtvOS \
-            -destination "platform=tvOS Simulator,name=Apple TV 4K (3rd generation),OS=17.2" \
-            test | xcpretty
+            -destination "platform=tvOS Simulator,name=Apple TV 4K (3rd generation),OS=17.5" \
+            test-without-building  \
+            FRAMEWORK_SEARCH_PATHS="$FRAMEWORK_SEARCH_PATHS" \
+            LIBRARY_SEARCH_PATHS="$LIBRARY_SEARCH_PATHS" | xcpretty
         env:
           DEVELOPER_DIR: /Applications/Xcode.app/Contents/Developer
 
