@@ -19,7 +19,6 @@ All types of contributions are encouraged and valued. See the [Table of Contents
   - [Reporting Bugs](#reporting-bugs)
   - [Suggesting Enhancements](#suggesting-enhancements)
   - [Your First Code Contribution](#your-first-code-contribution)
-  - [Improving The Documentation](#improving-the-documentation)
 - [Styleguides](#styleguides)
   - [Commit Messages](#commit-messages)
 - [Join The Project Team](#join-the-project-team)
@@ -129,11 +128,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/arcxp/
 
 Please make sure that you write tests for your changes.
 Please verify that existing tests pass for your changes.
-If you need help, please use Discussions to ask for help
-
-### Improving The Documentation
-
-Enjoy improving documentation? Outstanding! Please submit documentation changes in the same way code changes are submitted. If you are translating documentation to another language, please reach out in a Discussion. We'd love to work with you!
+If you need help, please use Discussions to ask for help.
 
 ## Styleguides
 ### Commit Messages

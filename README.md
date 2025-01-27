@@ -6,7 +6,7 @@ Arc XP services included with this framework are Commerce, Content, and Video se
 ## Internal Developer Documentation
 - [Commerce Service Technical Architecture Diagram](DeveloperDocumentation/CommerceServiceTechnicalArchitectureDiagram.pdf)
 - [Video Service Technical Architecture Diagram](DeveloperDocumentation/VideoServiceTechinicalArchitectureDiagram.pdf)
-
+- [Paywall Algorithm Flowchart](DeveloperDocumentation/PaywallAlgorithmFlowchart.pdf)
 
 
 A collection of documentation covering the Arc XP unified mobile SDK and sample projects.
@@ -15,8 +15,8 @@ A collection of documentation covering the Arc XP unified mobile SDK and sample 
 
 Before any of Arc XP's services can be used, a backend must be ready to connect to. See the reference below for more details. If you're only developing for iOS and Android platforms, you shouldn't need to do any backend setup, and will simply need the backend configuration details to use the SDK. 
 
-* [Backend setup for Mobile SDK](/DeveloperDocumentation/back-end-setup-for-mobile-sdk.md)
-* [Mobile SDK - Resolver setup](/DeveloperDocumentation/mobile-sdk-resolver-setup.md)
+* [Backend setup for Mobile SDK](https://dev.arcxp.com/mobile/content/back-end-setup-for-mobile-sdk/)
+* [Mobile SDK - Resolver setup](https://dev.arcxp.com/mobile/content/mobile-sdk-resolver-setup/)
 
 ## Mobile SDK
 
@@ -27,15 +27,15 @@ Arc XP's mobile SDK allows access to Arc XP services and content, for Android an
 * **(Video)** Fetching video on demand, and connecting to livestreams.  
       
 
-**[Mobile SDK Initialization](/DeveloperDocumentation/getting-started-initialization.md)**  
+**[Mobile SDK Initialization](https://dev.arcxp.com/mobile/getting-started/getting-started-with-arc-xp-ios-sdk/)**  
 
-[Frequently Asked Questions](/DeveloperDocumentation/frequently-asked-questions.md)
+[Frequently Asked Questions](https://dev.arcxp.com/mobile/additional-resources/arc-xp-mobile-sdk-faq/)
 
 ## Security Best Practices
 
 Follow these best practices to keep your application secure while using Arc XP mobile SDK.
 
-[Security Best Practices](/DeveloperDocumentation/security-best-practices.md)
+[Security Best Practices](https://dev.arcxp.com/mobile/additional-resources/arc-xp-mobile-sdk-security-best-practices/)
 
 ## Content Module
 
@@ -43,7 +43,7 @@ Optional Content module provides access to various types of content managed by A
 
 ### Using the Module
 
-[Using the Arc XP Content iOS module](/DeveloperDocumentation/getting-started-with-the-content-module.md)
+[Using the Arc XP Content iOS module](https://dev.arcxp.com/content/developer-docs/using-the-arc-xp-content-ios-module/)
 
 ## Subscriptions Module
 
@@ -51,11 +51,11 @@ Optional Subscriptions module handles Identity services, such as logging in with
 
 ### Getting started
 
- [Getting Started with the Arc XP Subscriptions iOS Module](/DeveloperDocumentation/getting-started-with-the-commerce-module.md)
+ [Getting Started with the Arc XP Subscriptions iOS Module](https://dev.arcxp.com/mobile/subscriptions/getting-started-with-arc-xp-commerce-ios-module/)
 
 ### Using the Module
 
-[Using the Subscriptions iOS SDK Paywall](/DeveloperDocumentation/using-the-subscriptions-module-paywall.md)
+[Using the Subscriptions iOS SDK Paywall](https://dev.arcxp.com/mobile/subscriptions/using-the-commerce-ios-module-paywall/)
 
 ## Video Module
 
@@ -65,37 +65,37 @@ Video module handles delivering video content, including ads, served by Arc XP s
 ### Video module documentation
 
 
-[Getting Started](/DeveloperDocumentation/getting-started-with-the-video-module.md)
+[Getting Started](https://dev.arcxp.com/video-center/developer-docs/mobile-video-module-getting-started-with-the-ios-sdk/)
 
 
-[Callbacks on iOS and tvOS](/DeveloperDocumentation/mobile-video-module-callbacks-on-ios-and-tvos.md)
+[Callbacks on iOS and tvOS](https://dev.arcxp.com/video-center/developer-docs/mobile-video-module-callbacks-on-ios-and-tvos/)
 
 
-[Configuring ads for iOS and tvOS](/DeveloperDocumentation/mobile-video-module-configuring-ads-with-the-ios-sdk.md)
+[Configuring ads for iOS and tvOS](https://dev.arcxp.com/video-center/developer-docs/mobile-video-module-configuring-ads-with-the-ios-sdk/)
 
 
-[Configuring the Arc XP SDK client on iOS and tvOS](/DeveloperDocumentation/mobile-video-sdk-configuring-the-arc-sdk-client-on-ios-and-tvos.md)
+[Configuring the Arc XP SDK client on iOS and tvOS](https://dev.arcxp.com/video-center/developer-docs/mobile-video-sdk-configuring-the-arc-sdk-client-on-ios-and-tvos/)
 
 
-[Configuring closed captioning on iOS and tvOS](/DeveloperDocumentation/mobile-video-module-configuring-closed-captioning-on-ios-and-tvos.md)
+[Configuring closed captioning on iOS and tvOS](https://dev.arcxp.com/video-center/developer-docs/mobile-video-module-configuring-closed-captioning-on-ios-and-tvos/)
 
 
-[Controlling playback on iOS and tvOS](/DeveloperDocumentation/mobile-video-sdk-controlling-video-playback-with-the-ios-sdk.md)
+[Controlling playback on iOS and tvOS](https://dev.arcxp.com/video-center/developer-docs/mobile-video-sdk-controlling-video-playback-with-the-ios-sdk/)
 
-[Customizing the player on iOS and tvOS](/DeveloperDocumentation/mobile-video-module-customizing-the-player-on-ios.md)
+[Customizing the player on iOS and tvOS](https://dev.arcxp.com/video-center/developer-docs/mobile-video-module-customizing-the-player-on-ios/)
 
 ## Sample Apps
 
 Arc XP's mobile sample apps demonstrate what using Arc XP services in real world applications might look like, while also providing a starting point for updating and customizing the project into something more suited to a specific client.
 
-When it comes to cross platform development and using our mobile SDK we have experimented with React Native and found a way to incorporate our SDK into a RN project. Please see the article here: [Using Mobile SDK with React Native](/DeveloperDocumentation/using-mobile-sdk-with-react-native.md)
+When it comes to cross platform development and using our mobile SDK we have experimented with React Native and found a way to incorporate our SDK into a RN project. Please see the article here: [Using Mobile SDK with React Native](https://dev.arcxp.com/mobile/additional-resources/using-mobile-sdk-with-react-native/)
 
 ### The Arc XP - News App
 
 The Arc XP News demonstrates Arc XP services built into a mobile news app.
 
-[The Arc XP (News App) iOS Sample Project](/DeveloperDocumentation/the-arc-xp-news-app-sample-project.md), [Widget](/DeveloperDocumentation/newsapp-widget-documentation.md)
-* General: [AdMob Integration](/DeveloperDocumentation/the-arc-xp-news-app-google-admob-implementation.md)
+[The Arc XP (News App) iOS Sample Project](https://dev.arcxp.com/mobile/sample-apps/the-arc-xp-news-app-ios-sample-project/), [Widget](https://dev.arcxp.com/mobile/sample-apps/ios-newsapp-widget-documentation/)
+* General: [AdMob Integration](https://dev.arcxp.com/mobile/sample-apps/the-arc-xp-news-app-google-admob-implementation/)
 
 
 
