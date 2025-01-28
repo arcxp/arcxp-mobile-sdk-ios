@@ -3,11 +3,6 @@
 The primary Arc XP framework for Apple platforms.
 Arc XP services included with this framework are Commerce, Content, and Video services.
 
-## Internal Developer Documentation
-- [Commerce Service Technical Architecture Diagram](DeveloperDocumentation/CommerceServiceTechnicalArchitectureDiagram.pdf)
-- [Video Service Technical Architecture Diagram](DeveloperDocumentation/VideoServiceTechinicalArchitectureDiagram.pdf)
-- [Paywall Algorithm Flowchart](DeveloperDocumentation/PaywallAlgorithmFlowchart.pdf)
-
 
 A collection of documentation covering the Arc XP unified mobile SDK and sample projects.
 
@@ -96,8 +91,3 @@ The Arc XP News demonstrates Arc XP services built into a mobile news app.
 
 [The Arc XP (News App) iOS Sample Project](https://dev.arcxp.com/mobile/sample-apps/the-arc-xp-news-app-ios-sample-project/), [Widget](https://dev.arcxp.com/mobile/sample-apps/ios-newsapp-widget-documentation/)
 * General: [AdMob Integration](https://dev.arcxp.com/mobile/sample-apps/the-arc-xp-news-app-google-admob-implementation/)
-
-
-
-## Client Documentation
-- [Enable Picture in Picture](ClientDocumentation/EnablePictureInPicture.md)
