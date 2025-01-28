@@ -118,3 +118,7 @@ jobs:
         env:
           DEVELOPER_DIR: /Applications/Xcode.app/Contents/Developer
 
+      - name: Send Slack Message
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+          --data '{"text":"iOS Mobile SDK PR/Merge job finished with status: ${{ job.status }}"}' ${{ secrets.SLACK_WEBHOOK_URL }}
