@@ -133,3 +133,12 @@ jobs:
           pod spec lint ArcXP.podspec --private --allow-warnings --sources=arcxp,trunk --verbose
           pod repo add arc-mobile-podspecs git@github.com:arcxp/arc-mobile-podspecs.git
           pod repo push arc-mobile-podspecs ArcXP.podspec --private --allow-warnings --skip-import-validation --sources=arcxp,trunk --verbose
+
+      - name: Send Slack Message
+        if: always()
+        run: |
+          TAG_NAME=${GITHUB_REF#refs/tags/}
+          STATUS="${{ job.status }}"
+          curl -X POST -H 'Content-type: application/json' \
+            --data "{\"text\":\"iOS Mobile SDK Release job *${TAG_NAME}* finished with status: *${STATUS}*\"}" \
+            ${{ secrets.SLACK_WEBHOOK_URL }}
